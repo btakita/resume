@@ -1,16 +1,16 @@
 # Brian Takita
 
-First principles emphasize powerful primitives, bottom-up development discipline, & systems with an observable domain ontology. Full stack developer with over 20 years experience. Productivity without the bloat.
+Building emergent software systems through agent loops — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full stack experience.
 
-**Location:** Greater Boston
-**Email:** brian.takita@gmail.com
-**Phone:** +1 (424) 249-2350
-**LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita)
+**Location:** Greater Boston |
+**Email:** brian.takita@gmail.com |
+**Phone:** +1 (424) 249-2350 |
+**LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita) |
 **Website:** [briantakita.me](https://briantakita.me)
 
 ## Summary
 
-Over 20 years of software development experience developing full-stack applications. Currently focused on the full pipeline of Realtime AI Avatars using Generative models.
+Over 20 years of software development experience developing full-stack applications. Most recently built the full real-time AI avatar pipeline at Presence AI. Now focused on spec-driven agent tooling and collaborative intelligence workflows.
 
 Utilizes philosophy, logic, language, & qualitative/quantitative approaches to create software models to explore & accurately represent the domain.
 
@@ -21,7 +21,7 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 ## Experience
 
 ### Presence AI — Lead Backend Engineer, AI Pipeline
-**April 2024 – Present**
+**April 2024 – February 2026**
 
 - Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via LiveKit
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
@@ -32,7 +32,7 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 ### Open Source — Creator / Solo Developer
 **2024 – Present**
 
-**corky** — Git-Based Correspondence Toolkit (Rust, ~9,200 LOC)
+**corky** — Git-Based Correspondence Toolkit (Rust)
 [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
 
 - Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that syncs across collaborators via 3-way merge

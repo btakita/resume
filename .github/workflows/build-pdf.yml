@@ -1,0 +1,89 @@
+name: Build Resume PDF
+
+on:
+  push:
+    paths:
+      - 'BrianTakita.md'
+      - 'resume.css'
+      - 'Makefile'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc python3-pip
+          pip install weasyprint
+
+      - name: Build PDF
+        run: make pdf
+
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add BrianTakita.pdf
+          git diff --cached --quiet || git commit -m "Build resume PDF [skip ci]"
+          git push
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Pull latest (includes built PDF)
+        run: git pull
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Create pages directory
+        run: |
+          mkdir -p _site
+          cp BrianTakita.pdf _site/
+          cp BrianTakita.md _site/
+          cat > _site/index.html << 'HTMLEOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>Brian Takita — Resume</title>
+            <style>
+              body { font-family: system-ui, sans-serif; max-width: 600px; margin: 4em auto; text-align: center; }
+              a { display: inline-block; margin: 1em; padding: 0.75em 1.5em; background: #0366d6; color: white; text-decoration: none; border-radius: 6px; }
+              a:hover { background: #0250a3; }
+            </style>
+          </head>
+          <body>
+            <h1>Brian Takita</h1>
+            <p>Resume</p>
+            <a href="BrianTakita.pdf">Download PDF</a>
+            <a href="BrianTakita.md">View Markdown</a>
+          </body>
+          </html>
+          HTMLEOF
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
