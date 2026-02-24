@@ -32,15 +32,15 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 ### Open Source — Creator / Solo Developer
 **2002 – Present**
 
-**corky** — Git-Based Correspondence Toolkit (Rust)
-[github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
+**corky** — Multi-Source Correspondence Toolkit for Agent-Augmented Collaboration (Rust)
+[github.com/btakita/corky](https://github.com/btakita/corky)
 
 - Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that propagates across collaborators via 3-way merge
 - Designed multi-scope mailbox architecture where each collaborator receives only relevant threads and context, with bidirectional sync using content hashing (FNV-1a) and git-based conflict resolution for offline-first collaboration
 - Implemented crash-safe incremental IMAP sync with streaming merge, bulk import for Slack and Telegram archives, and label-based routing rules that fan out threads to multiple mailboxes
 - Dog-fooding daily for personal and professional correspondence across Gmail and Protonmail accounts
 
-**agent-doc** — Git-Native Document Sessions with AI Agents (Rust)
+**agent-doc** — Document-as-Interface for Interactive Sessions with AI Agents (Rust)
 [github.com/btakita/agent-doc](https://github.com/btakita/agent-doc)
 
 - Created a document-as-interface model for persistent AI conversations: edit a markdown file offline, submit diffs, agent responds inline — all tracked through git commits for full session history and branch-based workflows
