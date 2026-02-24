@@ -14,7 +14,7 @@ Over 20 years of software development experience developing full-stack applicati
 
 Utilizes philosophy, logic, language, & qualitative/quantitative approaches to create software models to explore & accurately represent the domain.
 
-**Top Skills:** Spec-Driven Development, Agents, Rust
+**Top Skills:** Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig
 
 ---
 
@@ -30,12 +30,12 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
 ### Open Source — Creator / Solo Developer
-**2024 – Present**
+**2002 – Present**
 
 **corky** — Git-Based Correspondence Toolkit (Rust)
 [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
 
-- Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that syncs across collaborators via 3-way merge
+- Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that propagates across collaborators via 3-way merge
 - Designed multi-scope mailbox architecture where each collaborator receives only relevant threads and context, with bidirectional sync using content hashing (FNV-1a) and git-based conflict resolution for offline-first collaboration
 - Implemented crash-safe incremental IMAP sync with streaming merge, bulk import for Slack and Telegram archives, and label-based routing rules that fan out threads to multiple mailboxes
 - Dog-fooding daily for personal and professional correspondence across Gmail and Protonmail accounts
@@ -48,15 +48,31 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
 
+*Other contributions:*
+
+*RSpec* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
+
+*SvelteJS* — Contributor
+
+*RMemo/RelementJS* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
+
+*rappstack* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
+
+*Access Query Analyzer* — Creator. .NET WinForms query analyzer for MS Access
+
+*lazily-py* — Creator. Lazy evaluation with context caching in Python
+
+*lazily-zig* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
+
 ### Brian Takita — Full Stack Web Engineer
 **January 2019 – Present**
 
-Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
+Manages, develops, & ensures success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
 
 ### Censible — Lead Product Developer
 **January 2016 – Present** | Greater New York City Area
 
-Develop web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools help investors align their investments with their values & to manage exposure to ESG topics.
+Develop web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools help investors align their investments with their values & manage exposure to ESG topics.
 
 - [censible.co](https://censible.co/)
 - [esg.censible.co](https://esg.censible.co)
@@ -68,29 +84,29 @@ Develop web solutions for Financial Services, centered around an Environment, So
 - Product Development on the Studio team
 - Convert legacy Backbone FrontEnd to Svelte & React
 - ES5 to ES6/ES2017 migration
-- Create best-practices for Front End component development
+- Create best practices for front-end component development
 
 ### Neo Innovation, Inc. — Software Development Consultant
 **September 2015 – December 2015** | Greater New York City Area
 
-Developed email-based research pipeline app for Financial Holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The app semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
+Developed email-based research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The app semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
 
 ### CrystalCommerce — Senior Software Developer
 **January 2015 – September 2015**
 
-Migrate production Rails App. Front end rearchitecturing using Node.js, Browserify, Gulp, Backbone.
+Migrated production Rails app. Re-architected the front end using Node.js, Browserify, Gulp, and Backbone.
 
 ### Rundavoo — Platform Architect / Lead Front End Developer
 **March 2013 – December 2014** | Greater Los Angeles Area
 
-Lead front end development for Rundavoo, a Google top 75 app in 2014. Created a responsive, multi-platform (desktop, tablet, mobile, server) application that integrated with several APIs via CORS and a proxy server.
+Led front-end development for Rundavoo, a Google top 75 app in 2014. Created a responsive, multi-platform (desktop, tablet, mobile, server) application that integrated with several APIs via CORS and a proxy server.
 
 Technologies: HTML5, CSS3, Node.js, Browserify, Jasmine, reactive programming, Cloudflare, PhoneGap
 
 ### Milyoni, Inc. — Architect / Lead Developer
 **March 2012 – March 2013** | Pleasanton, CA
 
-Lead developer for Social Entertainment Platform including video, social marketing, gamification, real time social interaction, and interactive engagements synced with video. Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now.
+Lead developer for Social Entertainment Platform including video, social marketing, gamification, real-time social interaction, and interactive engagements synced with video. Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now.
 
 Mentor junior & mid-level developers. Proponent of flattening communication across the organization.
 
@@ -99,14 +115,14 @@ Technologies: Node.js, Backbone.js, Rails, Postgres, Redis, Heroku
 ### TrueCar, Inc. — Senior Software Engineer
 **August 2010 – February 2012** | Santa Monica, CA
 
-Senior member of advanced product team, which introduced new products, integration with major partners (WSJ.com, USAA.com car reviews), and devops (Chef to automate EC2 architecture, workstations, and new datacenter servers). Rails 3 Upgrade. YUM packaging for deployment.
+Senior member of advanced product team, which introduced new products, integrations with major partners (WSJ.com, USAA.com car reviews), and devops (Chef to automate EC2 architecture, workstations, and new datacenter servers). Rails 3 Upgrade. YUM packaging for deployment.
 
 Led initiatives to share agile knowledge across the organization and integrate services.
 
 ### honk.com — Lead Developer
 **August 2009 – August 2010**
 
-Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos (invested by Fox News Corp, acquired by TrueCar). Lead development and partnered in product vision for social car shopping that was key to the acquisition.
+Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos (invested by Fox News Corp, acquired by TrueCar). Led development and partnered on product vision for social car shopping that was key to the acquisition.
 
 - Full-stack Ruby on Rails development
 - High Availability deployment on EC2
@@ -128,7 +144,7 @@ Open source contributions:
 ### Peer to Patent Project — Consultant
 **2007**
 
-Heavy lifter in launching the Peer to Patent pilot application, led by New York Law School. A tool to allow the crowd to review and submit prior art for pending patents.
+Key contributor to launching the Peer to Patent pilot application, led by New York Law School. A tool to allow the crowd to review and submit prior art for pending patents.
 
 ### NASPP — IT Analyst
 **February 2004 – January 2006**
@@ -141,7 +157,7 @@ Heavy lifter in launching the Peer to Patent pilot application, led by New York 
 ### Flextronics — Web Application Developer Intern
 **May 2001 – February 2002**
 
-Develop corporate intranet using Microsoft technologies (ASP, SQL Server).
+Developed corporate intranet using Microsoft technologies (ASP, SQL Server).
 
 ---
 
