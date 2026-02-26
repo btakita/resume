@@ -2,11 +2,13 @@
 
 Building emergent software systems through agent loops — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full stack experience.
 
-**Location:** Greater Boston |
+**LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
 **Email:** brian.takita@gmail.com |
-**Phone:** +1 (424) 249-2350 |
-**LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita) |
-**Website:** [briantakita.me](https://briantakita.me)
+**Github:** [btakita](https://github.com/btakita)
+
+**Location:** Greater Boston, MA |
+**Website:** [briantakita.me](https://briantakita.me) |
+**Phone:** +1 (424) 249-2350
 
 ## Summary
 
@@ -14,14 +16,14 @@ Over 20 years of software development experience developing full-stack applicati
 
 Utilizes philosophy, logic, language, & qualitative/quantitative approaches to create software models to explore & accurately represent the domain.
 
-**Top Skills:** Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig
+**Top Skills:** Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Sveltejs, Vuejs, Zod, Flutter, Go, Rust, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, Docker, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
 
 ---
 
 ## Experience
 
 ### Presence AI — Lead Backend Engineer, AI Pipeline
-**April 2024 – February 2026**
+**April 2024 – February 2026 (1 year 10 months)**
 
 - Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via LiveKit
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
@@ -30,10 +32,7 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
 ### Open Source — Creator / Solo Developer
-**2002 – Present**
-
-**corky** — Multi-Source Correspondence Toolkit for Agent-Augmented Collaboration (Rust)
-[github.com/btakita/corky](https://github.com/btakita/corky)
+**2024 – Present**
 
 - Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that propagates across collaborators via 3-way merge
 - Designed multi-scope mailbox architecture where each collaborator receives only relevant threads and context, with bidirectional sync using content hashing (FNV-1a) and git-based conflict resolution for offline-first collaboration
@@ -50,27 +49,21 @@ Utilizes philosophy, logic, language, & qualitative/quantitative approaches to c
 
 *Other contributions:*
 
-*RSpec* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
+- *RSpec* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
+- *SvelteJS* — Contributor
+- *RMemo/RelementJS* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
+- *rappstack* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
+- *Access Query Analyzer* — Creator. .NET WinForms query analyzer for MS Access
+- *lazily-py* — Creator. Lazy evaluation with context caching in Python
+- *lazily-zig* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
 
-*SvelteJS* — Contributor
+### Brian Takita — Fullstack Engineer
+**January 2019 – February 2026 (7 years 1 month)**
 
-*RMemo/RelementJS* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
-
-*rappstack* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
-
-*Access Query Analyzer* — Creator. .NET WinForms query analyzer for MS Access
-
-*lazily-py* — Creator. Lazy evaluation with context caching in Python
-
-*lazily-zig* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
-
-### Brian Takita — Full Stack Web Engineer
-**January 2019 – Present**
-
-Manages, develops, & ensures success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
+Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
 
 ### Censible — Lead Product Developer
-**January 2016 – Present** | Greater New York City Area
+**January 2016 – February 2026 (10 years 1 month)** | Greater New York City Area
 
 Develop web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools help investors align their investments with their values & manage exposure to ESG topics.
 
@@ -79,7 +72,7 @@ Develop web solutions for Financial Services, centered around an Environment, So
 - [esg.censible.co/rebalance](https://esg.censible.co/rebalance)
 
 ### SocialChorus — Senior Software Engineer
-**February 2018 – August 2018** | Remote
+**February 2018 – August 2018 (7 months)** | Remote
 
 - Product Development on the Studio team
 - Convert legacy Backbone FrontEnd to Svelte & React
@@ -87,24 +80,24 @@ Develop web solutions for Financial Services, centered around an Environment, So
 - Create best practices for front-end component development
 
 ### Neo Innovation, Inc. — Software Development Consultant
-**September 2015 – December 2015** | Greater New York City Area
+**September 2015 – December 2015 (4 months)** | Greater New York City Area
 
 Developed email-based research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The app semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
 
 ### CrystalCommerce — Senior Software Developer
-**January 2015 – September 2015**
+**January 2015 – September 2015 (9 months)**
 
 Migrated production Rails app. Re-architected the front end using Node.js, Browserify, Gulp, and Backbone.
 
 ### Rundavoo — Platform Architect / Lead Front End Developer
-**March 2013 – December 2014** | Greater Los Angeles Area
+**March 2013 – December 2014 (1 year 10 months)** | Greater Los Angeles Area
 
 Led front-end development for Rundavoo, a Google top 75 app in 2014. Created a responsive, multi-platform (desktop, tablet, mobile, server) application that integrated with several APIs via CORS and a proxy server.
 
 Technologies: HTML5, CSS3, Node.js, Browserify, Jasmine, reactive programming, Cloudflare, PhoneGap
 
 ### Milyoni, Inc. — Architect / Lead Developer
-**March 2012 – March 2013** | Pleasanton, CA
+**March 2012 – March 2013 (1 year 1 month)** | Pleasanton, CA
 
 Lead developer for Social Entertainment Platform including video, social marketing, gamification, real-time social interaction, and interactive engagements synced with video. Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now.
 
@@ -113,14 +106,14 @@ Mentor junior & mid-level developers. Proponent of flattening communication acro
 Technologies: Node.js, Backbone.js, Rails, Postgres, Redis, Heroku
 
 ### TrueCar, Inc. — Senior Software Engineer
-**August 2010 – February 2012** | Santa Monica, CA
+**August 2010 – February 2012 (1 year 7 months)** | Santa Monica, CA
 
 Senior member of advanced product team, which introduced new products, integrations with major partners (WSJ.com, USAA.com car reviews), and devops (Chef to automate EC2 architecture, workstations, and new datacenter servers). Rails 3 Upgrade. YUM packaging for deployment.
 
 Led initiatives to share agile knowledge across the organization and integrate services.
 
 ### honk.com — Lead Developer
-**August 2009 – August 2010**
+**August 2009 – August 2010 (1 year)**
 
 Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos (invested by Fox News Corp, acquired by TrueCar). Led development and partnered on product vision for social car shopping that was key to the acquisition.
 
@@ -130,7 +123,7 @@ Vehicle review site and embeddable white-label platform used by USAA and Wall St
 - Chef scripts for server and workstation automation
 
 ### Pivotal Labs — Agile Engineer
-**January 2006 – August 2009**
+**January 2006 – August 2009 (3 years 7 months)**
 
 Agile Development in the XP tradition. TDD, Pair Programming, Daily Standups, Retrospectives. Worked with early startups to bootstrap their engineering process, team, and initial product. Leadership role in common code, practices, and open source.
 
@@ -147,7 +140,7 @@ Open source contributions:
 Key contributor to launching the Peer to Patent pilot application, led by New York Law School. A tool to allow the crowd to review and submit prior art for pending patents.
 
 ### NASPP — IT Analyst
-**February 2004 – January 2006**
+**February 2004 – January 2006 (1 year 11 months)**
 
 - SQL Server DB Admin
 - Developed internal CRM with Rails, .NET & MS Access
@@ -155,7 +148,7 @@ Key contributor to launching the Peer to Patent pilot application, led by New Yo
 - Reports for Sales Trends and forecasting
 
 ### Flextronics — Web Application Developer Intern
-**May 2001 – February 2002**
+**May 2001 – February 2002 (9 months)**
 
 Developed corporate intranet using Microsoft technologies (ASP, SQL Server).
 
@@ -172,3 +165,9 @@ BS, Engineering Physics (1997 – 2002)
 
 - Advanced Permaculture Course in Teaching
 - Permaculture Design Certificate
+
+---
+
+## Languages
+
+English: Native
