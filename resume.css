@@ -1,6 +1,6 @@
 @page {
   size: letter;
-  margin: 0.5in;
+  margin: 0.75in 0.75in;
 }
 
 body {
@@ -8,45 +8,72 @@ body {
   font-size: 10.5pt;
   line-height: 1.4;
   color: #333;
-}
-
-header#title-block-header {
-  display: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 24pt;
+  font-family: "Bitstream Vera Serif";
+  font-size: 36pt;
+  margin-top: 0;
   margin-bottom: 0.1em;
+  padding: 0;
   color: #1a1a1a;
 }
 
 h2 {
-  font-size: 14pt;
-  border-bottom: 1.5px solid #333;
-  padding-bottom: 0.2em;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  color: #1a1a1a;
+  font-family: "Bitstream Vera Serif";
+  font-size: 10pt;
+  text-transform: uppercase;
+  border-bottom: none;
+  padding: 0;
+  margin: 2em 0 0;
+  color: #0066cc;
 }
 
 h3 {
-  font-size: 11pt;
+  font-family: "Bitstream Vera Serif";
+  font-size: 12pt;
+  text-transform: uppercase;
   margin-top: 0.8em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
   color: #1a1a1a;
+}
+
+h3 em {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.contact-line p {
+  margin: 0;
+  padding: 0;
 }
 
 p {
   margin: 0.3em 0;
 }
 
-ul {
-  margin: 0.3em 0;
-  padding-left: 1.5em;
+small {
+  font-size: 9pt;
+  color: #555;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }
 
+ul {
+  margin: 0.3em 0;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+
+
 li {
-  margin-bottom: 0.2em;
+  /*margin: 0 0 0.2em;*/
+  /*padding: 0;*/
 }
 
 a {
@@ -55,9 +82,7 @@ a {
 }
 
 hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 0.8em 0;
+  display: none;
 }
 
 strong {
