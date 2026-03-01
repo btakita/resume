@@ -20,14 +20,14 @@ Over 20 years of software development experience developing full-stack applicati
 
 ## Skills
 
-Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Vuejs, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Vuejs, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
 
 ## Experience
 
 ### Presence AI — *Lead Backend Engineer, AI Pipeline*
 <small>April 2024 – February 2026 (1 year 10 months)</small>
 
-- Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via LiveKit
+- Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via WebRTC using LiveKit
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
 - Developed an iterative agentic development methodology: lightweight living specs refined through closed-loop agent auditing and continuous human-in-the-loop feedback, accelerating design velocity while staying in flow with the emerging design
 - Built reusable async primitives for high-quality agent-authored code and human comprehension: task lifecycle management, scoped cancellation, lazily resolved dependencies that decouple initialization order and cascade invalidation through the context, runtime profile logging, and stable cross-stack naming to maintain conceptual coherence for both human and agent reasoning
@@ -36,20 +36,21 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 ### Open Source — *Creator / Solo Developer*
 <small>2024 – Present</small>
 
+#### **corky** — Git-Based Correspondence Toolkit (Rust) [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
+
 - Built a git-native correspondence system that syncs topics, contacts, and threads from email (IMAP), Telegram, and Slack into scoped markdown mailboxes, with per-topic and per-contact agent context that propagates across collaborators via 3-way merge
 - Designed multi-scope mailbox architecture where each collaborator receives only relevant threads and context, with bidirectional sync using content hashing (FNV-1a) and git-based conflict resolution for offline-first collaboration
 - Implemented crash-safe incremental IMAP sync with streaming merge, bulk import for Slack and Telegram archives, and label-based routing rules that fan out threads to multiple mailboxes
 - Dog-fooding daily for personal and professional correspondence across Gmail and Protonmail accounts
 
-**agent-doc** — Document-as-Interface for Interactive Sessions with AI Agents (Rust)
-[github.com/btakita/agent-doc](https://github.com/btakita/agent-doc)
+#### **agent-doc** — Document-as-Interface for Interactive Sessions with AI Agents (Rust) [github.com/btakita/agent-doc](https://github.com/btakita/agent-doc)
 
 - Created a document-as-interface model for persistent AI conversations: edit a markdown file offline, submit diffs, agent responds inline — all tracked through git commits for full session history and branch-based workflows
 - Engineered write-safe concurrent editing via 3-way merge (snapshot + user edits + agent response), preventing data loss when human and agent edit simultaneously
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
 
-*Other contributions:*
+#### *Other contributions:*
 
 - *RSpec* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
 - *SvelteJS* — Contributor
@@ -59,7 +60,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - *lazily-py* — Creator. Lazy evaluation with context caching in Python
 - *lazily-zig* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
 
-### Brian Takita — *Fullstack Engineer*
+### Freelance — *Fullstack Engineer*
 <small>January 2019 – February 2026 (7 years 1 month)</small>
 
 Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
