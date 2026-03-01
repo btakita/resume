@@ -3,38 +3,67 @@
 [highlight]
 # Phrases to auto-bold in bullet points and descriptions
 phrases = [
+  # Agentic / frontier AI — the signal for innovative work
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agentic development methodology",
+  "closed-loop agent auditing",
+  "human-in-the-loop feedback",
+  "agent-authored code",
+  "human and agent reasoning",
+  "agent loops",
+  "collaborative intelligence",
+  "agents and humans work in parallel",
+  "emergent software systems",
+  "automated verification",
+
+  # Agent tooling — shows you build agent infra, not just use it
+  "document-as-interface",
+  "persistent AI conversations",
+  "agent-agnostic core",
+  "pluggable LLM backends",
+  "snapshot-based diffing",
+  "per-topic and per-contact agent context",
+
+  # AI pipeline / deep tech
   "real-time video pipeline",
   "NVIDIA H100 GPUs",
-  "closed-loop agentic workflows",
-  "spec-driven",
-  "20+ years",
-  "LiveKit",
+  "Multimodal Avatar Agents",
   "LatentSync lip-sync",
   "facial landmark detection",
-  "agentic development methodology",
+  "WebRTC",
+  "LiveKit",
+
+  # Open source signal
   "git-native correspondence system",
-  "document-as-interface",
   "3-way merge",
   "crash-safe incremental IMAP sync",
   "concurrent editing",
+
+  # Career highlights
+  "spec-driven",
+  "20+ years",
   "Google top 75 app",
   "Social Entertainment Platform",
   "Warner Brothers",
   "Peer to Patent",
+  "acquired by TrueCar"
 ]
 
 # Skills to bold in the Skills section
 skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
   "Rust",
   "Python",
   "TypeScript",
   "React",
+  "WebRTC",
+  "GraphQL",
   "Docker",
   "AWS",
   "PostgreSQL",
-  "Agents",
-  "Context Engineering",
-  "Spec-Driven Development",
 ]
 
 [sections]

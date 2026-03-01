@@ -86,7 +86,7 @@ Develop web solutions for Financial Services, centered around an Environment, So
 ### Neo Innovation, Inc. — *Software Development Consultant*
 <small>September 2015 – December 2015 (4 months) | Greater New York City Area</small>
 
-Developed email-based research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The app semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
+Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The interactive document semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
 
 ### CrystalCommerce — *Senior Software Developer*
 <small>January 2015 – September 2015 (9 months)</small>
@@ -119,7 +119,7 @@ Led initiatives to share agile knowledge across the organization and integrate s
 ### honk.com — *Lead Developer*
 <small>August 2009 – August 2010 (1 year)</small>
 
-Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos (invested by Fox News Corp, acquired by TrueCar). Led development and partnered on product vision for social car shopping that was key to the acquisition.
+Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos. Honk had Fox News Corp as an investor and was acquired by TrueCar. Led development and partnered on product vision for social car shopping that was key to the acquisition.
 
 - Full-stack Ruby on Rails development
 - High Availability deployment on EC2
