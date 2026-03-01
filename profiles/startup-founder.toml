@@ -1,9 +1,10 @@
-# Default resume profile — general full-stack + AI emphasis
+# Startup founder / CTO profile — focused ~2 page version
+# Emphasizes: AI pipeline architecture, open source builder, startup mentorship
 
 [highlight]
-# Phrases to auto-bold in bullet points and descriptions
+# Same phrases as default — keep all keyword signals
 phrases = [
-  # Agentic / frontier AI — the signal for innovative work
+  # Agentic / frontier AI
   "closed-loop agentic workflows",
   "self-auditing development infrastructure",
   "agentic development methodology",
@@ -17,7 +18,7 @@ phrases = [
   "emergent software systems",
   "automated verification",
 
-  # Agent tooling — shows you build agent infra, not just use it
+  # Agent tooling
   "document-as-interface",
   "persistent AI conversations",
   "agent-agnostic core",
@@ -40,7 +41,7 @@ phrases = [
   "context caching",
   "multimodal",
 
-  # Reactive programming — 15-year career thread
+  # Reactive programming
   "reactive contexts",
   "reactive isomorphic UI library",
   "reactive web app server",
@@ -83,7 +84,6 @@ phrases = [
   "multi-service AI monorepo",
 ]
 
-# Skills to bold in the Skills section
 skills = [
   "Context Engineering",
   "Spec-Driven Development",
@@ -100,10 +100,7 @@ skills = [
 ]
 
 [sections]
-# Experience entries to include (by h3 prefix match). Order matters.
-# Unset or empty = include ALL entries in their original order.
-# Only set this when you want to filter or reorder for a specific job.
-# experience = ["Presence AI", "Open Source", "Censible"]
-
-# Sections to include (in order). Unset = include all.
-# include = ["Summary", "Skills", "Experience", "Education"]
+# Filter to key entries that tell the startup founder story
+experience = ["Presence AI", "Open Source", "Freelance", "honk.com", "Pivotal Labs"]
+# Drop Certifications and Languages to save space
+include = ["Summary", "Skills", "Career Highlights", "Experience", "Education"]

@@ -29,7 +29,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
 - **honk.com** — Led development of vehicle review platform; acquired by TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
-- **Censible** — 10-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing tool
+- **Censible** — 10-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
 - **Context Engineering** — Domain ontology system (152 nodes) since 2014 — structuring agent reasoning across domains
 - **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
 
@@ -46,7 +46,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
 ### Open Source — *Creator / Solo Developer*
-<small>2006 – Present | Early contributor to Behavior Driven Development (BDD)</small>
+<small>2024 – Present | Early contributor to Behavior Driven Development (BDD)</small>
 
 #### **corky** — Git-Based Correspondence Toolkit (Rust) [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
 
@@ -85,7 +85,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 ### Freelance — *Full-Stack Engineer*
 <small>January 2019 – February 2026 (7 years 1 month)</small>
 
-Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across industries.
+Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across all industries.
 
 - menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
 
@@ -95,7 +95,9 @@ Managed, developed, & ensured success of short-term freelance software projects.
 Developed web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools helped investors align their investments with their values & manage exposure to ESG topics.
 
 - Built Martin Investments analyst portal with ESG rating algorithms, XLSX export handling 10,000+ rows, and SVG/PDF report generation
-- Built [ESG Portfolio Rebalancing tool](https://esg.censible.co/rebalance) and [ESG analytics platform](https://esg.censible.co) — [censible.co](https://censible.co/)
+- [censible.co](https://censible.co/)
+- [esg.censible.co](https://esg.censible.co)
+- [esg.censible.co/rebalance](https://esg.censible.co/rebalance)
 
 ### SocialChorus — *Senior Software Engineer*
 <small>February 2018 – August 2018 (7 months) | Remote</small>
