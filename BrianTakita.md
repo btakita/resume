@@ -1,6 +1,6 @@
 # Brian Takita
 
-Building emergent software systems through agent loops and context engineering — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full stack experience.
+Building emergent software systems through agent loops and context engineering — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full-stack experience.
 
 <div style="text-align:center" class="contact-line">
 **LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
@@ -20,7 +20,7 @@ Over 20 years building full-stack systems with deep expertise in reactive progra
 
 ## Skills
 
-Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, WordPress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
 
 ## Experience
 
@@ -35,7 +35,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
 ### Open Source — *Creator / Solo Developer*
-<small>2024 – Present</small>
+<small>2024 – Present | Early contributor to Behavior Driven Development (BDD)</small>
 
 #### **corky** — Git-Based Correspondence Toolkit (Rust) [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
 
@@ -64,7 +64,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - *[Generic Query Analyzer](https://sourceforge.net/projects/gqa.berlios/)* — Creator. .NET WinForms query analyzer for OleDB data sources including MS Access
 - *[SvelteJS](https://svelte.dev/)* — Contributor (breadth-first queueing algorithm)
 - *[Nano Stores](https://github.com/nanostores/nanostores)* — Contributor (breadth-first queueing algorithm)
-- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. Test double framework for Ruby
+- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. Test double framework for Ruby. Pioneered proxy-based test doubles (mock.proxy, stub.proxy) — pattern now standard as `patch` in Python's pytest/unittest
 - *[RSpec](https://rspec.info/)* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
 - *[backbone-signal](https://github.com/btakita/backbone-signal)* — Creator. Signal & Slots reactive API for Backbone Models
 - *[Screw Unit](https://github.com/nkallen/screw-unit)* — Co-creator. BDD testing framework for JavaScript
@@ -99,7 +99,7 @@ Developed web solutions for Financial Services, centered around an Environment, 
 ### Neo Innovation, Inc. — *Software Development Consultant*
 <small>September 2015 – December 2015 (4 months) | Greater New York City Area</small>
 
-Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The application semantically matches text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
+Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (e.g. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The application semantically matches text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
 
 ### CrystalCommerce — *Senior Software Developer*
 <small>January 2015 – September 2015 (9 months)</small>
@@ -132,7 +132,7 @@ Led initiatives to share agile knowledge across the organization and integrate s
 ### honk.com — *Lead Developer*
 <small>August 2009 – August 2010 (1 year)</small>
 
-Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos. Honk had Fox News Corp as an investor and was acquired by TrueCar. Led development and partnered on product vision for social car shopping that was key to the acquisition.
+Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos. Honk had News Corp as an investor and was acquired by TrueCar. Led development and partnered on product vision for social car shopping that was key to the acquisition.
 
 - Full-stack Ruby on Rails + Sinatra development with Lucene search
 - High Availability deployment on EC2 and Engine Yard
