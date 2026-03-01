@@ -1,0 +1,47 @@
+# Default resume profile — general full-stack + AI emphasis
+
+[highlight]
+# Phrases to auto-bold in bullet points and descriptions
+phrases = [
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "closed-loop agentic workflows",
+  "spec-driven",
+  "20+ years",
+  "LiveKit",
+  "LatentSync lip-sync",
+  "facial landmark detection",
+  "agentic development methodology",
+  "git-native correspondence system",
+  "document-as-interface",
+  "3-way merge",
+  "crash-safe incremental IMAP sync",
+  "concurrent editing",
+  "Google top 75 app",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "Peer to Patent",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Rust",
+  "Python",
+  "TypeScript",
+  "React",
+  "Docker",
+  "AWS",
+  "PostgreSQL",
+  "Agents",
+  "Context Engineering",
+  "Spec-Driven Development",
+]
+
+[sections]
+# Experience entries to include (by h3 prefix match). Order matters.
+# Unset or empty = include ALL entries in their original order.
+# Only set this when you want to filter or reorder for a specific job.
+# experience = ["Presence AI", "Open Source", "Censible"]
+
+# Sections to include (in order). Unset = include all.
+# include = ["Summary", "Skills", "Experience", "Education"]

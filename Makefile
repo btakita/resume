@@ -1,17 +1,16 @@
-PDF = BrianTakita.pdf
+PROFILE ?= default
 MD = BrianTakita.md
 CSS = resume.css
-HTML_TMP = /tmp/resume.html
-BODY_TMP = /tmp/resume-body.html
 
-$(PDF): $(MD) $(CSS)
-	pandoc $(MD) -o $(BODY_TMP)
-	printf '<!DOCTYPE html>\n<html>\n<head><meta charset="utf-8"></head>\n<body>\n' > $(HTML_TMP)
-	cat $(BODY_TMP) >> $(HTML_TMP)
-	printf '</body>\n</html>\n' >> $(HTML_TMP)
-	weasyprint $(HTML_TMP) $(PDF) --stylesheet $(CSS)
-	@rm -f $(BODY_TMP)
+ifeq ($(PROFILE),default)
+  PDF = BrianTakita.pdf
+else
+  PDF = BrianTakita-$(PROFILE).pdf
+endif
+
+$(PDF): $(MD) $(CSS) profiles/$(PROFILE).toml build.py
+	python3 build.py --profile $(PROFILE) --output $(PDF)
 
 .PHONY: clean
 clean:
-	rm -f $(PDF) $(HTML_TMP)
+	rm -f BrianTakita*.pdf /tmp/resume.html

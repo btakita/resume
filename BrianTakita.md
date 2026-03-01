@@ -20,7 +20,7 @@ Over 20 years of software development experience developing full-stack applicati
 
 ## Skills
 
-Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Vuejs, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Vuejs, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
 
 ## Experience
 
