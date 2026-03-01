@@ -27,6 +27,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 ### Presence AI — *Lead Backend Engineer, AI Pipeline*
 <small>April 2024 – February 2026 (1 year 10 months)</small>
 
+- Full-stack feature development: React ↔ GraphQL ↔ API Services ↔ Multimodal Avatar Agents + PostgreSQL
 - Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via WebRTC using LiveKit
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
 - Developed an iterative agentic development methodology: lightweight living specs refined through closed-loop agent auditing and continuous human-in-the-loop feedback, accelerating design velocity while staying in flow with the emerging design
