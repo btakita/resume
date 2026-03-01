@@ -53,13 +53,15 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 #### *Other contributions:*
 
-- *RSpec* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
-- *SvelteJS* — Contributor
-- *RMemo/RelementJS* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
-- *rappstack* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
-- *Access Query Analyzer* — Creator. .NET WinForms query analyzer for MS Access
-- *lazily-py* — Creator. Lazy evaluation with context caching in Python
-- *lazily-zig* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
+- *[lazily-py](https://github.com/btakita/lazily-py)* — Creator. Lazy evaluation with context caching in Python
+- *[lazily-zig](https://github.com/btakita/lazily-zig)* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
+- *[ctx-core](https://github.com/ctx-core/ctx-core)* — Creator. Explicit, scalable cross-platform, reactive contexts written in Javascript.
+- *[rmemo (Reactive Memo)](https://github.com/ctx-core/rmemo)/[RelementJS](https://github.com/relementjs/relementjs)* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
+- *[rappstack](https://github.com/rappstack)* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
+- *[Generic Query Analyzer](https://sourceforge.net/projects/gqa.berlios/)* — Creator. .NET WinForms query analyzer for OleDB data sources including MS Access
+- *[SvelteJS](https://svelte.dev/)* — Contributor
+- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. RR is a test double framework that features a rich selection of double techniques and a terse syntax.
+- *[RSpec](https://rspec.info/)* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
 
 ### Freelance — *Fullstack Engineer*
 <small>January 2019 – February 2026 (7 years 1 month)</small>
@@ -134,9 +136,10 @@ Agile Development in the XP tradition. TDD, Pair Programming, Daily Standups, Re
 Projects: Honk, Maven Link, KGB.com, Grockit, KDA Research, Real Girls Media, heavy.com, Bringo, CommunityWalk
 
 Open source contributions:
+
 - [Erector](https://github.com/pivotal/erector) — Ruby Builder and Widget framework for generating HTML
 - [JS Test Server](https://github.com/pivotal/js-test-server) — organized Javascript TDD
-- [Unison](https://github.com/grockit/unison) — relational algebra Ruby library with events
+- [Unison](https://github.com/grockit/unison) — event-driven relational algebra library for Ruby
 
 ### Peer to Patent Project — *Consultant*
 <small>2007</small>

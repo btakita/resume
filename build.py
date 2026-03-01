@@ -159,8 +159,8 @@ def apply_profile(md: str, profile: dict) -> str:
         if name == "Skills" and highlight.get("skills"):
             content = bold_skills(content, highlight["skills"])
 
-        # Bold phrases in experience/summary content
-        if name in ("Experience", "Summary", "") and highlight.get("phrases"):
+        # Bold phrases in all content
+        if highlight.get("phrases"):
             content = bold_phrases(content, highlight["phrases"])
 
         result_parts.append(content)
