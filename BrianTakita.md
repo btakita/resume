@@ -22,6 +22,17 @@ Over 20 years building full-stack systems with deep expertise in reactive progra
 
 Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
 
+## Career Highlights
+
+- **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lipsync on NVIDIA H100 GPUs via WebRTC
+- **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy test doubles
+- **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
+- **honk.com** — Led development of vehicle review platform; acquired by TrueCar
+- **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
+- **Censible** — 10-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing tool
+- **Context Engineering** — Domain ontology system (152 nodes) since 2014 — structuring agent reasoning across domains
+- **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
+
 ## Experience
 
 ### Presence AI — *Lead Backend Engineer, AI Pipeline*
@@ -35,7 +46,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
 ### Open Source — *Creator / Solo Developer*
-<small>2024 – Present | Early contributor to Behavior Driven Development (BDD)</small>
+<small>2006 – Present | Early contributor to Behavior Driven Development (BDD)</small>
 
 #### **corky** — Git-Based Correspondence Toolkit (Rust) [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
 
@@ -74,7 +85,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 ### Freelance — *Full-Stack Engineer*
 <small>January 2019 – February 2026 (7 years 1 month)</small>
 
-Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across all industries.
+Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across industries.
 
 - menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
 
@@ -84,9 +95,7 @@ Managed, developed, & ensured success of short-term freelance software projects.
 Developed web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools helped investors align their investments with their values & manage exposure to ESG topics.
 
 - Built Martin Investments analyst portal with ESG rating algorithms, XLSX export handling 10,000+ rows, and SVG/PDF report generation
-- [censible.co](https://censible.co/)
-- [esg.censible.co](https://esg.censible.co)
-- [esg.censible.co/rebalance](https://esg.censible.co/rebalance)
+- Built [ESG Portfolio Rebalancing tool](https://esg.censible.co/rebalance) and [ESG analytics platform](https://esg.censible.co) — [censible.co](https://censible.co/)
 
 ### SocialChorus — *Senior Software Engineer*
 <small>February 2018 – August 2018 (7 months) | Remote</small>
