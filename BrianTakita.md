@@ -1,11 +1,11 @@
 # Brian Takita
 
-Building emergent software systems through agent loops — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full stack experience.
+Building emergent software systems through agent loops and context engineering — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full stack experience.
 
 <div style="text-align:center" class="contact-line">
 **LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
 **Email:** [brian.takita@gmail.com](mailto:brian.takita@gmail.com) |
-**Github:** [btakita](https://github.com/btakita)
+**GitHub:** [btakita](https://github.com/btakita)
 </div>
 
 <div style="text-align:center" class="contact-line">
@@ -16,11 +16,11 @@ Greater Boston, MA |
 
 ## Summary
 
-Over 20 years of software development experience developing full-stack applications. Most recently built the full real-time AI avatar pipeline at Presence AI. Now focused on spec-driven agent tooling and collaborative intelligence workflows. Utilizes philosophy, logic, language, & qualitative/quantitative approaches to create software models to explore & accurately represent the domain.
+Over 20 years building full-stack systems with deep expertise in reactive programming, event-driven architecture, and real-time pipelines. Most recently architected a real-time multimodal AI avatar pipeline — text, audio, and video lipsync — at Presence AI. Now building spec-driven agent tooling and collaborative intelligence workflows. A decade of context engineering — from a domain ontology system (2014) through reactive frameworks to modern agentic systems where humans and agents work in parallel with full context.
 
 ## Skills
 
-Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SqlAlchemy, Angular, Vuejs, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, Wordpress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic system, Claude, Squarespace, WordPress, Wix
 
 ## Experience
 
@@ -55,24 +55,35 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 - *[lazily-py](https://github.com/btakita/lazily-py)* — Creator. Lazy evaluation with context caching in Python
 - *[lazily-zig](https://github.com/btakita/lazily-zig)* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
-- *[ctx-core](https://github.com/ctx-core/ctx-core)* — Creator. Explicit, scalable cross-platform, reactive contexts written in Javascript.
-- *[rmemo (Reactive Memo)](https://github.com/ctx-core/rmemo)/[RelementJS](https://github.com/relementjs/relementjs)* — Creator. Smallest & most composable reactive isomorphic component library in JavaScript
+- *[ctx-core](https://github.com/ctx-core/ctx-core)* — Creator. Explicit, scalable cross-platform, reactive contexts written in JavaScript
+- *[rmemo (Reactive Memo)](https://github.com/ctx-core/rmemo)/[RelementJS](https://github.com/relementjs/relementjs)* — Creator. Smallest & most composable reactive isomorphic UI library in JavaScript
 - *[rappstack](https://github.com/rappstack)* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
+- *[rebuildjs](https://github.com/rebuildjs/rebuildjs)* — Creator. Simple hackable alternative to Vite for Multi-Page Apps
+- *[relysjs](https://github.com/relysjs/relysjs)* — Creator. Reactive web app server for MPAs with middleware and build APIs
+- *[hyopjs](https://github.com/hyopjs/hyop)* — Creator. Tiny hydration library (starting at 61 B)
 - *[Generic Query Analyzer](https://sourceforge.net/projects/gqa.berlios/)* — Creator. .NET WinForms query analyzer for OleDB data sources including MS Access
-- *[SvelteJS](https://svelte.dev/)* — Contributor
-- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. RR is a test double framework that features a rich selection of double techniques and a terse syntax.
+- *[SvelteJS](https://svelte.dev/)* — Contributor (breadth-first queueing algorithm)
+- *[Nano Stores](https://github.com/nanostores/nanostores)* — Contributor (breadth-first queueing algorithm)
+- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. Test double framework for Ruby
 - *[RSpec](https://rspec.info/)* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
+- *[backbone-signal](https://github.com/btakita/backbone-signal)* — Creator. Signal & Slots reactive API for Backbone Models
+- *[Screw Unit](https://github.com/nkallen/screw-unit)* — Co-creator. BDD testing framework for JavaScript
+- *[philosophy](https://github.com/btakita/philosophy)* — Creator. Domain ontology system (152 nodes) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
+- *[Desert](https://github.com/pivotal/desert)* — Co-creator. Rails plugin framework with model/view/controller sharing
 
-### Freelance — *Fullstack Engineer*
+### Freelance — *Full-Stack Engineer*
 <small>January 2019 – February 2026 (7 years 1 month)</small>
 
-Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
+Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across all industries.
+
+- menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
 
 ### Censible — *Lead Product Developer*
 <small>January 2016 – February 2026 (10 years 1 month) | Greater New York City Area</small>
 
-Develop web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools help investors align their investments with their values & manage exposure to ESG topics.
+Developed web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools helped investors align their investments with their values & manage exposure to ESG topics.
 
+- Built Martin Investments analyst portal with ESG rating algorithms, XLSX export handling 10,000+ rows, and SVG/PDF report generation
 - [censible.co](https://censible.co/)
 - [esg.censible.co](https://esg.censible.co)
 - [esg.censible.co/rebalance](https://esg.censible.co/rebalance)
@@ -80,15 +91,15 @@ Develop web solutions for Financial Services, centered around an Environment, So
 ### SocialChorus — *Senior Software Engineer*
 <small>February 2018 – August 2018 (7 months) | Remote</small>
 
-- Product Development on the Studio team
-- Convert legacy Backbone FrontEnd to Svelte & React
+- Product development on the Studio team
+- Converted legacy Backbone frontend to Svelte & React
 - ES5 to ES6/ES2017 migration
-- Create best practices for front-end component development
+- Created best practices for front-end component development
 
 ### Neo Innovation, Inc. — *Software Development Consultant*
 <small>September 2015 – December 2015 (4 months) | Greater New York City Area</small>
 
-Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The interactive document semantically matches the text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
+Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (i.e. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The application semantically matches text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
 
 ### CrystalCommerce — *Senior Software Developer*
 <small>January 2015 – September 2015 (9 months)</small>
@@ -107,7 +118,7 @@ Technologies: HTML5, CSS3, Node.js, Browserify, Jasmine, reactive programming, C
 
 Lead developer for Social Entertainment Platform including video, social marketing, gamification, real-time social interaction, and interactive engagements synced with video. Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now.
 
-Mentor junior & mid-level developers. Proponent of flattening communication across the organization.
+Mentored junior & mid-level developers. Proponent of flattening communication across the organization.
 
 Technologies: Node.js, Backbone.js, Rails, Postgres, Redis, Heroku
 
@@ -123,22 +134,23 @@ Led initiatives to share agile knowledge across the organization and integrate s
 
 Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos. Honk had Fox News Corp as an investor and was acquired by TrueCar. Led development and partnered on product vision for social car shopping that was key to the acquisition.
 
-- Full-stack Ruby on Rails development
-- High Availability deployment on EC2
-- Javascript client/server event framework ([jelly](https://github.com/honkster/jelly))
+- Full-stack Ruby on Rails + Sinatra development with Lucene search
+- High Availability deployment on EC2 and Engine Yard
+- JavaScript client/server event framework ([jelly](https://github.com/honkster/jelly))
+- [Erector](https://github.com/pivotal/erector) HTML generation framework
 - Chef scripts for server and workstation automation
 
 ### Pivotal Labs — *Agile Engineer*
 <small>January 2006 – August 2009 (3 years 7 months)</small>
 
-Agile Development in the XP tradition. TDD, Pair Programming, Daily Standups, Retrospectives. Worked with early startups to bootstrap their engineering process, team, and initial product. Leadership role in common code, practices, and open source.
+Agile Development in the XP tradition. TDD, Pair Programming, Daily Standups, Retrospectives. Mentored developers across 20+ startups, bootstrapping their engineering process, team, and initial product. Speaker at RailsConf 2008. Leadership role in common code, practices, and open source.
 
 Projects: Honk, Maven Link, KGB.com, Grockit, KDA Research, Real Girls Media, heavy.com, Bringo, CommunityWalk
 
 Open source contributions:
 
 - [Erector](https://github.com/pivotal/erector) — Ruby Builder and Widget framework for generating HTML
-- [JS Test Server](https://github.com/pivotal/js-test-server) — organized Javascript TDD
+- [JS Test Server](https://github.com/pivotal/js-test-server) — organized JavaScript TDD
 - [Unison](https://github.com/grockit/unison) — event-driven relational algebra library for Ruby
 
 ### Peer to Patent Project — *Consultant*

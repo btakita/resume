@@ -34,11 +34,36 @@ phrases = [
   "WebRTC",
   "LiveKit",
 
+  # Context engineering
+  "context engineering",
+  "domain ontology",
+  "context caching",
+  "multimodal",
+
+  # Reactive programming — 15-year career thread
+  "reactive contexts",
+  "reactive isomorphic UI library",
+  "reactive web app server",
+  "Signal & Slots reactive API",
+  "reactive programming",
+  "breadth-first queueing algorithm",
+
+  # Event-driven
+  "event-driven relational algebra",
+  "event framework",
+  "real-time social interaction",
+
+  # Machine learning
+  "Whisper audio feature extraction",
+  "landmark temporal smoothing",
+
   # Open source signal
   "git-native correspondence system",
   "3-way merge",
   "crash-safe incremental IMAP sync",
   "concurrent editing",
+  "offline-first collaboration",
+  "streaming merge",
 
   # Career highlights
   "spec-driven",
@@ -49,6 +74,11 @@ phrases = [
   "Peer to Patent",
   "acquired by TrueCar",
   "Engineering Physics",
+  "Speaker at RailsConf 2008",
+  "20+ startups",
+  "10,000+ rows",
+  "Lucene search",
+  "multi-service AI monorepo",
 ]
 
 # Skills to bold in the Skills section
