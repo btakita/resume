@@ -1,0 +1,97 @@
+# Consulting profile — BCG AI Factory Builder emphasis
+# Dave Franklin's resume advice applied: AI Products Shipped section,
+# clean timeline, no Freelance/SocialChorus/Open Source sections
+
+[highlight]
+# Phrases to auto-bold — focused on shipped AI products, autonomy, scale
+phrases = [
+  # Shipped AI products — the #1 signal BCG wants
+  "real-time multimodal AI pipeline",
+  "lip-sync inference",
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "agentic development methodology",
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "production real-time",
+
+  # Agent tooling — shows builder DNA
+  "document-as-interface",
+  "persistent AI conversations",
+  "3-way merge",
+  "git-native correspondence system",
+  "per-contact agent context",
+  "cross-language identifier analysis",
+  "convention detection",
+  "semantic search",
+  "tree-sitter grammars",
+
+  # Autonomy + execution signals
+  "spec-driven",
+  "agents and humans work in parallel",
+  "human-in-the-loop feedback",
+  "agent-authored code",
+  "closed-loop agent auditing",
+
+  # Context engineering
+  "context engineering",
+  "domain ontology",
+  "reactive contexts",
+
+  # Scale + enterprise
+  "20+ years",
+  "20+ startups",
+  "10,000+ rows",
+  "multi-service AI monorepo",
+  "acquired by TrueCar",
+  "Google top 75 app",
+  "Warner Brothers",
+  "ESG Portfolio Rebalancing",
+  "Speaker at RailsConf 2008",
+
+  # Technical depth
+  "Whisper audio feature extraction",
+  "landmark temporal smoothing",
+  "Lucene search",
+]
+
+# Skills — BCG-relevant emphasis
+skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "React",
+  "Docker",
+  "AWS",
+  "PostgreSQL",
+  "WebRTC",
+  "GraphQL",
+]
+
+[sections]
+# Include AI Products Shipped section prominently
+include = [
+  "Summary",
+  "Skills",
+  "AI Products Shipped",
+  "Career Highlights",
+  "Experience",
+  "Education",
+]
+
+# Dave's advice: remove Freelance, SocialChorus, Open Source
+# Keep Presence AI through Pivotal Labs era
+# Censible end date being updated separately
+experience = [
+  "Presence AI",
+  "Censible",
+  "Neo Innovation",
+  "CrystalCommerce",
+  "Rundavoo",
+  "Milyoni",
+  "TrueCar",
+  "Pivotal Labs",
+]

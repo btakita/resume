@@ -1,3 +1,10 @@
+---
+session: db24698a-d9e7-40a9-b18b-2b0738ed891e
+resume: null
+agent: null
+model: null
+branch: null
+---
 # Brian Takita
 
 Building emergent software systems through agent loops and context engineering — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full-stack experience.
@@ -27,11 +34,18 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lipsync on NVIDIA H100 GPUs via WebRTC
 - **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy test doubles
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
-- **honk.com** — Led development of vehicle review platform; acquired by TrueCar
+- **TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
 - **Censible** — 10-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
 - **Context Engineering** — Domain ontology system (152 nodes) since 2014 — structuring agent reasoning across domains
 - **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
+
+## AI Products Shipped
+
+- **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
+- **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context. Used daily for professional correspondence.
+- **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, write-safe concurrent editing via 3-way merge. Used as primary development interface.
+- **tagpath** — Built and shipped a cross-language identifier analysis tool in Rust: convention detection, semantic search, alias generation, and tag co-occurrence graphs across 14 tree-sitter grammars. Published to crates.io.
 
 ## Experience
 
@@ -90,7 +104,7 @@ Managed, developed, & ensured success of short-term freelance software projects.
 - menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
 
 ### Censible — *Lead Product Developer*
-<small>January 2016 – February 2026 (10 years 1 month) | Greater New York City Area</small>
+<small>January 2016 – April 2024 (8 years 4 months) | Greater New York City Area</small>
 
 Developed web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools helped investors align their investments with their values & manage exposure to ESG topics.
 
@@ -131,22 +145,16 @@ Mentored junior & mid-level developers. Proponent of flattening communication ac
 
 Technologies: Node.js, Backbone.js, Rails, Postgres, Redis, Heroku
 
-### TrueCar, Inc. — *Senior Software Engineer*
-<small>August 2010 – February 2012 (1 year 7 months) | Santa Monica, CA</small>
+### TrueCar / honk.com — *Lead Developer → Senior Software Engineer*
+<small>August 2009 – February 2012 (2 years 7 months) | Santa Monica, CA</small>
 
-Senior member of advanced product team, which introduced new products, integrations with major partners (WSJ.com, USAA.com car reviews), and devops (Chef to automate EC2 architecture, workstations, and new datacenter servers). Rails 3 Upgrade. YUM packaging for deployment.
+Led development of honk.com, a vehicle review and white-label platform used by USAA and Wall Street Journal Autos. Honk had News Corp as an investor and was acquired by TrueCar. Partnered on product vision for social car shopping that was key to the acquisition.
 
-Led initiatives to share agile knowledge across the organization and integrate services.
-
-### honk.com — *Lead Developer*
-<small>August 2009 – August 2010 (1 year)</small>
-
-Vehicle review site and embeddable white-label platform used by USAA and Wall Street Journal Autos. Honk had News Corp as an investor and was acquired by TrueCar. Led development and partnered on product vision for social car shopping that was key to the acquisition.
+At TrueCar, senior member of advanced product team — introduced new products, partner integrations (WSJ.com, USAA.com), and devops automation (Chef for EC2, workstations, datacenter servers). Rails 3 upgrade. Led initiatives to share agile knowledge across the organization.
 
 - Full-stack Ruby on Rails + Sinatra development with Lucene search
 - High Availability deployment on EC2 and Engine Yard
 - JavaScript client/server event framework ([jelly](https://github.com/honkster/jelly))
-- [Erector](https://github.com/pivotal/erector) HTML generation framework
 - Chef scripts for server and workstation automation
 
 ### Pivotal Labs — *Agile Engineer*
