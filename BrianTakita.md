@@ -1,13 +1,6 @@
----
-session: db24698a-d9e7-40a9-b18b-2b0738ed891e
-resume: null
-agent: null
-model: null
-branch: null
----
 # Brian Takita
 
-Building emergent software systems through agent loops and context engineering — spec-driven development, automated verification, and collaborative intelligence tooling where agents and humans work in parallel with full context. 20+ years full-stack experience.
+Shipping production AI systems and building agent tooling — real-time multimodal pipelines, spec-driven development infrastructure, context engineering. 20+ years full-stack experience.
 
 <div style="text-align:center" class="contact-line">
 **LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
@@ -23,7 +16,7 @@ Greater Boston, MA |
 
 ## Summary
 
-Over 20 years building full-stack systems with deep expertise in reactive programming, event-driven architecture, and real-time pipelines. Most recently architected a real-time multimodal AI avatar pipeline — text, audio, and video lipsync — at Presence AI. Now building spec-driven agent tooling and collaborative intelligence workflows. A decade of context engineering — from a domain ontology system (2014) through reactive frameworks to modern agentic systems where humans and agents work in parallel with full context.
+Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel.
 
 ## Skills
 
@@ -31,20 +24,20 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 ## Career Highlights
 
-- **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lipsync on NVIDIA H100 GPUs via WebRTC
+- **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC
 - **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy test doubles
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
 - **TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
-- **Censible** — 10-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
+- **Censible** — 8-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
 - **Context Engineering** — Domain ontology system (152 nodes) since 2014 — structuring agent reasoning across domains
 - **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
 
 ## AI Products Shipped
 
 - **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
-- **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context. Used daily for professional correspondence.
-- **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, write-safe concurrent editing via 3-way merge. Used as primary development interface.
+- **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. Includes Whisper-powered diarized transcription for voice messages, social media posting with scheduled delivery, and bidirectional sync across providers. Prototyped in Python, then spec-driven rewrite to Rust in under 1 day. Used daily for professional correspondence.
+- **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, write-safe concurrent editing via 3-way merge. Evolved from a document-as-interface pattern first built for Tenfore Holdings (2015). Used as primary development interface.
 - **tagpath** — Built and shipped a cross-language identifier analysis tool in Rust: convention detection, semantic search, alias generation, and tag co-occurrence graphs across 14 tree-sitter grammars. Published to crates.io.
 
 ## Experience
@@ -122,7 +115,7 @@ Developed web solutions for Financial Services, centered around an Environment, 
 ### Neo Innovation, Inc. — *Software Development Consultant*
 <small>September 2015 – December 2015 (4 months) | Greater New York City Area</small>
 
-Developed interactive document + email research pipeline application for a financial holdings company. Workflow involves actor (e.g. CEO or sales) emailing contacts & contextual notes, to be researched and processed by the analyst team. The application semantically matches text to companies & contacts in Salesforce to assist the analyst team with further refinements & analysis.
+Built a document-as-interface application for Tenfore Holdings — a research pipeline where executives email contacts and contextual notes, which are semantically matched to companies and contacts in Salesforce, then routed to the analyst team for refinement. Early exploration of the document-as-interface pattern later evolved into agent-doc (2024).
 
 ### CrystalCommerce — *Senior Software Developer*
 <small>January 2015 – September 2015 (9 months)</small>
