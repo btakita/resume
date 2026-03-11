@@ -4,7 +4,7 @@ Shipping production AI systems and building agent tooling — real-time multimod
 
 <div style="text-align:center" class="contact-line">
 **LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
-**Email:** [brian.takita@gmail.com](mailto:brian.takita@gmail.com) |
+**Email:** [btak.dev@gmail.com](mailto:btak.dev@gmail.com) |
 **GitHub:** [btakita](https://github.com/btakita)
 </div>
 
@@ -42,7 +42,8 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 ## Experience
 
-### Presence AI — *Lead Backend Engineer, AI Pipeline*
+### Presence AI — _Lead Backend Engineer, AI Pipeline_
+
 <small>April 2024 – February 2026 (1 year 10 months)</small>
 
 - Full-stack feature development: React ↔ GraphQL ↔ API Services ↔ Multimodal Avatar Agents + PostgreSQL
@@ -52,7 +53,8 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Built reusable async primitives for high-quality agent-authored code and human comprehension: task lifecycle management, scoped cancellation, lazily resolved dependencies that decouple initialization order and cascade invalidation through the context, runtime profile logging, and stable cross-stack naming to maintain conceptual coherence for both human and agent reasoning
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 
-### Open Source — *Creator / Solo Developer*
+### Open Source — _Creator / Solo Developer_
+
 <small>2006 – Present | Early contributor to Behavior Driven Development (BDD)</small>
 
 #### **corky** — Git-Based Correspondence Toolkit (Rust) [github.com/btakita/corky](https://github.com/btakita/corky) | [Docs](https://btakita.github.io/corky)
@@ -69,34 +71,36 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
 
-#### *Other contributions:*
+#### _Other contributions:_
 
-- *[lazily-py](https://github.com/btakita/lazily-py)* — Creator. Lazy evaluation with context caching in Python
-- *[lazily-zig](https://github.com/btakita/lazily-zig)* — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
-- *[ctx-core](https://github.com/ctx-core/ctx-core)* — Creator. Explicit, scalable cross-platform, reactive contexts written in JavaScript
-- *[rmemo (Reactive Memo)](https://github.com/ctx-core/rmemo)/[RelementJS](https://github.com/relementjs/relementjs)* — Creator. Smallest & most composable reactive isomorphic UI library in JavaScript
-- *[rappstack](https://github.com/rappstack)* — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
-- *[rebuildjs](https://github.com/rebuildjs/rebuildjs)* — Creator. Simple hackable alternative to Vite for Multi-Page Apps
-- *[relysjs](https://github.com/relysjs/relysjs)* — Creator. Reactive web app server for MPAs with middleware and build APIs
-- *[hyopjs](https://github.com/hyopjs/hyop)* — Creator. Tiny hydration library (starting at 61 B)
-- *[Generic Query Analyzer](https://sourceforge.net/projects/gqa.berlios/)* — Creator. .NET WinForms query analyzer for OleDB data sources including MS Access
-- *[SvelteJS](https://svelte.dev/)* — Contributor (breadth-first queueing algorithm)
-- *[Nano Stores](https://github.com/nanostores/nanostores)* — Contributor (breadth-first queueing algorithm)
-- *[rr (double Ruby)](https://github.com/rr/rr)* — Creator. Test double framework for Ruby. Pioneered proxy-based test doubles (mock.proxy, stub.proxy) — pattern now standard as `patch` in Python's pytest/unittest
-- *[RSpec](https://rspec.info/)* — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
-- *[backbone-signal](https://github.com/btakita/backbone-signal)* — Creator. Signal & Slots reactive API for Backbone Models
-- *[Screw Unit](https://github.com/nkallen/screw-unit)* — Co-creator. BDD testing framework for JavaScript
-- *[philosophy](https://github.com/btakita/philosophy)* — Creator. Domain ontology system (152 nodes) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
-- *[Desert](https://github.com/pivotal/desert)* — Co-creator. Rails plugin framework with model/view/controller sharing
+- _[lazily-py](https://github.com/btakita/lazily-py)_ — Creator. Lazy evaluation with context caching in Python
+- _[lazily-zig](https://github.com/btakita/lazily-zig)_ — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
+- _[ctx-core](https://github.com/ctx-core/ctx-core)_ — Creator. Explicit, scalable cross-platform, reactive contexts written in JavaScript
+- _[rmemo (Reactive Memo)](https://github.com/ctx-core/rmemo)/[RelementJS](https://github.com/relementjs/relementjs)_ — Creator. Smallest & most composable reactive isomorphic UI library in JavaScript
+- _[rappstack](https://github.com/rappstack)_ — Creator. Full-stack framework using BunJS & Elysia for extensible web app modules
+- _[rebuildjs](https://github.com/rebuildjs/rebuildjs)_ — Creator. Simple hackable alternative to Vite for Multi-Page Apps
+- _[relysjs](https://github.com/relysjs/relysjs)_ — Creator. Reactive web app server for MPAs with middleware and build APIs
+- _[hyopjs](https://github.com/hyopjs/hyop)_ — Creator. Tiny hydration library (starting at 61 B)
+- _[Generic Query Analyzer](https://sourceforge.net/projects/gqa.berlios/)_ — Creator. .NET WinForms query analyzer for OleDB data sources including MS Access
+- _[SvelteJS](https://svelte.dev/)_ — Contributor (breadth-first queueing algorithm)
+- _[Nano Stores](https://github.com/nanostores/nanostores)_ — Contributor (breadth-first queueing algorithm)
+- _[rr (double Ruby)](https://github.com/rr/rr)_ — Creator. Test double framework for Ruby. Pioneered proxy-based test doubles (mock.proxy, stub.proxy) — pattern now standard as `patch` in Python's pytest/unittest
+- _[RSpec](https://rspec.info/)_ — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
+- _[backbone-signal](https://github.com/btakita/backbone-signal)_ — Creator. Signal & Slots reactive API for Backbone Models
+- _[Screw Unit](https://github.com/nkallen/screw-unit)_ — Co-creator. BDD testing framework for JavaScript
+- _[philosophy](https://github.com/btakita/philosophy)_ — Creator. Domain ontology system (152 nodes) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
+- _[Desert](https://github.com/pivotal/desert)_ — Co-creator. Rails plugin framework with model/view/controller sharing
 
-### Freelance — *Full-Stack Engineer*
+### Freelance — _Full-Stack Engineer_
+
 <small>January 2019 – February 2026 (7 years 1 month)</small>
 
 Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across industries.
 
 - menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
 
-### Censible — *Lead Product Developer*
+### Censible — _Lead Product Developer_
+
 <small>January 2016 – April 2024 (8 years 4 months) | Greater New York City Area</small>
 
 Developed web solutions for Financial Services, centered around an Environment, Social, Governance (ESG) lens. These tools helped investors align their investments with their values & manage exposure to ESG topics.
@@ -104,7 +108,8 @@ Developed web solutions for Financial Services, centered around an Environment, 
 - Built Martin Investments analyst portal with ESG rating algorithms, XLSX export handling 10,000+ rows, and SVG/PDF report generation
 - Built [ESG Portfolio Rebalancing system](https://esg.censible.co/rebalance) and [ESG analytics platform](https://esg.censible.co) — [censible.co](https://censible.co/)
 
-### SocialChorus — *Senior Software Engineer*
+### SocialChorus — _Senior Software Engineer_
+
 <small>February 2018 – August 2018 (7 months) | Remote</small>
 
 - Product development on the Studio team
@@ -112,24 +117,28 @@ Developed web solutions for Financial Services, centered around an Environment, 
 - ES5 to ES6/ES2017 migration
 - Created best practices for front-end component development
 
-### Neo Innovation, Inc. — *Software Development Consultant*
+### Neo Innovation, Inc. — _Software Development Consultant_
+
 <small>September 2015 – December 2015 (4 months) | Greater New York City Area</small>
 
 Built a document-as-interface application for Tenfore Holdings — a research pipeline where executives email contacts and contextual notes, which are semantically matched to companies and contacts in Salesforce, then routed to the analyst team for refinement. Early exploration of the document-as-interface pattern later evolved into agent-doc (2024).
 
-### CrystalCommerce — *Senior Software Developer*
+### CrystalCommerce — _Senior Software Developer_
+
 <small>January 2015 – September 2015 (9 months)</small>
 
 Migrated production Rails app. Re-architected the front end using Node.js, Browserify, Gulp, and Backbone.
 
-### Rundavoo — *Platform Architect / Lead Front End Developer*
+### Rundavoo — _Platform Architect / Lead Front End Developer_
+
 <small>March 2013 – December 2014 (1 year 10 months) | Greater Los Angeles Area</small>
 
 Led front-end development for Rundavoo, a Google top 75 app in 2014. Created a responsive, multi-platform (desktop, tablet, mobile, server) application that integrated with several APIs via CORS and a proxy server.
 
 Technologies: HTML5, CSS3, Node.js, Browserify, Jasmine, reactive programming, Cloudflare, PhoneGap
 
-### Milyoni, Inc. — *Architect / Lead Developer*
+### Milyoni, Inc. — _Architect / Lead Developer_
+
 <small>March 2012 – March 2013 (1 year 1 month) | Pleasanton, CA</small>
 
 Lead developer for Social Entertainment Platform including video, social marketing, gamification, real-time social interaction, and interactive engagements synced with video. Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now.
@@ -138,7 +147,8 @@ Mentored junior & mid-level developers. Proponent of flattening communication ac
 
 Technologies: Node.js, Backbone.js, Rails, Postgres, Redis, Heroku
 
-### TrueCar / honk.com — *Lead Developer → Senior Software Engineer*
+### TrueCar / honk.com — _Lead Developer → Senior Software Engineer_
+
 <small>August 2009 – February 2012 (2 years 7 months) | Santa Monica, CA</small>
 
 Led development of honk.com, a vehicle review and white-label platform used by USAA and Wall Street Journal Autos. Honk had News Corp as an investor and was acquired by TrueCar. Partnered on product vision for social car shopping that was key to the acquisition.
@@ -150,7 +160,8 @@ At TrueCar, senior member of advanced product team — introduced new products, 
 - JavaScript client/server event framework ([jelly](https://github.com/honkster/jelly))
 - Chef scripts for server and workstation automation
 
-### Pivotal Labs — *Agile Engineer*
+### Pivotal Labs — _Agile Engineer_
+
 <small>January 2006 – August 2009 (3 years 7 months)</small>
 
 Agile Development in the XP tradition. TDD, Pair Programming, Daily Standups, Retrospectives. Mentored developers across 20+ startups, bootstrapping their engineering process, team, and initial product. Speaker at RailsConf 2008. Leadership role in common code, practices, and open source.
@@ -163,12 +174,14 @@ Open source contributions:
 - [JS Test Server](https://github.com/pivotal/js-test-server) — organized JavaScript TDD
 - [Unison](https://github.com/grockit/unison) — event-driven relational algebra library for Ruby
 
-### Peer to Patent Project — *Consultant*
+### Peer to Patent Project — _Consultant_
+
 <small>2007</small>
 
 Key contributor to launching the Peer to Patent pilot application, led by New York Law School. A tool to allow the crowd to review and submit prior art for pending patents.
 
-### NASPP — *IT Analyst*
+### NASPP — _IT Analyst_
+
 <small>February 2004 – January 2006 (1 year 11 months)</small>
 
 - SQL Server DB Admin
@@ -176,7 +189,8 @@ Key contributor to launching the Peer to Patent pilot application, led by New Yo
 - Website ASP development
 - Reports for Sales Trends and forecasting
 
-### Flextronics — *Web Application Developer Intern*
+### Flextronics — _Web Application Developer Intern_
+
 <small>May 2001 – February 2002 (9 months)</small>
 
 Developed corporate intranet using Microsoft technologies (ASP, SQL Server).
