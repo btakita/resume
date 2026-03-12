@@ -38,6 +38,8 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
 - **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. Includes Whisper-powered diarized transcription for voice messages, social media posting with scheduled delivery, and bidirectional sync across providers. Prototyped in Python, then spec-driven rewrite to Rust in under 1 day. Used daily for professional correspondence.
 - **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, write-safe concurrent editing via 3-way merge. Evolved from a document-as-interface pattern first built for Tenfore Holdings (2015). Used as primary development interface.
+- **agent-kit** — Built a Rust SDK for CLI tools integrating with AI agent loops: session management, tmux pane routing, instruction file discovery (AGENTS.md/CLAUDE.md), and snapshot-based state tracking. Powers agent-doc and corky's agent integrations.
+- **tmux-router** — Declarative tmux pane routing in Rust: sync editor layouts to tmux sessions, multiplexed agent orchestration across concurrent development contexts.
 - **tagpath** — Built and shipped a cross-language identifier analysis tool in Rust: convention detection, semantic search, alias generation, and tag co-occurrence graphs across 14 tree-sitter grammars. Published to crates.io.
 
 ## Experience
@@ -46,7 +48,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 <small>April 2024 – February 2026 (1 year 10 months)</small>
 
-- Full-stack feature development: React ↔ GraphQL ↔ API Services ↔ Multimodal Avatar Agents + PostgreSQL
+- Full-stack feature development: Next.js + React frontend ↔ GraphQL (urql) ↔ API Services ↔ Multimodal Avatar Agents + PostgreSQL. TypeScript monorepo with 8 internal packages (@presence-ai/api, design-system, livekit, analytics, credits, monitoring, error, web)
 - Architected and shipped the entire real-time video pipeline: facial landmark detection, LatentSync lip-sync inference (VAE decode, denoising, restoration), idle video generation, and frame sequencing on NVIDIA H100 GPUs via WebRTC using LiveKit
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
 - Developed an iterative agentic development methodology: lightweight living specs refined through closed-loop agent auditing and continuous human-in-the-loop feedback, accelerating design velocity while staying in flow with the emerging design
@@ -70,6 +72,16 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Engineered write-safe concurrent editing via 3-way merge (snapshot + user edits + agent response), preventing data loss when human and agent edit simultaneously
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
+
+#### **agent-kit** — SDK for AI Agent CLI Tools (Rust) [crates.io/crates/agent-kit](https://crates.io/crates/agent-kit)
+
+- Built a Rust SDK for CLI tools that integrate with AI agent loops: session management, tmux pane routing, instruction file discovery, and snapshot-based state tracking
+- Powers agent-doc and corky's agent integrations — shared foundation for session lifecycle, config resolution, and concurrent write safety
+
+#### **tmux-router** — Declarative Tmux Pane Routing (Rust) [crates.io/crates/tmux-router](https://crates.io/crates/tmux-router)
+
+- Declarative layout engine syncing editor state to tmux sessions — multiplexed agent orchestration across concurrent development contexts
+- Auto-claims panes for agent sessions, routes documents to the correct editor, and maintains layout consistency across window resizes
 
 #### _Other contributions:_
 
