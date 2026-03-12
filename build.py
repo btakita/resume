@@ -4,6 +4,7 @@
 import re
 import subprocess
 import sys
+import tempfile
 import tomllib
 from pathlib import Path
 
@@ -186,12 +187,33 @@ def build_html(md_content: str, html_path: Path):
     html_path.write_text(html)
 
 
-def build_pdf(html_path: Path, pdf_path: Path, css_path: Path):
-    """Convert HTML to PDF via weasyprint."""
-    subprocess.run(
-        ["weasyprint", str(html_path), str(pdf_path), "--stylesheet", str(css_path)],
-        check=True,
+def build_pdf_playwright(html_path: Path, pdf_path: Path, css_path: Path):
+    """Convert HTML to PDF via Playwright (fallback when WeasyPrint unavailable on Windows)."""
+    html_content = html_path.read_text()
+    css_url = css_path.resolve().as_uri()
+    styled = html_content.replace(
+        "</head>", f'<link rel="stylesheet" href="{css_url}"></head>'
     )
+    html_path.write_text(styled)
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.goto(html_path.resolve().as_uri())
+        page.pdf(path=str(pdf_path), format="Letter", margin={"top": "0.5in", "right": "0.6in", "bottom": "0.5in", "left": "0.6in"})
+        browser.close()
+
+
+def build_pdf(html_path: Path, pdf_path: Path, css_path: Path):
+    """Convert HTML to PDF via weasyprint, fallback to Playwright on failure."""
+    try:
+        subprocess.run(
+            ["weasyprint", str(html_path), str(pdf_path), "--stylesheet", str(css_path)],
+            check=True,
+        )
+    except subprocess.CalledProcessError:
+        print("WeasyPrint failed, using Playwright fallback...", file=sys.stderr)
+        build_pdf_playwright(html_path, pdf_path, css_path)
 
 
 def main():
@@ -242,7 +264,7 @@ def main():
     else:
         pdf_path = resume_dir / f"BrianTakita-{args.profile}.pdf"
 
-    html_path = Path("/tmp/resume.html")
+    html_path = Path(tempfile.gettempdir()) / "resume.html"
     build_html(tailored, html_path)
     build_pdf(html_path, pdf_path, css_path)
 

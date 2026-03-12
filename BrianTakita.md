@@ -91,13 +91,18 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - _[philosophy](https://github.com/btakita/philosophy)_ — Creator. Domain ontology system (152 nodes) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
 - _[Desert](https://github.com/pivotal/desert)_ — Co-creator. Rails plugin framework with model/view/controller sharing
 
-### Freelance — _Full-Stack Engineer_
+### Brian Takita — _Full-Stack Engineer_
 
-<small>January 2019 – February 2026 (7 years 1 month)</small>
+<small>January 2019 – Feb 2026 (7 years 1 month)</small>
 
-Managed, developed, & ensured success of short-term freelance software projects. Used subcontractors for development. Web and mobile Flutter apps across industries.
+Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
 
-- menu.com — Multi-tenant frontend for consumer web app, restaurant back-office, and Cordova mobile app (SvelteJS, Sapper, AWS)
+- **BestInform** — European information platform for structured data, reports, and analytics. Pixel-perfect Figma implementation; real-time support messaging. Angular 14, PrimeNG, Angular Material, Firebase. [bestinform.eu](https://bestinform.eu)
+- **Guard App** — Security service platform connecting guards, companies, and customers. Admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot.
+- **Drivemond** — Taxi and ride-hailing platform for Chicago. Passenger and driver mobile apps with real-time matching and GPS tracking. Flutter, AWS.
+- **Galler AI** — AI-powered image generation and editing platform in the browser. React frontend with Figma design system; cropping, clipping, drawing tools. React, TypeScript.
+- **SafeSchoolz (Aegis Platform)** — AI safety platform detecting firearms and alerting authorities. Built gun detection model (~85% mAP). Android, .NET, Python/Jupyter, Twilio.
+- **IIPM** — Membership and certification platform for Irish pension specialists. Member and admin portals. WordPress, PHP, JavaScript/jQuery, Stripe. [iipm.ie](https://iipm.ie)
 
 ### Censible — _Lead Product Developer_
 
