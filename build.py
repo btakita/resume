@@ -141,6 +141,7 @@ def apply_profile(md: str, profile: dict) -> str:
     sections = split_sections(md)
     highlight = profile.get("highlight", {})
     sections_config = profile.get("sections", {})
+    content_overrides = profile.get("content", {})
 
     include = sections_config.get("include")
     experience_filter = sections_config.get("experience")
@@ -151,6 +152,10 @@ def apply_profile(md: str, profile: dict) -> str:
         # Filter sections if include list is specified
         if include and name and name not in include:
             continue
+
+        # Apply content overrides (replace section body, keep heading)
+        if name in content_overrides:
+            content = f"## {name}\n\n{content_overrides[name]}"
 
         # Filter experience entries
         if name == "Experience" and experience_filter:

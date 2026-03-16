@@ -25,19 +25,19 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 ## Career Highlights
 
 - **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC
-- **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy test doubles
+- **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
 - **TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
 - **Censible** — 8-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
-- **Context Engineering** — Domain ontology system (152 nodes) since 2014 — structuring agent reasoning across domains
+- **Context Engineering** — Domain ontology system (extensible) since 2014 — structuring agent reasoning across domains
 - **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
 
 ## AI Products Shipped
 
 - **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
 - **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. Includes Whisper-powered diarized transcription for voice messages, social media posting with scheduled delivery, and bidirectional sync across providers. Prototyped in Python, then spec-driven rewrite to Rust in under 1 day. Used daily for professional correspondence.
-- **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, write-safe concurrent editing via 3-way merge. Evolved from a document-as-interface pattern first built for Tenfore Holdings (2015). Used as primary development interface.
+- **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, CRDT-based streaming merge for real-time human+agent co-editing without conflicts. Used as primary development interface.
 - **agent-kit** — Built a Rust SDK for CLI tools integrating with AI agent loops: session management, tmux pane routing, instruction file discovery (AGENTS.md/CLAUDE.md), and snapshot-based state tracking. Powers agent-doc and corky's agent integrations.
 - **tmux-router** — Declarative tmux pane routing in Rust: sync editor layouts to tmux sessions, multiplexed agent orchestration across concurrent development contexts.
 - **tagpath** — Built and shipped a cross-language identifier analysis tool in Rust: convention detection, semantic search, alias generation, and tag co-occurrence graphs across 14 tree-sitter grammars. Published to crates.io.
@@ -69,7 +69,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 #### **agent-doc** — Document-as-Interface for Interactive Sessions with AI Agents (Rust) [github.com/btakita/agent-doc](https://github.com/btakita/agent-doc)
 
 - Created a document-as-interface model for persistent AI conversations: edit a markdown file offline, submit diffs, agent responds inline — all tracked through git commits for full session history and branch-based workflows
-- Engineered write-safe concurrent editing via 3-way merge (snapshot + user edits + agent response), preventing data loss when human and agent edit simultaneously
+- Engineered write-safe concurrent editing via CRDT-based streaming merge, enabling real-time human+agent co-editing without conflicts — evolved from 3-way merge to character-level conflict-free resolution
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
 
@@ -85,6 +85,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 #### _Other contributions:_
 
+- _[lazily-rs](https://crates.io/crates/lazily-rs)_ — Creator. Reactive signals library in Rust (crates.io) with cross-language ports maintaining consistent semantics across Rust, Python, and Zig
 - _[lazily-py](https://github.com/btakita/lazily-py)_ — Creator. Lazy evaluation with context caching in Python
 - _[lazily-zig](https://github.com/btakita/lazily-zig)_ — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
 - _[ctx-core](https://github.com/ctx-core/ctx-core)_ — Creator. Explicit, scalable cross-platform, reactive contexts written in JavaScript
@@ -100,7 +101,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - _[RSpec](https://rspec.info/)_ — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
 - _[backbone-signal](https://github.com/btakita/backbone-signal)_ — Creator. Signal & Slots reactive API for Backbone Models
 - _[Screw Unit](https://github.com/nkallen/screw-unit)_ — Co-creator. BDD testing framework for JavaScript
-- _[philosophy](https://github.com/btakita/philosophy)_ — Creator. Domain ontology system (152 nodes) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
+- _[philosophy](https://github.com/btakita/philosophy)_ — Creator. Domain ontology system (extensible) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
 - _[Desert](https://github.com/pivotal/desert)_ — Co-creator. Rails plugin framework with model/view/controller sharing
 
 ### Brian Takita — _Full-Stack Engineer_

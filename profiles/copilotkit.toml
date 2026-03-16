@@ -58,6 +58,10 @@ phrases = [
   "git-native correspondence system",
   "crash-safe incremental IMAP sync",
   "concurrent editing",
+  "CRDT-based streaming merge",
+  "real-time human+agent co-editing",
+  "cross-language ports",
+  "identical semantics across Rust, Python, and Zig",
   "offline-first collaboration",
   "multi-service AI monorepo",
   "closed-loop agentic workflows",
@@ -85,7 +89,6 @@ skills = [
 include = [
   "Summary",
   "Skills",
-  "AI Products Shipped",
   "Career Highlights",
   "Experience",
   "Education",
@@ -104,3 +107,7 @@ experience = [
   "TrueCar",
   "Pivotal Labs",
 ]
+
+[content]
+# Lead with tooling, not Presence AI pipeline — this role is about SDKs and agent runtimes
+Summary = """Building open source developer infrastructure in Rust and TypeScript — reactive SDKs (lazily, ctx-core), agent runtimes (agent-doc, agent-kit), and git-native correspondence (corky). Previously architected a real-time multimodal AI pipeline at Presence AI on NVIDIA H100 GPUs via WebRTC. A decade of context engineering — from an extensible domain ontology system (2014) through reactive frameworks to modern agentic systems. Deep expertise in cross-language API design, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel."""
