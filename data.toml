@@ -292,6 +292,17 @@ tags = ["AI/ML", "agentic", "architecture"]
 years = 2
 related = ["context engineering", "agents"]
 
+[skills.heroku]
+display = "Heroku"
+category = "platform"
+tags = ["cloud", "PaaS", "devops"]
+years = 5
+
+[skills.jira]
+display = "Jira"
+category = "tool"
+tags = ["project management", "agile"]
+
 [skills.claude]
 display = "Claude"
 category = "AI"
@@ -302,15 +313,15 @@ years = 2
 
 [[experience]]
 company = "Presence AI"
-title = "Director of Engineering"
+title = "Lead Backend AI Engineer"
 start = "2024-04"
 end = "2026-02"
 duration = "1 yr 10 mos"
 location = "Remote"
 type = "startup"
 domains = ["AI/ML", "real-time systems", "video", "WebRTC"]
-skills = ["Python", "Rust", "TypeScript", "React", "FastAPI", "Docker", "AWS", "ZeroMQ"]
-patterns = ["reactive programming", "event-driven", "context engineering", "agentic workflows"]
+skills = ["Python", "Rust", "TypeScript", "React", "FastAPI", "Docker", "AWS", "ZeroMQ", "CI/CD"]
+patterns = ["reactive programming", "event-driven", "context engineering", "agentic workflows", "observability"]
 level = ["architecture", "full-stack", "infrastructure", "team-lead"]
 headline = "Led engineering at AI avatar startup; built real-time video pipeline"
 one_liner = "Real-time AI avatar pipeline with reactive signal architecture"
@@ -424,7 +435,7 @@ duration = "7 yrs 1 mo"
 location = "Remote"
 type = "freelance"
 domains = ["web", "mobile", "AI/ML", "SaaS"]
-skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET"]
+skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
 patterns = ["full-stack", "cross-platform", "real-time"]
 level = ["full-stack", "lead"]
 headline = "Full-stack freelance engineer: web and mobile apps across industries"
@@ -458,7 +469,7 @@ impact = "client-project"
 
 [[experience.accomplishments]]
 text = "Menu.com: Administered .NET API instances on AWS ECS with IAM for food ordering platform"
-tags = ["AWS", "ECS", "IAM", ".NET", "DevOps"]
+tags = ["AWS", "ECS", "IAM", ".NET", "DevOps", "Docker"]
 impact = "client-project"
 
 [[experience.accomplishments]]
@@ -475,8 +486,8 @@ duration = "8 yrs 4 mos"
 location = "Greater New York City Area"
 type = "startup"
 domains = ["fintech", "ESG", "analytics"]
-skills = ["JavaScript", "TypeScript", "SvelteJS", "Node.js", "PostgreSQL"]
-patterns = ["full-stack", "data visualization", "analytics", "reactive programming"]
+skills = ["JavaScript", "TypeScript", "SvelteJS", "Node.js", "PostgreSQL", "Heroku", "Docker", "CI/CD"]
+patterns = ["full-stack", "data visualization", "analytics", "reactive programming", "observability"]
 level = ["lead", "full-stack", "product"]
 headline = "8-year ESG analytics platform — analyst portal, portfolio rebalancing, report generation"
 one_liner = "Martin Investments analyst portal + ESG Portfolio Rebalancing"
@@ -573,7 +584,7 @@ duration = "1 yr 10 mos"
 location = "Greater Los Angeles Area"
 type = "startup"
 domains = ["social", "mobile", "web"]
-skills = ["HTML5", "CSS3", "Node.js", "Browserify", "Jasmine", "Cloudflare", "PhoneGap"]
+skills = ["HTML5", "CSS3", "Node.js", "Browserify", "Jasmine", "Cloudflare", "PhoneGap", "Docker", "CI/CD"]
 patterns = ["reactive programming", "cross-platform", "responsive"]
 level = ["architect", "lead"]
 headline = "Google top 75 app — responsive multi-platform frontend architecture"
@@ -630,8 +641,8 @@ duration = "2 yrs 7 mos"
 location = "Santa Monica, CA"
 type = "startup"
 domains = ["automotive", "e-commerce", "social"]
-skills = ["Ruby on Rails", "Sinatra", "Lucene", "JavaScript", "Chef", "EC2", "MongoDB"]
-patterns = ["full-stack", "devops", "search", "acquisition", "event-driven", "functional reactive programming"]
+skills = ["Ruby on Rails", "Sinatra", "Lucene", "JavaScript", "Chef", "EC2", "MongoDB", "Heroku", "CI/CD"]
+patterns = ["full-stack", "devops", "search", "acquisition", "event-driven", "functional reactive programming", "observability"]
 level = ["lead", "senior"]
 headline = "Led honk.com (acquired by TrueCar) — vehicle review platform for USAA, WSJ Autos"
 one_liner = "honk.com → TrueCar acquisition; product vision + Rails + devops"
@@ -670,7 +681,7 @@ end = "2009-08"
 duration = "3 yrs 7 mos"
 type = "consulting"
 domains = ["consulting", "agile", "BDD", "open source"]
-skills = ["Ruby on Rails", "JavaScript", "TDD", "AWS"]
+skills = ["Ruby on Rails", "JavaScript", "TDD", "AWS", "Heroku", "CI/CD"]
 patterns = ["agile", "XP", "pair programming", "mentoring", "BDD", "event-driven", "functional reactive programming"]
 level = ["engineer", "mentor", "speaker"]
 headline = "Pivotal Labs: mentored 20+ startups, RailsConf speaker, BDD pioneer"

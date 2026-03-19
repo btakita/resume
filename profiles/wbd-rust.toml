@@ -1,0 +1,115 @@
+# WBD — Rust Backend Developer
+# Warner Bros. Discovery
+# Focus: Rust, backend services, event-driven architecture, streaming, cloud infrastructure
+
+[highlight]
+# Phrases to auto-bold in bullet points and descriptions (case-insensitive matching built-in)
+phrases = [
+  # Rust
+  "Rust",
+
+  # Event-driven variations
+  "event-driven",
+  "event framework",
+  "event-driven relational algebra",
+  "event-driven architecture",
+  "event-driven messaging",
+
+  # Reactive variations
+  "reactive programming",
+  "reactive signal",
+  "reactive contexts",
+  "reactive isomorphic UI library",
+  "reactive web app server",
+  "reactive signals",
+
+  # Real-time variations
+  "real-time",
+
+  # Scalable
+  "scalable",
+
+  # Cloud variations
+  "cloud",
+  "Google Cloud",
+
+  # Streaming variations
+  "streaming",
+  "streaming merge",
+
+  # Backend / back-end
+  "backend",
+  "back-end",
+
+  # Workflow variations
+  "workflow",
+  "workflows",
+
+  # Microservices
+  "microservices",
+  "micro-services",
+
+  # Container variations
+  "container",
+  "containers",
+
+  # Pipeline variations
+  "pipeline",
+
+  # Warner Brothers / Warner Bros
+  "Warner Brothers",
+  "Warner Bros",
+
+  # Specific technologies and terms
+  "ZeroMQ",
+  "AWS ECS",
+  "AWS IAM",
+  "MongoDB",
+  "REST API",
+  "WebRTC",
+  "sub-100ms",
+  "NVIDIA H100 GPUs",
+
+  # Career signals
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Social Entertainment Platform",
+  "10,000+ rows",
+  "Speaker at RailsConf 2008",
+  "git-native correspondence",
+  "document-as-interface",
+  "multi-service AI monorepo",
+  "crash-safe incremental IMAP sync",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Rust",
+  "Python",
+  "Node.js",
+  "TypeScript",
+  "AWS",
+  "Docker",
+  "PostgreSQL",
+  "MongoDB",
+  "REST",
+  "GraphQL",
+  "CI/CD",
+  "Firebase",
+  "ZeroMQ",
+  "Redis",
+]
+
+[sections]
+# Focus on experiences showcasing Rust, backend, event-driven, streaming, entertainment domain
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Milyoni",
+  "TrueCar / honk.com",
+  "Censible",
+  "Pivotal Labs",
+]
