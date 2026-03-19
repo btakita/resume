@@ -1,0 +1,75 @@
+# Apex Systems — CVS Health Full Stack Developer (Python + React + GCP)
+# Recruiter: Deepak Rana
+# W2 contract-to-hire, 100% remote (ET/CT), $70/hr max
+
+[highlight]
+# Phrases to auto-bold — emphasize Python, React, GCP, full-stack, healthcare-adjacent
+phrases = [
+  # Python / backend
+  "Python",
+  "FastAPI",
+  "Flask",
+  "Django",
+  "SQLAlchemy",
+
+  # React / frontend
+  "React",
+  "TypeScript",
+  "Next.js",
+
+  # Cloud — GCP emphasis
+  "Google Cloud",
+  "GCP",
+  "Cloud Run",
+  "Cloud Functions",
+  "Docker",
+  "AWS",
+
+  # Full-stack signals
+  "full-stack",
+  "API",
+  "REST",
+  "GraphQL",
+  "PostgreSQL",
+
+  # AI/ML — differentiator
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "multimodal",
+  "reactive programming",
+
+  # Career highlights
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Python",
+  "React",
+  "Google Cloud",
+  "TypeScript",
+  "FastAPI",
+  "Flask",
+  "Docker",
+  "AWS",
+  "PostgreSQL",
+  "GraphQL",
+  "Node.js",
+]
+
+[sections]
+# Focus on experiences most relevant to Python + React + GCP full-stack
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "SocialChorus",
+  "CrystalCommerce",
+  "TrueCar / honk.com",
+  "Pivotal Labs",
+]

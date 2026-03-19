@@ -1,0 +1,1297 @@
+{
+  "experiences": [
+    {
+      "company": "Presence AI",
+      "title": "Director of Engineering",
+      "start": "2024-04",
+      "end": "2026-02",
+      "duration": "1 yr 10 mos",
+      "location": "Remote",
+      "tags": [
+        "AI/ML",
+        "real-time systems",
+        "video",
+        "WebRTC",
+        "Python",
+        "Rust",
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "reactive programming",
+        "event-driven",
+        "context engineering",
+        "agentic workflows",
+        "architecture",
+        "full-stack",
+        "infrastructure",
+        "team-lead"
+      ],
+      "headline": "Led engineering at AI avatar startup; built real-time video pipeline",
+      "accomplishments": [
+        {
+          "text": "Built real-time AI avatar pipeline processing video/audio streams with sub-100ms latency",
+          "tags": [
+            "AI/ML",
+            "real-time",
+            "video",
+            "pipeline",
+            "performance"
+          ],
+          "impact": "core-product"
+        },
+        {
+          "text": "Designed reactive signal graph architecture for deterministic avatar response timing",
+          "tags": [
+            "reactive programming",
+            "architecture",
+            "performance"
+          ],
+          "impact": "technical-innovation"
+        },
+        {
+          "text": "Implemented WebRTC streaming infrastructure for live avatar sessions",
+          "tags": [
+            "WebRTC",
+            "infrastructure",
+            "real-time"
+          ],
+          "impact": "infrastructure"
+        },
+        {
+          "text": "Developed multimodal AI pipeline integrating LLM, TTS, and lip-sync models",
+          "tags": [
+            "AI/ML",
+            "pipeline",
+            "multimodal"
+          ],
+          "impact": "core-product"
+        },
+        {
+          "text": "Created context engineering system for agentic workflow orchestration",
+          "tags": [
+            "context engineering",
+            "agentic workflows",
+            "architecture"
+          ],
+          "impact": "technical-innovation"
+        }
+      ]
+    },
+    {
+      "company": "Open Source",
+      "title": "Creator / Solo Developer",
+      "start": "2006",
+      "end": null,
+      "duration": null,
+      "location": "Remote",
+      "tags": [
+        "developer tooling",
+        "reactive programming",
+        "BDD",
+        "testing",
+        "AI agents",
+        "Rust",
+        "TypeScript",
+        "Ruby",
+        "Python",
+        "Zig",
+        "JavaScript",
+        "reactive programming",
+        "event-driven",
+        "context engineering",
+        "agentic workflows",
+        "BDD",
+        "spec-driven development",
+        "architecture",
+        "creator",
+        "open-source"
+      ],
+      "headline": "Open source creator: corky, agent-doc, rr, RSpec contributor; 15-year reactive framework lineage",
+      "accomplishments": [
+        {
+          "text": "Built corky: git-native correspondence system in Rust syncing email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context",
+          "tags": [
+            "Rust",
+            "developer tooling",
+            "AI agents",
+            "correspondence"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Created agent-doc: document-as-interface for persistent AI conversations with CRDT-based streaming merge for real-time human+agent co-editing",
+          "tags": [
+            "Rust",
+            "developer tooling",
+            "AI agents",
+            "CRDT"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Built agent-kit: Rust SDK for CLI tools integrating with AI agent loops — session management, tmux pane routing, instruction file discovery",
+          "tags": [
+            "Rust",
+            "developer tooling",
+            "AI agents",
+            "SDK"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Created tmux-router: declarative tmux pane routing in Rust for multiplexed agent orchestration across concurrent development contexts",
+          "tags": [
+            "Rust",
+            "developer tooling",
+            "AI agents"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Built tagpath: cross-language identifier analysis tool in Rust with convention detection, semantic search across 14 tree-sitter grammars",
+          "tags": [
+            "Rust",
+            "developer tooling",
+            "analysis"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Created lazily-rs/lazily-py/lazily-zig: reactive signals with cross-language ports maintaining consistent semantics across Rust, Python, and Zig",
+          "tags": [
+            "Rust",
+            "Python",
+            "Zig",
+            "reactive programming"
+          ],
+          "impact": "shipped-product"
+        },
+        {
+          "text": "Created ctx-core: explicit, scalable cross-platform reactive contexts in JavaScript — foundation for rmemo, RelementJS, rappstack",
+          "tags": [
+            "JavaScript",
+            "reactive programming",
+            "architecture"
+          ],
+          "impact": "foundation"
+        },
+        {
+          "text": "Created rr (double Ruby): pioneered proxy-based test doubles (mock.proxy, stub.proxy) — pattern now standard as patch in Python's pytest/unittest",
+          "tags": [
+            "Ruby",
+            "testing",
+            "BDD",
+            "innovation"
+          ],
+          "impact": "technical-innovation"
+        },
+        {
+          "text": "Core contributor to RSpec: the Ruby Behavior Driven Development testing framework",
+          "tags": [
+            "Ruby",
+            "testing",
+            "BDD"
+          ],
+          "impact": "community"
+        },
+        {
+          "text": "Created domain ontology system (philosophy, 2014): structuring agent reasoning across domains with extensible scope, context, and resolution",
+          "tags": [
+            "context engineering",
+            "ontology",
+            "architecture"
+          ],
+          "impact": "foundation"
+        }
+      ]
+    },
+    {
+      "company": "Brian Takita",
+      "title": "Full-Stack Engineer",
+      "start": "2019-01",
+      "end": "2026-02",
+      "duration": "7 yrs 1 mo",
+      "location": "Remote",
+      "tags": [
+        "web",
+        "mobile",
+        "AI/ML",
+        "SaaS",
+        "Flutter",
+        "Angular",
+        "React",
+        "TypeScript",
+        "Firebase",
+        "AWS",
+        "Python",
+        "WordPress",
+        "PHP",
+        "full-stack",
+        "cross-platform",
+        "real-time",
+        "full-stack",
+        "lead"
+      ],
+      "headline": "Full-stack freelance engineer: web and mobile apps across industries",
+      "accomplishments": [
+        {
+          "text": "BestInform: European information platform — pixel-perfect Figma implementation, real-time support messaging. Angular 14, PrimeNG, Firebase",
+          "tags": [
+            "Angular",
+            "Firebase",
+            "real-time",
+            "SaaS"
+          ],
+          "impact": "client-project"
+        },
+        {
+          "text": "Guard App: Security service platform — admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot",
+          "tags": [
+            "Flutter",
+            "Angular",
+            "Firebase",
+            "mobile"
+          ],
+          "impact": "client-project"
+        },
+        {
+          "text": "Drivemond: Taxi and ride-hailing platform for Chicago — passenger and driver mobile apps with real-time matching and GPS tracking. Flutter, AWS",
+          "tags": [
+            "Flutter",
+            "AWS",
+            "real-time",
+            "mobile"
+          ],
+          "impact": "client-project"
+        },
+        {
+          "text": "Galler AI: AI-powered image generation and editing platform — React frontend with Figma design system; cropping, clipping, drawing tools",
+          "tags": [
+            "React",
+            "TypeScript",
+            "AI/ML"
+          ],
+          "impact": "client-project"
+        },
+        {
+          "text": "SafeSchoolz (Aegis Platform): AI safety platform detecting firearms and alerting authorities — built gun detection model (~85% mAP). Android, .NET, Python/Jupyter, Twilio",
+          "tags": [
+            "AI/ML",
+            "Python",
+            "Android",
+            ".NET"
+          ],
+          "impact": "client-project"
+        },
+        {
+          "text": "IIPM: Membership and certification platform for Irish pension specialists — member and admin portals. WordPress, PHP, JavaScript/jQuery, Stripe",
+          "tags": [
+            "WordPress",
+            "PHP",
+            "Stripe"
+          ],
+          "impact": "client-project"
+        }
+      ]
+    },
+    {
+      "company": "Censible",
+      "title": "Lead Product Developer",
+      "start": "2016-01",
+      "end": "2024-04",
+      "duration": "8 yrs 4 mos",
+      "location": "Greater New York City Area",
+      "tags": [
+        "fintech",
+        "ESG",
+        "analytics",
+        "JavaScript",
+        "TypeScript",
+        "SvelteJS",
+        "Node.js",
+        "PostgreSQL",
+        "full-stack",
+        "data visualization",
+        "analytics",
+        "lead",
+        "full-stack",
+        "product"
+      ],
+      "headline": "8-year ESG analytics platform — analyst portal, portfolio rebalancing, report generation",
+      "accomplishments": [
+        {
+          "text": "Built Martin Investments analyst portal with ESG rating algorithms, XLSX export handling 10,000+ rows, and SVG/PDF report generation",
+          "tags": [
+            "analytics",
+            "data visualization",
+            "fintech"
+          ],
+          "impact": "core-product"
+        },
+        {
+          "text": "Built ESG Portfolio Rebalancing system and ESG analytics platform",
+          "tags": [
+            "fintech",
+            "ESG",
+            "analytics"
+          ],
+          "impact": "core-product"
+        }
+      ]
+    },
+    {
+      "company": "SocialChorus",
+      "title": "Senior Software Engineer",
+      "start": "2018-02",
+      "end": "2018-08",
+      "duration": "7 mos",
+      "location": "Remote",
+      "tags": [
+        "SaaS",
+        "frontend",
+        "Svelte",
+        "React",
+        "JavaScript",
+        "ES6",
+        "frontend",
+        "migration",
+        "best practices",
+        "senior"
+      ],
+      "headline": "Frontend modernization: Backbone → Svelte/React, ES5 → ES6",
+      "accomplishments": [
+        {
+          "text": "Converted legacy Backbone frontend to Svelte & React",
+          "tags": [
+            "Svelte",
+            "React",
+            "migration",
+            "frontend"
+          ],
+          "impact": "modernization"
+        },
+        {
+          "text": "ES5 to ES6/ES2017 migration",
+          "tags": [
+            "JavaScript",
+            "ES6",
+            "migration"
+          ],
+          "impact": "modernization"
+        },
+        {
+          "text": "Created best practices for front-end component development",
+          "tags": [
+            "best practices",
+            "frontend",
+            "architecture"
+          ],
+          "impact": "process"
+        }
+      ]
+    },
+    {
+      "company": "Neo Innovation, Inc.",
+      "title": "Software Development Consultant",
+      "start": "2015-09",
+      "end": "2015-12",
+      "duration": "4 mos",
+      "location": "Greater New York City Area",
+      "tags": [
+        "CRM",
+        "research pipeline",
+        "document-as-interface",
+        "Salesforce",
+        "email integration",
+        "document-as-interface",
+        "semantic matching",
+        "consultant"
+      ],
+      "headline": "Document-as-interface research pipeline for Tenfore Holdings via Salesforce",
+      "accomplishments": [
+        {
+          "text": "Built a document-as-interface application for Tenfore Holdings — a research pipeline where executives email contacts and contextual notes, semantically matched to companies and contacts in Salesforce, then routed to the analyst team",
+          "tags": [
+            "document-as-interface",
+            "semantic matching",
+            "CRM",
+            "pipeline"
+          ],
+          "impact": "client-project"
+        }
+      ]
+    },
+    {
+      "company": "CrystalCommerce",
+      "title": "Senior Software Developer",
+      "start": "2015-01",
+      "end": "2015-09",
+      "duration": "9 mos",
+      "location": null,
+      "tags": [
+        "e-commerce",
+        "Ruby on Rails",
+        "Node.js",
+        "Backbone",
+        "Browserify",
+        "Gulp",
+        "migration",
+        "frontend",
+        "architecture",
+        "senior"
+      ],
+      "headline": "Rails migration + frontend re-architecture with Node.js/Browserify",
+      "accomplishments": [
+        {
+          "text": "Migrated production Rails app and re-architected the front end using Node.js, Browserify, Gulp, and Backbone",
+          "tags": [
+            "Rails",
+            "Node.js",
+            "migration",
+            "frontend",
+            "architecture"
+          ],
+          "impact": "modernization"
+        }
+      ]
+    },
+    {
+      "company": "Rundavoo",
+      "title": "Platform Architect / Lead Front End Developer",
+      "start": "2013-03",
+      "end": "2014-12",
+      "duration": "1 yr 10 mos",
+      "location": "Greater Los Angeles Area",
+      "tags": [
+        "social",
+        "mobile",
+        "web",
+        "HTML5",
+        "CSS3",
+        "Node.js",
+        "Browserify",
+        "Jasmine",
+        "Cloudflare",
+        "PhoneGap",
+        "reactive programming",
+        "cross-platform",
+        "responsive",
+        "architect",
+        "lead"
+      ],
+      "headline": "Google top 75 app — responsive multi-platform frontend architecture",
+      "accomplishments": [
+        {
+          "text": "Led front-end development for Rundavoo, a Google top 75 app in 2014 — responsive, multi-platform (desktop, tablet, mobile, server) application with CORS API integration",
+          "tags": [
+            "frontend",
+            "cross-platform",
+            "responsive",
+            "mobile"
+          ],
+          "impact": "core-product"
+        }
+      ]
+    },
+    {
+      "company": "Milyoni, Inc.",
+      "title": "Architect / Lead Developer",
+      "start": "2012-03",
+      "end": "2013-03",
+      "duration": "1 yr 1 mo",
+      "location": "Pleasanton, CA",
+      "tags": [
+        "entertainment",
+        "social",
+        "video",
+        "real-time",
+        "Node.js",
+        "Backbone.js",
+        "Rails",
+        "PostgreSQL",
+        "Redis",
+        "Heroku",
+        "real-time",
+        "architecture",
+        "mentoring",
+        "architect",
+        "lead"
+      ],
+      "headline": "Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount, Universal Music Group",
+      "accomplishments": [
+        {
+          "text": "Lead developer for Social Entertainment Platform including video, social marketing, gamification, real-time social interaction, and interactive engagements synced with video",
+          "tags": [
+            "video",
+            "real-time",
+            "social",
+            "entertainment"
+          ],
+          "impact": "core-product"
+        },
+        {
+          "text": "Platform used by Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group, Hearst Media, Starz, Ovation TV, Astro, Focus Features, Funimation, Sundance Now",
+          "tags": [
+            "enterprise",
+            "entertainment",
+            "scale"
+          ],
+          "impact": "client-portfolio"
+        },
+        {
+          "text": "Mentored junior & mid-level developers; proponent of flattening communication across the organization",
+          "tags": [
+            "mentoring",
+            "leadership"
+          ],
+          "impact": "process"
+        }
+      ]
+    },
+    {
+      "company": "TrueCar / honk.com",
+      "title": "Lead Developer → Senior Software Engineer",
+      "start": "2009-08",
+      "end": "2012-02",
+      "duration": "2 yrs 7 mos",
+      "location": "Santa Monica, CA",
+      "tags": [
+        "automotive",
+        "e-commerce",
+        "social",
+        "Ruby on Rails",
+        "Sinatra",
+        "Lucene",
+        "JavaScript",
+        "Chef",
+        "EC2",
+        "full-stack",
+        "devops",
+        "search",
+        "acquisition",
+        "lead",
+        "senior"
+      ],
+      "headline": "Led honk.com (acquired by TrueCar) — vehicle review platform for USAA, WSJ Autos",
+      "accomplishments": [
+        {
+          "text": "Led development of honk.com, a vehicle review and white-label platform used by USAA and Wall Street Journal Autos — acquired by TrueCar",
+          "tags": [
+            "leadership",
+            "acquisition",
+            "platform"
+          ],
+          "impact": "core-product"
+        },
+        {
+          "text": "Partnered on product vision for social car shopping that was key to the acquisition",
+          "tags": [
+            "product",
+            "acquisition",
+            "strategy"
+          ],
+          "impact": "business"
+        },
+        {
+          "text": "Senior member of advanced product team at TrueCar — introduced new products, partner integrations (WSJ.com, USAA.com), and devops automation",
+          "tags": [
+            "product",
+            "integrations",
+            "devops"
+          ],
+          "impact": "growth"
+        },
+        {
+          "text": "Chef scripts for server and workstation automation; high availability deployment on EC2 and Engine Yard",
+          "tags": [
+            "Chef",
+            "devops",
+            "EC2",
+            "infrastructure"
+          ],
+          "impact": "infrastructure"
+        }
+      ]
+    },
+    {
+      "company": "Pivotal Labs",
+      "title": "Agile Engineer",
+      "start": "2006-01",
+      "end": "2009-08",
+      "duration": "3 yrs 7 mos",
+      "location": null,
+      "tags": [
+        "consulting",
+        "agile",
+        "BDD",
+        "open source",
+        "Ruby on Rails",
+        "JavaScript",
+        "TDD",
+        "agile",
+        "XP",
+        "pair programming",
+        "mentoring",
+        "BDD",
+        "engineer",
+        "mentor",
+        "speaker"
+      ],
+      "headline": "Pivotal Labs: mentored 20+ startups, RailsConf speaker, BDD pioneer",
+      "accomplishments": [
+        {
+          "text": "Mentored developers across 20+ startups, bootstrapping their engineering process, team, and initial product",
+          "tags": [
+            "mentoring",
+            "consulting",
+            "startups"
+          ],
+          "impact": "community"
+        },
+        {
+          "text": "Speaker at RailsConf 2008",
+          "tags": [
+            "speaking",
+            "community",
+            "Rails"
+          ],
+          "impact": "community"
+        },
+        {
+          "text": "Leadership role in common code, practices, and open source (Erector, JS Test Server, Unison)",
+          "tags": [
+            "open source",
+            "leadership",
+            "best practices"
+          ],
+          "impact": "community"
+        },
+        {
+          "text": "Agile Development in the XP tradition: TDD, Pair Programming, Daily Standups, Retrospectives",
+          "tags": [
+            "agile",
+            "XP",
+            "TDD",
+            "pair programming"
+          ],
+          "impact": "process"
+        }
+      ]
+    },
+    {
+      "company": "Peer to Patent Project",
+      "title": "Consultant",
+      "start": "2007",
+      "end": null,
+      "duration": "project-based",
+      "location": null,
+      "tags": [
+        "legal",
+        "civic tech",
+        "patent",
+        "web development",
+        "crowdsourcing",
+        "civic tech",
+        "consultant"
+      ],
+      "headline": "Peer to Patent: crowdsourced patent prior art review for New York Law School",
+      "accomplishments": [
+        {
+          "text": "Key contributor to launching the Peer to Patent pilot application, led by New York Law School — a tool to allow the crowd to review and submit prior art for pending patents",
+          "tags": [
+            "civic tech",
+            "crowdsourcing",
+            "patent",
+            "legal"
+          ],
+          "impact": "civic"
+        }
+      ]
+    },
+    {
+      "company": "NASPP",
+      "title": "IT Analyst",
+      "start": "2004-02",
+      "end": "2006-01",
+      "duration": "1 yr 11 mos",
+      "location": null,
+      "tags": [
+        "CRM",
+        "finance",
+        "SQL Server",
+        "Rails",
+        ".NET",
+        "MS Access",
+        "ASP",
+        "database administration",
+        "reporting",
+        "analyst"
+      ],
+      "headline": "IT Analyst: SQL Server admin, internal CRM, sales reporting",
+      "accomplishments": [
+        {
+          "text": "SQL Server DB Admin",
+          "tags": [
+            "SQL Server",
+            "database administration"
+          ],
+          "impact": "infrastructure"
+        },
+        {
+          "text": "Developed internal CRM with Rails, .NET & MS Access",
+          "tags": [
+            "Rails",
+            ".NET",
+            "MS Access",
+            "CRM"
+          ],
+          "impact": "internal-tool"
+        },
+        {
+          "text": "Reports for Sales Trends and forecasting",
+          "tags": [
+            "reporting",
+            "analytics"
+          ],
+          "impact": "analytics"
+        }
+      ]
+    },
+    {
+      "company": "Flextronics",
+      "title": "Web Application Developer Intern",
+      "start": "2001-05",
+      "end": "2002-02",
+      "duration": "9 mos",
+      "location": null,
+      "tags": [
+        "corporate intranet",
+        "ASP",
+        "SQL Server",
+        "web development",
+        "intern"
+      ],
+      "headline": "Corporate intranet development with ASP and SQL Server",
+      "accomplishments": [
+        {
+          "text": "Developed corporate intranet using Microsoft technologies (ASP, SQL Server)",
+          "tags": [
+            "ASP",
+            "SQL Server",
+            "intranet"
+          ],
+          "impact": "internal-tool"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Firebase",
+      "category": "platform",
+      "tags": [
+        "database",
+        "backend",
+        "real-time"
+      ],
+      "years": 5
+    },
+    {
+      "name": "REST",
+      "category": "protocol",
+      "tags": [
+        "API",
+        "web"
+      ],
+      "years": 15
+    },
+    {
+      "name": "Flutter",
+      "category": "framework",
+      "tags": [
+        "mobile",
+        "cross-platform"
+      ],
+      "years": 3
+    },
+    {
+      "name": "Agentic Systems",
+      "category": "practice",
+      "tags": [
+        "AI/ML",
+        "agentic",
+        "architecture"
+      ],
+      "years": 2
+    },
+    {
+      "name": "Node.js",
+      "category": "runtime",
+      "tags": [
+        "backend",
+        "JavaScript"
+      ],
+      "years": 12
+    },
+    {
+      "name": "Spec-Driven Development",
+      "category": "practice",
+      "tags": [
+        "methodology",
+        "agentic"
+      ],
+      "years": null
+    },
+    {
+      "name": "Terraform",
+      "category": "infrastructure",
+      "tags": [
+        "IaC",
+        "devops"
+      ],
+      "years": null
+    },
+    {
+      "name": "FastAPI",
+      "category": "framework",
+      "tags": [
+        "backend",
+        "Python",
+        "API"
+      ],
+      "years": 2
+    },
+    {
+      "name": "Go",
+      "category": "language",
+      "tags": [
+        "backend",
+        "systems"
+      ],
+      "years": null
+    },
+    {
+      "name": "GraphQL",
+      "category": "protocol",
+      "tags": [
+        "API",
+        "web"
+      ],
+      "years": 5
+    },
+    {
+      "name": "TypeScript",
+      "category": "language",
+      "tags": [
+        "frontend",
+        "backend",
+        "full-stack"
+      ],
+      "years": 10
+    },
+    {
+      "name": "Azure",
+      "category": "cloud",
+      "tags": [
+        "infrastructure",
+        "cloud"
+      ],
+      "years": null
+    },
+    {
+      "name": "React",
+      "category": "framework",
+      "tags": [
+        "frontend",
+        "UI"
+      ],
+      "years": 8
+    },
+    {
+      "name": "AWS",
+      "category": "cloud",
+      "tags": [
+        "infrastructure",
+        "cloud"
+      ],
+      "years": 10
+    },
+    {
+      "name": "Graphene",
+      "category": "library",
+      "tags": [
+        "GraphQL",
+        "Python"
+      ],
+      "years": null
+    },
+    {
+      "name": "Agents",
+      "category": "practice",
+      "tags": [
+        "AI/ML",
+        "agentic",
+        "tooling"
+      ],
+      "years": null
+    },
+    {
+      "name": "Django",
+      "category": "framework",
+      "tags": [
+        "backend",
+        "Python"
+      ],
+      "years": null
+    },
+    {
+      "name": "Zig",
+      "category": "language",
+      "tags": [
+        "systems",
+        "performance"
+      ],
+      "years": 2
+    },
+    {
+      "name": "Context Engineering",
+      "category": "practice",
+      "tags": [
+        "AI/ML",
+        "agentic",
+        "architecture"
+      ],
+      "years": 10
+    },
+    {
+      "name": "Ruby on Rails",
+      "category": "framework",
+      "tags": [
+        "backend",
+        "web",
+        "Ruby"
+      ],
+      "years": 10
+    },
+    {
+      "name": "Python",
+      "category": "language",
+      "tags": [
+        "AI/ML",
+        "scripting",
+        "data"
+      ],
+      "years": 10
+    },
+    {
+      "name": "Supabase",
+      "category": "platform",
+      "tags": [
+        "database",
+        "backend",
+        "PostgreSQL"
+      ],
+      "years": null
+    },
+    {
+      "name": "Flask",
+      "category": "framework",
+      "tags": [
+        "backend",
+        "Python"
+      ],
+      "years": null
+    },
+    {
+      "name": "Rust",
+      "category": "language",
+      "tags": [
+        "systems",
+        "performance",
+        "safety"
+      ],
+      "years": 5
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "database",
+      "tags": [
+        "SQL",
+        "relational"
+      ],
+      "years": 15
+    },
+    {
+      "name": "CI/CD",
+      "category": "practice",
+      "tags": [
+        "devops",
+        "automation"
+      ],
+      "years": 15
+    },
+    {
+      "name": "Vue.js",
+      "category": "framework",
+      "tags": [
+        "frontend",
+        "JavaScript"
+      ],
+      "years": null
+    },
+    {
+      "name": "Angular",
+      "category": "framework",
+      "tags": [
+        "frontend",
+        "TypeScript"
+      ],
+      "years": 3
+    },
+    {
+      "name": "C#",
+      "category": "language",
+      "tags": [
+        ".NET",
+        "backend"
+      ],
+      "years": null
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "tags": [
+        "validation",
+        "TypeScript"
+      ],
+      "years": null
+    },
+    {
+      "name": "WebRTC",
+      "category": "protocol",
+      "tags": [
+        "real-time",
+        "video",
+        "streaming"
+      ],
+      "years": 2
+    },
+    {
+      "name": "SQLAlchemy",
+      "category": "library",
+      "tags": [
+        "database",
+        "Python",
+        "ORM"
+      ],
+      "years": null
+    },
+    {
+      "name": "Next.js",
+      "category": "framework",
+      "tags": [
+        "frontend",
+        "React",
+        "SSR"
+      ],
+      "years": 3
+    },
+    {
+      "name": "Claude",
+      "category": "AI",
+      "tags": [
+        "AI/ML",
+        "LLM",
+        "agentic"
+      ],
+      "years": 2
+    },
+    {
+      "name": "Docker",
+      "category": "infrastructure",
+      "tags": [
+        "containers",
+        "devops"
+      ],
+      "years": 8
+    },
+    {
+      "name": "Google Cloud",
+      "category": "cloud",
+      "tags": [
+        "infrastructure",
+        "cloud"
+      ],
+      "years": null
+    },
+    {
+      "name": "SvelteJS",
+      "category": "framework",
+      "tags": [
+        "frontend",
+        "UI"
+      ],
+      "years": 6
+    }
+  ],
+  "all_tags": [
+    ".NET",
+    "AI agents",
+    "AI/ML",
+    "API",
+    "ASP",
+    "AWS",
+    "Android",
+    "Angular",
+    "BDD",
+    "Backbone",
+    "Backbone.js",
+    "Browserify",
+    "CRDT",
+    "CRM",
+    "CSS3",
+    "Chef",
+    "Cloudflare",
+    "Docker",
+    "EC2",
+    "ES6",
+    "ESG",
+    "FastAPI",
+    "Firebase",
+    "Flutter",
+    "GraphQL",
+    "Gulp",
+    "HTML5",
+    "Heroku",
+    "IaC",
+    "Jasmine",
+    "JavaScript",
+    "LLM",
+    "Lucene",
+    "MS Access",
+    "Node.js",
+    "ORM",
+    "PHP",
+    "PhoneGap",
+    "PostgreSQL",
+    "Python",
+    "Rails",
+    "React",
+    "Redis",
+    "Ruby",
+    "Ruby on Rails",
+    "Rust",
+    "SDK",
+    "SQL",
+    "SQL Server",
+    "SSR",
+    "SaaS",
+    "Salesforce",
+    "Sinatra",
+    "Stripe",
+    "Svelte",
+    "SvelteJS",
+    "TDD",
+    "TypeScript",
+    "UI",
+    "WebRTC",
+    "WordPress",
+    "XP",
+    "Zig",
+    "acquisition",
+    "agentic",
+    "agentic workflows",
+    "agile",
+    "analysis",
+    "analyst",
+    "analytics",
+    "architect",
+    "architecture",
+    "automation",
+    "automotive",
+    "backend",
+    "best practices",
+    "civic tech",
+    "cloud",
+    "community",
+    "consultant",
+    "consulting",
+    "containers",
+    "context engineering",
+    "corporate intranet",
+    "correspondence",
+    "creator",
+    "cross-platform",
+    "crowdsourcing",
+    "data",
+    "data visualization",
+    "database",
+    "database administration",
+    "developer tooling",
+    "devops",
+    "document-as-interface",
+    "e-commerce",
+    "email integration",
+    "engineer",
+    "enterprise",
+    "entertainment",
+    "event-driven",
+    "finance",
+    "fintech",
+    "frontend",
+    "full-stack",
+    "infrastructure",
+    "innovation",
+    "integrations",
+    "intern",
+    "intranet",
+    "lead",
+    "leadership",
+    "legal",
+    "mentor",
+    "mentoring",
+    "methodology",
+    "migration",
+    "mobile",
+    "multimodal",
+    "ontology",
+    "open source",
+    "open-source",
+    "pair programming",
+    "patent",
+    "performance",
+    "pipeline",
+    "platform",
+    "product",
+    "reactive programming",
+    "real-time",
+    "real-time systems",
+    "relational",
+    "reporting",
+    "research pipeline",
+    "responsive",
+    "safety",
+    "scale",
+    "scripting",
+    "search",
+    "semantic matching",
+    "senior",
+    "social",
+    "speaker",
+    "speaking",
+    "spec-driven development",
+    "startups",
+    "strategy",
+    "streaming",
+    "systems",
+    "team-lead",
+    "testing",
+    "tooling",
+    "validation",
+    "video",
+    "web",
+    "web development"
+  ]
+}

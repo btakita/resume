@@ -11,6 +11,9 @@ endif
 $(PDF): $(MD) $(CSS) profiles/$(PROFILE).toml build.py
 	python3 build.py --profile $(PROFILE) --output $(PDF)
 
-.PHONY: clean
+.PHONY: test clean
+test:
+	mise exec -- pytest tests/ -v
+
 clean:
 	rm -f BrianTakita*.pdf /tmp/resume.html
