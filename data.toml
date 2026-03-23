@@ -264,6 +264,26 @@ category = "cloud"
 tags = ["infrastructure", "cloud"]
 years = 10
 
+[skills.aws_lambda]
+display = "AWS Lambda"
+category = "cloud"
+tags = ["serverless", "cloud", "AWS"]
+
+[skills.aws_cdk]
+display = "AWS CDK"
+category = "infrastructure"
+tags = ["IaC", "cloud", "AWS"]
+
+[skills.grafana]
+display = "Grafana"
+category = "tool"
+tags = ["monitoring", "observability", "devops"]
+
+[skills.timescaledb]
+display = "TimescaleDB"
+category = "database"
+tags = ["time-series", "PostgreSQL", "analytics"]
+
 [skills.terraform]
 display = "Terraform"
 category = "infrastructure"
@@ -343,8 +363,8 @@ tags = ["WebRTC", "infrastructure", "real-time"]
 impact = "infrastructure"
 
 [[experience.accomplishments]]
-text = "Developed multimodal AI pipeline integrating LLM, TTS, and lip-sync models"
-tags = ["AI/ML", "pipeline", "multimodal"]
+text = "Developed multimodal AI pipeline integrating LLM, TTS, lip-sync models, image generation, and live video/audio/text avatars"
+tags = ["AI/ML", "pipeline", "multimodal", "avatars", "image generation"]
 impact = "core-product"
 
 [[experience.accomplishments]]
@@ -422,7 +442,7 @@ tags = ["Ruby", "testing", "BDD"]
 impact = "community"
 
 [[experience.accomplishments]]
-text = "Created domain ontology system (philosophy, 2014): structuring agent reasoning across domains with extensible scope, context, and resolution"
+text = "Created domain ontology system (existence-lang, formerly philosophy, 2014): structuring agent reasoning across domains with extensible scope, context, and resolution — gives agents and humans a consistent vocabulary across code, correspondence, and data contexts"
 tags = ["context engineering", "ontology", "architecture"]
 impact = "foundation"
 
@@ -468,8 +488,8 @@ tags = ["AI/ML", "Python", "Android", ".NET"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "Menu.com: Administered .NET API instances on AWS ECS with IAM for food ordering platform"
-tags = ["AWS", "ECS", "IAM", ".NET", "DevOps", "Docker"]
+text = "Menu.com: Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API instances on ECS for food ordering platform"
+tags = ["AWS", "ECS", "IAM", ".NET", "DevOps", "Docker", "Lambda", "CDK", "serverless"]
 impact = "client-project"
 
 [[experience.accomplishments]]

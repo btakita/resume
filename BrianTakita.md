@@ -16,26 +16,26 @@ Greater Boston, MA |
 
 ## Summary
 
-Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel.
+Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (existence-lang, 2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel.
 
 ## Skills
 
-Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, Supabase, Firebase, AWS, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, TimescaleDB, Supabase, Firebase, AWS, AWS Lambda, AWS CDK, Grafana, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
 
 ## Career Highlights
 
-- **Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC
+- **Presence AI** — Architected real-time multimodal AI avatar pipeline — live video avatars, audio avatars, text avatars, and image generation on NVIDIA H100 GPUs via WebRTC
 - **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
 - **TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
 - **Censible** — 8-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system
-- **Context Engineering** — Domain ontology system (extensible) since 2014 — structuring agent reasoning across domains
+- **Context Engineering** — Domain ontology system (existence-lang) since 2014 — giving agents and humans a consistent vocabulary across code, correspondence, and data contexts
 - **Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems
 
 ## AI Products Shipped
 
-- **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
+- **Presence AI Avatar Pipeline** — Architected and shipped a production real-time multimodal AI pipeline: live video avatars (facial landmark detection, lip-sync inference, frame sequencing), audio avatars, text avatars, and image generation on NVIDIA H100 GPUs via WebRTC. Defined the agentic development methodology used by the engineering team.
 - **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. Includes Whisper-powered diarized transcription for voice messages, social media posting with scheduled delivery, and bidirectional sync across providers. Prototyped in Python, then spec-driven rewrite to Rust in under 1 day. Used daily for professional correspondence.
 - **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, CRDT-based streaming merge for real-time human+agent co-editing without conflicts. Used as primary development interface.
 - **agent-kit** — Built a Rust SDK for CLI tools integrating with AI agent loops: session management, tmux pane routing, instruction file discovery (AGENTS.md/CLAUDE.md), and snapshot-based state tracking. Powers agent-doc and corky's agent integrations.
@@ -54,6 +54,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Developed an iterative agentic development methodology: lightweight living specs refined through closed-loop agent auditing and continuous human-in-the-loop feedback, accelerating design velocity while staying in flow with the emerging design
 - Built reusable async primitives for high-quality agent-authored code and human comprehension: task lifecycle management, scoped cancellation, lazily resolved dependencies that decouple initialization order and cascade invalidation through the context, runtime profile logging, and stable cross-stack naming to maintain conceptual coherence for both human and agent reasoning
 - Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
+- Set up Grafana-based resource monitoring for GPU compute infrastructure on RunPod
 
 ### Open Source — _Creator / Solo Developer_
 
@@ -101,7 +102,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - _[RSpec](https://rspec.info/)_ — Core contributor to the Ruby Behavior Driven Development (BDD) testing framework
 - _[backbone-signal](https://github.com/btakita/backbone-signal)_ — Creator. Signal & Slots reactive API for Backbone Models
 - _[Screw Unit](https://github.com/nkallen/screw-unit)_ — Co-creator. BDD testing framework for JavaScript
-- _[philosophy](https://github.com/btakita/philosophy)_ — Creator. Domain ontology system (extensible) defining scope, context, resolution, and abstraction — structuring agent reasoning across domains (since 2014)
+- _[existence-lang](https://github.com/btakita/existence-lang)_ — Creator. Domain ontology system defining scope, context, resolution, and abstraction — gives agents and humans a consistent vocabulary across code, correspondence, and data contexts (since 2014, formerly philosophy)
 - _[Desert](https://github.com/pivotal/desert)_ — Co-creator. Rails plugin framework with model/view/controller sharing
 
 ### Brian Takita — _Full-Stack Engineer_
@@ -174,6 +175,7 @@ Led development of honk.com, a vehicle review and white-label platform used by U
 At TrueCar, senior member of advanced product team — introduced new products, partner integrations (WSJ.com, USAA.com), and devops automation (Chef for EC2, workstations, datacenter servers). Rails 3 upgrade. Led initiatives to share agile knowledge across the organization.
 
 - Full-stack Ruby on Rails + Sinatra development with Lucene search
+- Led security review and compliance process for USAA partnership integration
 - High Availability deployment on EC2 and Engine Yard
 - JavaScript client/server event framework ([jelly](https://github.com/honkster/jelly))
 - Chef scripts for server and workstation automation
