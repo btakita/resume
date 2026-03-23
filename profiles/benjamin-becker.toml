@@ -1,0 +1,64 @@
+# Profile for Benjamin Becker — AI agent infra, real-time pipelines, Rust/Python/TS on AWS
+
+[highlight]
+phrases = [
+  # Agent infra — his top interest area
+  "agent loop harness engineering",
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agentic development methodology",
+  "agent loops",
+  "agent-authored code",
+  "human and agent reasoning",
+  "document-as-interface",
+  "persistent AI conversations",
+  "per-topic and per-contact agent context",
+  "snapshot-based diffing",
+
+  # Real-time multimodal pipelines
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "Multimodal Avatar Agents",
+  "LatentSync lip-sync",
+  "facial landmark detection",
+  "WebRTC",
+  "LiveKit",
+  "multimodal",
+
+  # Systems / Rust
+  "git-native correspondence system",
+  "crash-safe incremental IMAP sync",
+  "streaming merge",
+  "3-way merge",
+  "concurrent editing",
+  "CRDT",
+
+  # Context engineering
+  "context engineering",
+  "domain ontology",
+  "reactive programming",
+
+  # Career highlights
+  "spec-driven",
+  "20+ years",
+  "multi-service AI monorepo",
+]
+
+skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "AWS",
+  "Docker",
+  "WebRTC",
+  "GraphQL",
+  "PostgreSQL",
+  "Agentic Systems",
+]
+
+[sections]
+experience = ["Presence AI", "Open Source", "Brian Takita", "Censible", "Milyoni", "TrueCar", "Pivotal Labs"]
+include = ["Summary", "Skills", "Career Highlights", "AI Products Shipped", "Experience", "Education"]

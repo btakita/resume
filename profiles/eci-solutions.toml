@@ -1,0 +1,80 @@
+# Profile for ECI Solutions — AI agents that write/maintain code, legacy ERP modernization
+# Role: AI Expert / Prompt Architect — building agents to modernize 20-year-old ERP systems
+# Recruiter: Justin Caird (ProSearch Strategies), working with ECI CTO
+
+[highlight]
+phrases = [
+  # Agent tooling — their core need
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agentic development methodology",
+  "agent loops",
+  "agent-authored code",
+  "human and agent reasoning",
+  "document-as-interface",
+  "persistent AI conversations",
+  "snapshot-based diffing",
+
+  # AI pipeline experience
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "multimodal",
+  "live video avatars",
+  "audio avatars",
+  "text avatars",
+  "image generation",
+
+  # Systems / modernization
+  "git-native correspondence system",
+  "streaming merge",
+  "CRDT",
+  "concurrent editing",
+
+  # Context engineering — key for ERP modernization
+  "context engineering",
+  "domain ontology",
+  "existence-lang",
+  "consistent vocabulary",
+  "spec-driven",
+  "diarized transcription",
+  "social media posting",
+
+  # Legacy modernization signals
+  "20+ years",
+  "Converted legacy Backbone",
+  "Migrated production Rails",
+  "multi-service AI monorepo",
+]
+
+skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "Agentic Systems",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "C#",
+  "Docker",
+  "AWS",
+  "PostgreSQL",
+  "CI/CD",
+  "Claude",
+  "Node.js",
+  "React",
+  ".NET",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "SocialChorus",
+  "Censible",
+  "Milyoni",
+  "TrueCar",
+  "Pivotal Labs",
+  "NASPP",
+]
+include = ["Summary", "Skills", "Career Highlights", "AI Products Shipped", "Experience", "Education"]

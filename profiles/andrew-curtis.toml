@@ -1,0 +1,122 @@
+# Senior Full-Stack Software Engineer (Python / React)
+# Recruiter: Andrew Curtis
+# 6-month contract to hire
+# Must-have: Python backend, React/TypeScript, REST/GraphQL, CI/CD, system design
+# Preferred: AWS, Docker, Kubernetes, data pipelines, large datasets
+
+[highlight]
+phrases = [
+  # Python / backend
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "SQLAlchemy",
+  "Graphene",
+
+  # React / frontend
+  "React",
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "Svelte",
+  "Angular",
+
+  # APIs
+  "REST",
+  "GraphQL",
+  "API",
+  "CORS",
+
+  # Cloud / infra
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Docker",
+  "EC2",
+  "Terraform",
+  "Heroku",
+  "Cloudflare",
+
+  # Databases / data
+  "PostgreSQL",
+  "Postgres",
+  "MongoDB",
+  "Redis",
+  "Firebase",
+  "TimescaleDB",
+  "Supabase",
+  "SQL Server",
+  "10,000+ rows",
+  "data pipelines",
+
+  # CI/CD / testing
+  "CI/CD",
+  "TDD",
+  "automated testing",
+  "Chef",
+  "Behavior Driven Development",
+
+  # System design / architecture
+  "multi-service AI monorepo",
+  "scalable",
+  "pipeline",
+  "Node.js",
+
+  # AI-assisted development — they mention this
+  "agentic development methodology",
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agent-authored code",
+
+  # Real-time / event-driven
+  "real-time",
+  "event-driven",
+  "reactive programming",
+  "WebRTC",
+  "streaming",
+
+  # Career signals
+  "full-stack",
+  "Full-stack",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "ESG Portfolio Rebalancing",
+  "Google top 75 app",
+  "Speaker at RailsConf 2008",
+  "NVIDIA H100 GPUs",
+]
+
+skills = [
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "TypeScript",
+  "React",
+  "REST",
+  "GraphQL",
+  "AWS",
+  "Docker",
+  "PostgreSQL",
+  "Node.js",
+  "CI/CD",
+  "Agents",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "SocialChorus",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Rundavoo",
+  "Pivotal Labs",
+]
