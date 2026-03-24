@@ -1,12 +1,12 @@
 # Senior Full-Stack Software Engineer (Python / React)
-# Recruiter: Andrew Curtis
-# 6-month contract to hire
-# Must-have: Python backend, React/TypeScript, REST/GraphQL, CI/CD, system design
-# Preferred: AWS, Docker, Kubernetes, data pipelines, large datasets
+# Recruiter: Andrew Curtis @ Occam's Group → FTI → Biostatistics (gov)
+# 6-month contract to hire, $110/hr 1099
+# Key: Python backend + React frontend, AI-forward, biostatistics/government
+# Andrew's guidance: highlight full-stack Python/React, AI is a plus not core
 
 [highlight]
 phrases = [
-  # Python / backend
+  # Python / backend — PRIMARY emphasis per Andrew
   "Python",
   "Django",
   "FastAPI",
@@ -14,7 +14,7 @@ phrases = [
   "SQLAlchemy",
   "Graphene",
 
-  # React / frontend
+  # React / frontend — PRIMARY emphasis per Andrew
   "React",
   "TypeScript",
   "JavaScript",
@@ -38,7 +38,7 @@ phrases = [
   "Heroku",
   "Cloudflare",
 
-  # Databases / data
+  # Databases / data — biostatistics = data-heavy
   "PostgreSQL",
   "Postgres",
   "MongoDB",
@@ -63,7 +63,7 @@ phrases = [
   "pipeline",
   "Node.js",
 
-  # AI-assisted development — they mention this
+  # AI — secondary but "AI-forward" was noted
   "agentic development methodology",
   "closed-loop agentic workflows",
   "self-auditing development infrastructure",
@@ -76,13 +76,31 @@ phrases = [
   "WebRTC",
   "streaming",
 
+  # Biostatistics / math / research / ML angle — from call
+  "Engineering Physics",
+  "math",
+  "statistics",
+  "research",
+  "machine learning",
+  "diffusion",
+  "LatentSync",
+  "VAE decode",
+  "denoising",
+  "landmark temporal smoothing",
+  "One Euro filter",
+  "Whisper",
+  "inference",
+
+  # Security / government context
+  "security review",
+  "USAA",
+
   # Career signals
   "full-stack",
   "Full-stack",
   "20+ years",
   "20+ startups",
   "acquired by TrueCar",
-  "Engineering Physics",
   "Social Entertainment Platform",
   "Warner Brothers",
   "ESG Portfolio Rebalancing",

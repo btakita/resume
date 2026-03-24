@@ -53,7 +53,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Architected a multi-service AI monorepo with closed-loop agentic workflows and self-auditing development infrastructure (Claude Code / Codex)
 - Developed an iterative agentic development methodology: lightweight living specs refined through closed-loop agent auditing and continuous human-in-the-loop feedback, accelerating design velocity while staying in flow with the emerging design
 - Built reusable async primitives for high-quality agent-authored code and human comprehension: task lifecycle management, scoped cancellation, lazily resolved dependencies that decouple initialization order and cascade invalidation through the context, runtime profile logging, and stable cross-stack naming to maintain conceptual coherence for both human and agent reasoning
-- Improved lip-sync quality through landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
+- Improved lip-sync quality through One Euro filter landmark temporal smoothing, LatentSync model upgrades, and optimized Whisper audio feature extraction via improved audio stream batching
 - Set up Grafana-based resource monitoring for GPU compute infrastructure on RunPod
 
 ### <span class="company">Open Source</span> <span class="dates">2006 - Present</span>
