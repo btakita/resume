@@ -1,0 +1,117 @@
+# Southwest Airlines — Python/Java Developer, AWS, SQL-to-DynamoDB Migration
+# Recruiter: Janaki Bhoi (Enfycon Inc.)
+# 1099 contract, 12 months, remote (EST/CST), $105/hr
+# Must-have: 15+ years exp, Java→Python, AWS, Terraform, DynamoDB, API
+
+[highlight]
+# Phrases to auto-bold — emphasize Python, AWS, migration, DynamoDB, backend
+phrases = [
+  # Python / backend core
+  "Python",
+  "Java",
+  "TypeScript",
+  "JavaScript",
+  "Django",
+  "FastAPI",
+  "Flask",
+
+  # AWS / cloud / infrastructure
+  "AWS",
+  "Terraform",
+  "Docker",
+  "ECS",
+  "EC2",
+  "Heroku",
+  "Cloudflare",
+
+  # Databases / migration
+  "DynamoDB",
+  "PostgreSQL",
+  "Postgres",
+  "MongoDB",
+  "Redis",
+  "Firebase",
+  "SQL Server",
+  "database",
+  "migration",
+
+  # API / microservices / architecture
+  "API",
+  "REST",
+  "GraphQL",
+  "CORS",
+  "multi-service AI monorepo",
+  "microservices",
+  "backend",
+  "pipeline",
+  "scalable",
+
+  # Event-driven / streaming / real-time
+  "real-time",
+  "event-driven",
+  "reactive programming",
+  "event framework",
+  "streaming",
+  "real-time video pipeline",
+  "real-time social interaction",
+  "event-driven relational algebra",
+
+  # Backend patterns
+  "async primitives",
+  "task lifecycle management",
+  "scoped cancellation",
+  "crash-safe",
+  "content hashing",
+  "concurrent editing",
+  "cloud",
+  "infrastructure",
+
+  # CI/CD / DevOps
+  "CI/CD",
+  "Chef",
+  "GitLab",
+
+  # Differentiators — AI / real-time
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "LiveKit",
+  "multimodal",
+  "Whisper audio feature extraction",
+
+  # Career signals
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "10,000+ rows",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Python",
+  "AWS",
+  "Terraform",
+  "Docker",
+  "PostgreSQL",
+  "REST",
+  "Node.js",
+  "TypeScript",
+  "CI/CD",
+  "Django",
+  "FastAPI",
+  "Redis",
+]
+
+[sections]
+# Focus on experiences showcasing Python, AWS, migration, backend, infrastructure
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Pivotal Labs",
+]

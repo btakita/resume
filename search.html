@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brian Takita — Experience Explorer</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --card: #fff;
+    --border: #e0e0e0;
+    --text: #1a1a1a;
+    --muted: #666;
+    --accent: #2563eb;
+    --accent-light: #dbeafe;
+    --tag-bg: #f0f0f0;
+    --tag-active: #2563eb;
+    --tag-active-text: #fff;
+    --highlight: #fef3c7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); margin-bottom: 1.5rem; font-size: 0.9rem; }
+  .subtitle a { color: var(--accent); text-decoration: none; }
+  .subtitle a:hover { text-decoration: underline; }
+  .search-box {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box:focus { border-color: var(--accent); }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+  .tag {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    background: var(--tag-bg);
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s;
+    border: 1px solid transparent;
+  }
+  .tag:hover { border-color: var(--accent); }
+  .tag.active {
+    background: var(--tag-active);
+    color: var(--tag-active-text);
+  }
+  .tag .count {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    margin-left: 0.2rem;
+  }
+  .results-count { color: var(--muted); font-size: 0.85rem; margin-bottom: 1rem; }
+  .experience {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.2s;
+  }
+  .experience:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .experience h3 { font-size: 1.1rem; margin-bottom: 0.15rem; }
+  .experience .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .experience .headline { font-style: italic; color: var(--muted); margin-bottom: 0.75rem; font-size: 0.9rem; }
+  .experience ul { padding-left: 1.25rem; }
+  .experience li { margin-bottom: 0.35rem; font-size: 0.9rem; }
+  .experience .exp-tags { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .experience .exp-tag {
+    padding: 0.15rem 0.4rem;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    background: var(--tag-bg);
+  }
+  .experience .exp-tag.matched {
+    background: var(--accent-light);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  mark { background: var(--highlight); padding: 0 2px; border-radius: 2px; }
+  .hidden { display: none; }
+  .clear-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .clear-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .controls { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<h1>Brian Takita</h1>
+<p class="subtitle">Experience Explorer &mdash; <a href="./BrianTakita.pdf">Download PDF</a> | <a href="https://linkedin.com/in/briantakita">LinkedIn</a> | <a href="https://github.com/btakita">GitHub</a></p>
+
+<input type="text" class="search-box" id="search" placeholder="Search experiences, skills, accomplishments..." autofocus>
+
+<div class="controls">
+  <span class="results-count" id="results-count"></span>
+  <button class="clear-btn" id="clear-tags" style="display:none">Clear filters</button>
+</div>
+
+<div class="tags" id="tags"></div>
+<div id="results"></div>
+
+<script>
+let DATA = null;
+let activeTags = new Set();
+let searchQuery = '';
+
+async function loadData() {
+  const resp = await fetch('./search-index.json');
+  DATA = await resp.json();
+  renderTags();
+  renderResults();
+}
+
+function renderTags() {
+  if (!DATA) return;
+  const container = document.getElementById('tags');
+  // Count tag frequency
+  const tagCounts = {};
+  for (const exp of DATA.experiences) {
+    const allTags = new Set([...exp.tags, ...exp.accomplishments.flatMap(a => a.tags)]);
+    for (const t of allTags) {
+      tagCounts[t] = (tagCounts[t] || 0) + 1;
+    }
+  }
+  // Sort by frequency desc
+  const sorted = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+  container.innerHTML = sorted.map(([tag, count]) =>
+    `<span class="tag${activeTags.has(tag) ? ' active' : ''}" data-tag="${tag}">${tag}<span class="count">${count}</span></span>`
+  ).join('');
+  container.querySelectorAll('.tag').forEach(el => {
+    el.addEventListener('click', () => {
+      const tag = el.dataset.tag;
+      if (activeTags.has(tag)) activeTags.delete(tag);
+      else activeTags.add(tag);
+      renderTags();
+      renderResults();
+    });
+  });
+  document.getElementById('clear-tags').style.display = activeTags.size > 0 ? '' : 'none';
+}
+
+function matchesSearch(text) {
+  if (!searchQuery) return true;
+  return text.toLowerCase().includes(searchQuery.toLowerCase());
+}
+
+function highlightText(text) {
+  if (!searchQuery) return text;
+  const re = new RegExp(`(${searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+function scoreExperience(exp) {
+  let score = 0;
+  const allTags = new Set([...exp.tags, ...exp.accomplishments.flatMap(a => a.tags)]);
+  for (const tag of activeTags) {
+    if (allTags.has(tag)) score += 10;
+  }
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    if (exp.company.toLowerCase().includes(q)) score += 5;
+    if (exp.title.toLowerCase().includes(q)) score += 5;
+    if (exp.headline && exp.headline.toLowerCase().includes(q)) score += 3;
+    for (const a of exp.accomplishments) {
+      if (a.text.toLowerCase().includes(q)) score += 2;
+    }
+    for (const t of allTags) {
+      if (t.toLowerCase().includes(q)) score += 1;
+    }
+  }
+  return score;
+}
+
+function renderResults() {
+  if (!DATA) return;
+  const container = document.getElementById('results');
+  const countEl = document.getElementById('results-count');
+
+  let filtered = DATA.experiences;
+
+  // Filter by active tags
+  if (activeTags.size > 0) {
+    filtered = filtered.filter(exp => {
+      const allTags = new Set([...exp.tags, ...exp.accomplishments.flatMap(a => a.tags)]);
+      for (const tag of activeTags) {
+        if (allTags.has(tag)) return true;
+      }
+      return false;
+    });
+  }
+
+  // Filter by search query
+  if (searchQuery) {
+    filtered = filtered.filter(exp => {
+      if (matchesSearch(exp.company)) return true;
+      if (matchesSearch(exp.title)) return true;
+      if (exp.headline && matchesSearch(exp.headline)) return true;
+      for (const a of exp.accomplishments) {
+        if (matchesSearch(a.text)) return true;
+      }
+      const allTags = [...exp.tags, ...exp.accomplishments.flatMap(a => a.tags)];
+      for (const t of allTags) {
+        if (matchesSearch(t)) return true;
+      }
+      return false;
+    });
+  }
+
+  // Sort by score
+  if (activeTags.size > 0 || searchQuery) {
+    filtered.sort((a, b) => scoreExperience(b) - scoreExperience(a));
+  }
+
+  countEl.textContent = `${filtered.length} of ${DATA.experiences.length} experiences`;
+
+  container.innerHTML = filtered.map(exp => {
+    const allTags = [...new Set([...exp.tags, ...exp.accomplishments.flatMap(a => a.tags)])].sort();
+    const meta = [exp.start, exp.end || 'Present'].join(' \u2013 ');
+    const metaExtra = [exp.duration, exp.location].filter(Boolean).join(' | ');
+
+    const accHtml = exp.accomplishments
+      .filter(a => !searchQuery || matchesSearch(a.text) || a.tags.some(t => matchesSearch(t)))
+      .map(a => `<li>${highlightText(a.text)}</li>`)
+      .join('');
+
+    const tagsHtml = allTags.map(t =>
+      `<span class="exp-tag${activeTags.has(t) ? ' matched' : ''}">${t}</span>`
+    ).join('');
+
+    return `<div class="experience">
+      <h3>${highlightText(exp.company)} &mdash; <em>${highlightText(exp.title)}</em></h3>
+      <div class="meta">${meta}${metaExtra ? ' (' + metaExtra + ')' : ''}</div>
+      ${exp.headline ? `<div class="headline">${highlightText(exp.headline)}</div>` : ''}
+      ${accHtml ? `<ul>${accHtml}</ul>` : ''}
+      <div class="exp-tags">${tagsHtml}</div>
+    </div>`;
+  }).join('');
+}
+
+document.getElementById('search').addEventListener('input', (e) => {
+  searchQuery = e.target.value.trim();
+  renderResults();
+});
+
+document.getElementById('clear-tags').addEventListener('click', () => {
+  activeTags.clear();
+  renderTags();
+  renderResults();
+});
+
+loadData();
+</script>
+</body>
+</html>

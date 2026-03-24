@@ -1,0 +1,135 @@
+# NextEra Analytics — Full-Stack SDE, New Product Engineering
+# Recruiter: Lucas Noble (TrueSource)
+# 1099 contract, 24 months, remote
+# Rate: $140/hr
+# Stack: Python, Rust, AWS serverless, Vue 3, Grafana, TimescaleDB
+
+[highlight]
+# Phrases to auto-bold — emphasize Python, Rust, AWS, Vue, data/analytics
+phrases = [
+  # Core stack
+  "Python",
+  "Rust",
+  "TypeScript",
+  "Vue.js",
+  "Vue 3",
+
+  # AWS / cloud / infrastructure
+  "AWS",
+  "AWS CDK",
+  "Lambda",
+  "serverless",
+  "Fargate",
+  "Docker",
+  "EC2",
+  "ECS",
+  "Heroku",
+  "Cloudflare",
+  "Terraform",
+  "cloud",
+  "infrastructure",
+
+  # Databases / data
+  "PostgreSQL",
+  "Postgres",
+  "TimescaleDB",
+  "MongoDB",
+  "Redis",
+  "Firebase",
+  "SQL Server",
+  "database",
+  "10,000+ rows",
+
+  # Monitoring / observability / compliance
+  "Grafana",
+  "observability",
+  "security review",
+  "compliance",
+  "USAA",
+
+  # API / architecture
+  "API",
+  "REST",
+  "GraphQL",
+  "CORS",
+  "multi-service AI monorepo",
+  "microservices",
+  "pipeline",
+  "backend",
+
+  # Analytics / forecasting / optimization
+  "analytics",
+  "ESG rating algorithms",
+  "forecasting",
+  "optimization",
+  "data visualization",
+  "report generation",
+  "XLSX export",
+
+  # Event-driven / real-time
+  "real-time",
+  "event-driven",
+  "reactive programming",
+  "streaming",
+  "real-time video pipeline",
+  "event-driven relational algebra",
+
+  # Backend patterns
+  "async primitives",
+  "task lifecycle management",
+  "scoped cancellation",
+  "crash-safe",
+  "content hashing",
+  "concurrent editing",
+
+  # CI/CD / DevOps / Agile
+  "CI/CD",
+  "Chef",
+  "agile",
+  "TDD",
+  "Pair Programming",
+
+  # Differentiators
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "multimodal",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Warner Brothers",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Python",
+  "Rust",
+  "TypeScript",
+  "Vue.js",
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Grafana",
+  "TimescaleDB",
+  "Docker",
+  "PostgreSQL",
+  "REST",
+  "GraphQL",
+  "Node.js",
+  "CI/CD",
+  "FastAPI",
+  "React",
+  "Terraform",
+]
+
+[sections]
+# Focus on experiences showcasing Python, Rust, AWS, analytics, full-stack
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Censible",
+  "Brian Takita",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Pivotal Labs",
+]

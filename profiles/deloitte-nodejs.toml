@@ -1,0 +1,109 @@
+# Deloitte — NodeJS Backend Engineer
+# Recruiter: Diksha Jaiswal (Bitsoft International)
+# W2 contract, 6+ months, 100% remote, $60/hr
+# Must-have: NodeJS (6-9 yrs), AWS (ECS, DocDB, IAM), Kafka, NoSQL
+# Focus: CDC/streaming ingestion pipelines, AWS microservices
+
+[highlight]
+# Phrases to auto-bold — emphasize Node.js, AWS, streaming, event-driven, microservices
+phrases = [
+  # Node.js / backend core
+  "Node.js",
+  "NodeJS",
+  "TypeScript",
+  "JavaScript",
+  "Browserify",
+
+  # Streaming / event-driven / CDC
+  "real-time",
+  "streaming",
+  "event-driven",
+  "reactive programming",
+  "event framework",
+  "pipeline",
+  "real-time video pipeline",
+  "streaming merge",
+  "incremental IMAP sync",
+  "real-time social interaction",
+  "event-driven relational algebra",
+
+  # AWS / cloud / infrastructure
+  "AWS",
+  "ECS",
+  "IAM",
+  "EC2",
+  "Docker",
+  "Heroku",
+  "Cloudflare",
+
+  # Databases
+  "PostgreSQL",
+  "Postgres",
+  "Redis",
+  "Firebase",
+  "SQL Server",
+
+  # Microservices / architecture
+  "multi-service AI monorepo",
+  "microservices",
+  "API",
+  "REST",
+  "GraphQL",
+  "CORS",
+
+  # Backend patterns
+  "async primitives",
+  "task lifecycle management",
+  "scoped cancellation",
+  "crash-safe",
+  "offline-first collaboration",
+  "content hashing",
+  "concurrent editing",
+
+  # Differentiators — AI / real-time
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "LiveKit",
+  "multimodal",
+  "Whisper audio feature extraction",
+
+  # Career signals
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "Google top 75 app",
+  "10,000+ rows",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Node.js",
+  "TypeScript",
+  "AWS",
+  "Docker",
+  "PostgreSQL",
+  "REST",
+  "GraphQL",
+  "React",
+  "Firebase",
+  "Redis",
+  "Python",
+  "CI/CD",
+]
+
+[sections]
+# Focus on experiences showcasing backend, Node.js, streaming, event-driven work
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "Milyoni",
+  "CrystalCommerce",
+  "Rundavoo",
+  "TrueCar / honk.com",
+  "Pivotal Labs",
+]
