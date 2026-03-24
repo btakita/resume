@@ -4,7 +4,7 @@ Shipping production AI systems and building agent tooling — real-time multimod
 
 <div style="text-align:center" class="contact-line">
 **LinkedIn:** [linkedin.com/in/briantakita](https://www.linkedin.com/in/briantakita/) |
-**Email:** [btak.dev@gmail.com](mailto:btak.dev@gmail.com) |
+**Email:** [brian.takita@gmail.com](mailto:brian.takita@gmail.com) |
 **GitHub:** [btakita](https://github.com/btakita)
 </div>
 
