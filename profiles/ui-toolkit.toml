@@ -1,0 +1,73 @@
+# UI Toolkit / Design System profile - component libraries, reactive UI, cross-platform
+
+[highlight]
+phrases = [
+  "design system",
+  "design-system",
+  "component",
+  "pixel-perfect Figma implementation",
+  "Figma design system",
+  "PrimeNG",
+  "Angular Material",
+  "reactive isomorphic UI library",
+  "reactive web app server",
+  "Signal & Slots reactive API",
+  "reactive programming",
+  "breadth-first queueing algorithm",
+  "Backbone Models",
+  "Svelte",
+  "React",
+  "Angular",
+  "Backbone",
+  "responsive",
+  "multi-platform",
+  "hydration library",
+  "Vite",
+  "Multi-Page Apps",
+  "middleware and build APIs",
+  "BunJS",
+  "Widget framework",
+  "Builder",
+  "Erector",
+  "20+ years",
+  "Google top 75 app",
+  "Engineering Physics",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "React",
+  "TypeScript",
+  "Angular",
+  "SvelteJS",
+  "Node.js",
+  "Vue.js",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Brian Takita",
+  "SocialChorus",
+  "Open Source",
+  "Rundavoo",
+  "Pivotal Labs",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Design system implementation and UI component development - Figma-to-code workflows, component library integration, and cross-platform design across diverse industries."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Pixel-perfect Figma-to-code implementation for enterprise data platform. Integrated PrimeNG and Angular Material component libraries for consistent design language. Real-time messaging UI. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Galler AI** - AI-powered image generation and editing platform in the browser"
+text = "- **Galler AI** - Built interactive design tool with Figma design system. Canvas components for cropping, clipping, and freehand drawing with composable tool primitives. React, TypeScript."
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Admin portal with dashboard components for patrol management and incident reporting. Cross-platform UI (Flutter mobile + Angular web) with shared design patterns. Flutter, Angular, Firebase."

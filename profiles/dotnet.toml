@@ -1,0 +1,84 @@
+# .NET profile - C#, .NET services, Microsoft ecosystem, SQL Server, enterprise
+
+[highlight]
+phrases = [
+  ".NET",
+  "C#",
+  "SQL Server",
+  "MS Access",
+  "ASP",
+  "WinForms",
+  "OleDB",
+  "Windows",
+  "Microsoft technologies",
+  "AWS CDK",
+  "Lambda",
+  "ECS",
+  "Fargate",
+  "serverless",
+  "backend",
+  "API",
+  "CRM",
+  "admin portal",
+  "internal CRM",
+  "Reports for Sales Trends",
+  "SQL Server DB Admin",
+  "PostgreSQL",
+  "20+ years",
+  "Engineering Physics",
+  "acquired by TrueCar",
+  "10,000+ rows",
+  "ESG Portfolio Rebalancing",
+]
+
+skills = [
+  "C#",
+  "TypeScript",
+  "Python",
+  "PostgreSQL",
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Docker",
+  "CI/CD",
+  "REST",
+]
+
+[sections]
+experience = [
+  "Brian Takita",
+  "NASPP",
+  "Presence AI",
+  "Censible",
+  "TrueCar / honk.com",
+  "Flextronics",
+]
+
+include = [
+  "Summary",
+  "Skills",
+  "Experience",
+  "Education",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Enterprise .NET and cloud-native development - serverless APIs, Windows services, and cross-platform applications across diverse industries."
+
+[[replace]]
+find = "**Menu.com** - AWS CDK + Lambda serverless functions"
+text = "- **Menu.com** - Architected .NET API services on AWS Fargate Windows containers with ECS. Built AWS CDK infrastructure-as-code and Lambda serverless functions for food ordering platform. .NET, AWS CDK, Lambda, ECS, Docker, IAM."
+
+[[replace]]
+find = "**SafeSchoolz (Aegis Platform)** - AI safety platform"
+text = "- **SafeSchoolz (Aegis Platform)** - Built .NET backend services for AI safety platform detecting firearms. Gun detection model (~85% mAP) with Python/Jupyter. .NET, Android, Python, Twilio."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Enterprise data platform with structured reports and analytics. Real-time messaging backend. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Multi-tier service platform with Java Spring Boot backend. Admin portal, mobile apps, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot."

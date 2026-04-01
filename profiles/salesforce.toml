@@ -1,0 +1,74 @@
+# Salesforce / CRM profile - integrations, enterprise data flows, email pipelines
+
+[highlight]
+phrases = [
+  "Salesforce",
+  "CRM",
+  "internal CRM",
+  "document-as-interface",
+  "semantic matching",
+  "semantically matched to companies and contacts in Salesforce",
+  "research pipeline",
+  "routed to the analyst team",
+  "email",
+  "IMAP",
+  "Gmail",
+  "git-native correspondence system",
+  "per-contact agent context",
+  "topic-based routing",
+  "label-based routing",
+  "bidirectional sync",
+  "pipeline",
+  "integration",
+  "partner integrations",
+  "WSJ.com",
+  "USAA.com",
+  "API",
+  "10,000+ rows",
+  "XLSX export",
+  "analyst portal",
+  "ESG Portfolio Rebalancing",
+  "Reports for Sales Trends",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+]
+
+skills = [
+  "Python",
+  "TypeScript",
+  "REST",
+  "GraphQL",
+  "PostgreSQL",
+  "Node.js",
+  "AWS",
+]
+
+[sections]
+experience = [
+  "Neo Innovation, Inc.",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "NASPP",
+  "TrueCar / honk.com",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Enterprise data platform and CRM development - membership systems, analytics portals, payment integration, and client management across diverse industries."
+
+[[replace]]
+find = "**IIPM** - Membership and certification platform"
+text = "- **IIPM** - Built membership CRM and certification management platform for Irish pension specialists. Member portals, admin dashboards, certification tracking, Stripe payment integration. WordPress, PHP, JavaScript/jQuery, Stripe. [iipm.ie](https://iipm.ie)"
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Enterprise data management platform with structured reports, analytics dashboards, and real-time client messaging. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Multi-stakeholder service platform connecting guards, companies, and customers. Admin CRM portal, patrol management, incident tracking, NFC verification. Flutter, Angular, Firebase, Java Spring Boot."

@@ -1,0 +1,97 @@
+# AI Agent Development profile - agent tooling, context engineering, multimodal, agent-doc
+
+[highlight]
+phrases = [
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agentic development methodology",
+  "closed-loop agent auditing",
+  "human-in-the-loop feedback",
+  "agent-authored code",
+  "human and agent reasoning",
+  "agent loops",
+  "collaborative intelligence",
+  "agents and humans work in parallel",
+  "document-as-interface",
+  "persistent AI conversations",
+  "agent-agnostic core",
+  "pluggable LLM backends",
+  "snapshot-based diffing",
+  "per-topic and per-contact agent context",
+  "session management",
+  "instruction file discovery",
+  "snapshot-based state tracking",
+  "tmux pane routing",
+  "context engineering",
+  "domain ontology",
+  "context caching",
+  "cross-language identifier analysis",
+  "convention detection",
+  "tree-sitter grammars",
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "Multimodal Avatar Agents",
+  "LatentSync lip-sync",
+  "facial landmark detection",
+  "WebRTC",
+  "LiveKit",
+  "multimodal",
+  "Whisper audio feature extraction",
+  "CRDT-based streaming merge",
+  "3-way merge",
+  "concurrent editing",
+  "streaming merge",
+  "crash-safe",
+  "offline-first collaboration",
+  "spec-driven",
+  "20+ years",
+  "20+ startups",
+  "multi-service AI monorepo",
+  "Engineering Physics",
+]
+
+skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "Agentic Systems",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "WebRTC",
+  "Claude",
+]
+
+[sections]
+include = [
+  "Summary",
+  "Skills",
+  "AI Products Shipped",
+  "Experience",
+  "Education",
+]
+
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Neo Innovation, Inc.",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Full-stack development with AI/ML integration - computer vision models, generative AI pipelines, and intelligent real-time systems across diverse industries."
+
+[[replace]]
+find = "**Galler AI** - AI-powered image generation and editing platform in the browser"
+text = "- **Galler AI** - AI-powered image generation and editing platform. Integrated generative AI models for image creation with interactive editing tools (cropping, clipping, drawing). React, TypeScript."
+
+[[replace]]
+find = "**SafeSchoolz (Aegis Platform)** - AI safety platform"
+text = "- **SafeSchoolz (Aegis Platform)** - Built AI safety platform with computer vision model for firearm detection (~85% mAP). Real-time alerting pipeline from camera feed to authority notification. Python/Jupyter, .NET, Android, Twilio."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - European data platform with structured analytics and real-time intelligent messaging. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"

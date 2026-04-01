@@ -1,0 +1,86 @@
+# DevOps / Infrastructure profile - CI/CD, containers, monitoring, automation, IaC
+
+[highlight]
+phrases = [
+  "CI/CD",
+  "Chef scripts",
+  "Chef for EC2",
+  "workstation automation",
+  "self-auditing development infrastructure",
+  "automated verification",
+  "devops automation",
+  "Docker",
+  "monorepo",
+  "multi-service AI monorepo",
+  "Grafana-based resource monitoring",
+  "GPU compute infrastructure",
+  "RunPod",
+  "runtime profile logging",
+  "observability",
+  "EC2",
+  "Engine Yard",
+  "Heroku",
+  "Cloudflare",
+  "high availability",
+  "Terraform",
+  "AWS CDK",
+  "Lambda",
+  "High Availability deployment",
+  "NVIDIA H100 GPUs",
+  "WebRTC",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "Docker",
+  "Terraform",
+  "AWS",
+  "AWS CDK",
+  "Grafana",
+  "CI/CD",
+  "Python",
+  "Rust",
+  "Heroku",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Brian Takita",
+  "TrueCar / honk.com",
+  "Pivotal Labs",
+  "Milyoni",
+]
+
+include = [
+  "Summary",
+  "Skills",
+  "Experience",
+  "Education",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Cloud infrastructure and deployment automation across AWS, Firebase, and multi-platform architectures. Managed CI/CD pipelines and containerized deployments."
+
+[[replace]]
+find = "**Menu.com** - AWS CDK + Lambda serverless functions"
+text = "- **Menu.com** - Designed AWS infrastructure-as-code with CDK. Deployed Lambda serverless functions and Fargate Windows containers on ECS with IAM role configuration. Docker, AWS CDK, Lambda, ECS, IAM."
+
+[[replace]]
+find = "**Drivemond** - Taxi and ride-hailing platform"
+text = "- **Drivemond** - AWS infrastructure for real-time ride-hailing platform. Location services, GPS tracking, and real-time matching backend. Flutter, AWS."
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Multi-platform deployment: Flutter mobile + Angular web + Firebase real-time database + Java Spring Boot backend. Patrol management, incident reporting, NFC verification."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Firebase-hosted data platform with real-time messaging infrastructure. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"

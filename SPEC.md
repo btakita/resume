@@ -85,6 +85,28 @@ include = [
 - Both preserve the order specified in the TOML array
 - Content before the first h2 (name, tagline, contact) is always included
 
+## Content Replacements
+
+Profiles can reframe experience content per role using `[[replace]]` entries.
+Each entry locates a line by unique substring and replaces it entirely.
+
+```toml
+[[replace]]
+find = "short-term freelance software projects"
+text = "Full-stack backend development across diverse industries - API design, real-time systems."
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Java Spring Boot backend for security platform. REST APIs, incident reporting."
+```
+
+Rules:
+- `find` must be a unique substring within a single line of the generated markdown
+- `text` is the full replacement line (include the leading `- ` for bullets)
+- Matches the first line containing `find`; stops after one match per entry
+- Applied as post-processing after agent-resume content assembly
+- Profiles without `[[replace]]` entries work exactly as before
+
 ## CLI Usage
 
 ```bash

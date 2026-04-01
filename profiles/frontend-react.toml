@@ -1,0 +1,77 @@
+# Frontend (React) profile - component systems, TypeScript, modern web, UX
+
+[highlight]
+phrases = [
+  "Next.js + React frontend",
+  "React frontend",
+  "design system",
+  "component",
+  "pixel-perfect",
+  "Figma",
+  "urql",
+  "responsive",
+  "multi-platform",
+  "Converted legacy Backbone frontend to Svelte & React",
+  "ES5 to ES6/ES2017 migration",
+  "best practices for front-end component development",
+  "Browserify",
+  "front-end development",
+  "TypeScript monorepo",
+  "8 internal packages",
+  "reactive isomorphic UI library",
+  "breadth-first queueing algorithm",
+  "reactive programming",
+  "GraphQL",
+  "WebRTC",
+  "real-time",
+  "real-time support messaging",
+  "20+ years",
+  "20+ startups",
+  "Google top 75 app",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "React",
+  "TypeScript",
+  "Next.js",
+  "SvelteJS",
+  "GraphQL",
+  "Node.js",
+  "Docker",
+  "REST",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Brian Takita",
+  "SocialChorus",
+  "Open Source",
+  "Rundavoo",
+  "CrystalCommerce",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Full-stack frontend development across diverse industries - React and TypeScript SPAs, component architecture, design system integration, and real-time UI."
+
+[[replace]]
+find = "**Galler AI** - AI-powered image generation and editing platform in the browser"
+text = "- **Galler AI** - Built React SPA with TypeScript for AI image generation platform. Implemented Figma design system, interactive canvas with cropping, clipping, and drawing tools. Component architecture with reusable editing primitives. React, TypeScript."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Pixel-perfect Figma-to-code implementation for European data platform. Built real-time support messaging UI. Component library integration with PrimeNG and Angular Material. Angular 14, TypeScript, Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Built admin portal UI and cross-platform mobile apps for security service platform. Patrol management dashboards, incident reporting forms, NFC verification flow. Flutter, Angular, Firebase."
+
+[[replace]]
+find = "**Drivemond** - Taxi and ride-hailing platform"
+text = "- **Drivemond** - Passenger and driver mobile UIs with real-time map matching, GPS tracking, and live status updates. Flutter, AWS."

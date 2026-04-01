@@ -1,0 +1,99 @@
+# Backend-focused profile - APIs, databases, event-driven, distributed systems
+
+[highlight]
+phrases = [
+  "multi-service AI monorepo",
+  "event-driven",
+  "event framework",
+  "event-driven relational algebra",
+  "async primitives",
+  "task lifecycle management",
+  "scoped cancellation",
+  "lazily resolved dependencies",
+  "cascade invalidation",
+  "crash-safe incremental IMAP sync",
+  "streaming merge",
+  "content hashing",
+  "concurrent editing",
+  "REST",
+  "GraphQL",
+  "API Services",
+  "CORS",
+  "PostgreSQL",
+  "Postgres",
+  "Redis",
+  "SQL Server",
+  "Lucene search",
+  "10,000+ rows",
+  "ZeroMQ",
+  "WebRTC",
+  "LiveKit",
+  "real-time video pipeline",
+  "pipeline",
+  "Docker",
+  "CI/CD",
+  "Grafana",
+  "monitoring",
+  "observability",
+  "high availability",
+  "EC2",
+  "Engine Yard",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "spec-driven",
+  "Speaker at RailsConf 2008",
+  "Warner Brothers",
+  "ESG Portfolio Rebalancing",
+]
+
+skills = [
+  "Python",
+  "Rust",
+  "TypeScript",
+  "Node.js",
+  "PostgreSQL",
+  "REST",
+  "GraphQL",
+  "Docker",
+  "AWS",
+  "CI/CD",
+  "FastAPI",
+  "Django",
+  "Flask",
+  "Ruby on Rails",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Brian Takita",
+  "Open Source",
+  "Censible",
+  "Milyoni",
+  "TrueCar / honk.com",
+  "Pivotal Labs",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Full-stack backend development across diverse industries - API design, real-time data systems, serverless architecture, and cloud deployment."
+
+[[replace]]
+find = "**Menu.com** - AWS CDK + Lambda serverless functions"
+text = "- **Menu.com** - Serverless backend: AWS CDK + Lambda functions integrated with .NET API on ECS Fargate. IAM policy management, Docker containers. AWS, .NET, Docker."
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Java Spring Boot backend for security service platform. REST APIs for patrol management, incident reporting, and NFC verification. Flutter, Angular, Firebase, Java Spring Boot."
+
+[[replace]]
+find = "**Drivemond** - Taxi and ride-hailing platform"
+text = "- **Drivemond** - Real-time matching backend for ride-hailing platform. GPS tracking, driver-passenger pairing algorithms, location services. Flutter, AWS."
+
+[[replace]]
+find = "**SafeSchoolz (Aegis Platform)** - AI safety platform"
+text = "- **SafeSchoolz (Aegis Platform)** - Python backend for AI safety platform with gun detection model (~85% mAP). Real-time alerting via Twilio. .NET, Python, Android, Twilio."

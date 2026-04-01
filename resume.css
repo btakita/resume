@@ -4,16 +4,16 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 10.5pt;
-  line-height: 1.4;
+  line-height: 1.35;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: "Bitstream Vera Serif";
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 36pt;
   margin-top: 0;
   margin-bottom: 0.1em;
@@ -23,24 +23,29 @@ h1 {
 }
 
 h2 {
-  font-family: "Bitstream Vera Serif";
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 10pt;
   text-transform: uppercase;
-  border-bottom: none;
-  padding: 0;
-  margin: 2em 0 0;
-  color: #0066cc;
+  letter-spacing: 0.12em;
+  border-bottom: 1.5px solid #1d4ed8;
+  padding-bottom: 0.15em;
+  margin: 1.2em 0 0.3em;
+  color: #1d4ed8;
   break-after: avoid;
 }
 
 h3 {
-  font-family: "Bitstream Vera Serif";
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 12pt;
   text-transform: uppercase;
-  margin-top: 0.8em;
-  margin-bottom: 0.1em;
+  margin-top: 0.9em;
+  margin-bottom: 0.05em;
   color: #1a1a1a;
   break-after: avoid;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
 }
 
 h3 em {
@@ -49,7 +54,7 @@ h3 em {
 }
 
 h4 {
-  font-family: "Bitstream Vera Serif";
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 8pt;
   text-transform: uppercase;
   margin-top: 0.8em;
@@ -64,7 +69,7 @@ h4 {
 }
 
 p {
-  margin: 0.3em 0;
+  margin: 0.22em 0;
 }
 
 small {
@@ -78,16 +83,16 @@ small {
 }
 
 ul {
-  margin: 0.3em 0;
-  padding-left: 0;
+  margin: 0.24em 0;
+  padding-left: 1.15em;
   margin-left: 0;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 
 li {
-  /*margin: 0 0 0.2em;*/
-  /*padding: 0;*/
+  margin: 0.12em 0;
+  padding: 0;
 }
 
 a {
@@ -105,4 +110,30 @@ strong {
 
 code {
   font-size: 9.5pt;
+}
+
+/* Experience header layout */
+h3 .company {
+  flex: 1;
+}
+
+h3 .dates {
+  font-size: 10.5pt;
+  font-weight: normal;
+  color: #777;
+  text-transform: none;
+  white-space: nowrap;
+  letter-spacing: 0;
+  text-align: right;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.position {
+  font-size: 11pt;
+  margin: 0.05em 0 0.18em;
+  font-style: italic;
+  font-weight: normal;
+  color: #333;
+  break-after: avoid;
 }

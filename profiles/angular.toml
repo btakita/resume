@@ -1,0 +1,71 @@
+# Angular profile - enterprise UI, TypeScript, Firebase, component libraries
+
+[highlight]
+phrases = [
+  "Angular 14",
+  "PrimeNG",
+  "Angular Material",
+  "Firebase",
+  "admin portal",
+  "component",
+  "frontend",
+  "pixel-perfect Figma implementation",
+  "real-time support messaging",
+  "responsive",
+  "multi-platform",
+  "migration",
+  "Converted legacy Backbone frontend to Svelte & React",
+  "best practices for front-end component development",
+  "design system",
+  "TypeScript",
+  "REST",
+  "GraphQL",
+  "real-time",
+  "Spring Boot",
+  "Flutter",
+  "NFC verification",
+  "20+ years",
+  "20+ startups",
+  "Google top 75 app",
+  "Engineering Physics",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "Angular",
+  "TypeScript",
+  "Firebase",
+  "React",
+  "Flutter",
+  "Node.js",
+  "REST",
+  "CI/CD",
+]
+
+[sections]
+experience = [
+  "Brian Takita",
+  "SocialChorus",
+  "Presence AI",
+  "Rundavoo",
+  "Open Source",
+  "Pivotal Labs",
+]
+
+# --- Per-profile content reframing (Brian Takita section) ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Enterprise Angular development across diverse industries - component library integration, admin portals, real-time applications, and cross-platform mobile."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Enterprise Angular 14 application for European data platform. Integrated PrimeNG and Angular Material component libraries. Pixel-perfect Figma implementation; real-time support messaging with Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Built Angular admin portal and Flutter mobile apps for security service platform. Patrol management, incident reporting dashboards, NFC verification. Angular, Flutter, Firebase, Java Spring Boot."
+
+[[replace]]
+find = "**Galler AI** - AI-powered image generation and editing platform in the browser"
+text = "- **Galler AI** - AI image editing platform with component-driven architecture. Figma design system, interactive canvas tools. React, TypeScript."
