@@ -1,4 +1,4 @@
-# Resume Data - Structured experience + skills for tag-based content assembly
+# Resume Data — Structured experience + skills for tag-based content assembly
 # Used by agent-resume CLI to generate tailored markdown resumes
 
 # ─── Contact ───
@@ -15,40 +15,40 @@ website = "briantakita.me"
 # ─── Summary ───
 
 [summary]
-text = "Architected a production real-time multimodal AI avatar pipeline at Presence AI - text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering - from a domain ontology system (2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel."
+text = "Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel."
 
 # ─── Career Highlights ───
 
 [[career_highlights]]
-text = "**Presence AI** - Architected real-time multimodal AI avatar pipeline - text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC"
+text = "**Presence AI** — Architected real-time multimodal AI avatar pipeline — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC"
 tags = ["AI/ML", "real-time", "video", "WebRTC"]
 
 [[career_highlights]]
-text = "**Open Source** - corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)"
+text = "**Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)"
 tags = ["Rust", "open source", "BDD", "developer tooling"]
 
 [[career_highlights]]
-text = "**Pivotal Labs** - Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development"
+text = "**Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development"
 tags = ["mentoring", "consulting", "BDD", "Rails"]
 
 [[career_highlights]]
-text = "**TrueCar / honk.com** - Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar"
+text = "**TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar"
 tags = ["leadership", "acquisition", "product"]
 
 [[career_highlights]]
-text = "**Milyoni** - Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group"
+text = "**Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group"
 tags = ["entertainment", "video", "real-time"]
 
 [[career_highlights]]
-text = "**Censible** - 8-year ESG analytics platform - Martin Investments analyst portal, ESG Portfolio Rebalancing system"
+text = "**Censible** — 8-year ESG analytics platform — Martin Investments analyst portal, ESG Portfolio Rebalancing system"
 tags = ["fintech", "analytics", "ESG"]
 
 [[career_highlights]]
-text = "**Context Engineering** - Domain ontology system (extensible) since 2014 - structuring agent reasoning across domains"
+text = "**Context Engineering** — Domain ontology system (extensible) since 2014 — structuring agent reasoning across domains"
 tags = ["context engineering", "ontology", "architecture"]
 
 [[career_highlights]]
-text = "**Reactive Frameworks** - 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs - applied to modern agentic systems"
+text = "**Reactive Frameworks** — 15-year lineage: backbone-signal → ctx-core → rmemo → relysjs — applied to modern agentic systems"
 tags = ["reactive programming", "architecture"]
 
 # ─── Education ───
@@ -407,7 +407,7 @@ tags = ["Rust", "developer tooling", "AI agents", "CRDT"]
 impact = "shipped-product"
 
 [[experience.accomplishments]]
-text = "Built agent-kit: Rust SDK for CLI tools integrating with AI agent loops - session management, tmux pane routing, instruction file discovery"
+text = "Built agent-kit: Rust SDK for CLI tools integrating with AI agent loops — session management, tmux pane routing, instruction file discovery"
 tags = ["Rust", "developer tooling", "AI agents", "SDK"]
 impact = "shipped-product"
 
@@ -427,12 +427,12 @@ tags = ["Rust", "Python", "Zig", "reactive programming", "event-driven"]
 impact = "shipped-product"
 
 [[experience.accomplishments]]
-text = "Created ctx-core: explicit, scalable cross-platform reactive contexts in JavaScript - foundation for rmemo, RelementJS, rappstack"
+text = "Created ctx-core: explicit, scalable cross-platform reactive contexts in JavaScript — foundation for rmemo, RelementJS, rappstack"
 tags = ["JavaScript", "reactive programming", "architecture"]
 impact = "foundation"
 
 [[experience.accomplishments]]
-text = "Created rr (double Ruby): pioneered proxy-based test doubles (mock.proxy, stub.proxy) - pattern now standard as patch in Python's pytest/unittest"
+text = "Created rr (double Ruby): pioneered proxy-based test doubles (mock.proxy, stub.proxy) — pattern now standard as patch in Python's pytest/unittest"
 tags = ["Ruby", "testing", "BDD", "innovation"]
 impact = "technical-innovation"
 
@@ -442,7 +442,7 @@ tags = ["Ruby", "testing", "BDD"]
 impact = "community"
 
 [[experience.accomplishments]]
-text = "Created domain ontology system (existence-lang, formerly philosophy, 2014): structuring agent reasoning across domains with extensible scope, context, and resolution - gives agents and humans a consistent vocabulary across code, correspondence, and data contexts"
+text = "Created domain ontology system (existence-lang, formerly philosophy, 2014): structuring agent reasoning across domains with extensible scope, context, and resolution — gives agents and humans a consistent vocabulary across code, correspondence, and data contexts"
 tags = ["context engineering", "ontology", "architecture"]
 impact = "foundation"
 
@@ -459,41 +459,41 @@ skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "AWS", "ECS",
 patterns = ["full-stack", "cross-platform", "real-time"]
 level = ["full-stack", "lead"]
 headline = "Full-stack freelance engineer: web and mobile apps across industries"
-one_liner = "Flutter, Angular, React apps - real-time messaging, AI image generation, ride-hailing"
+one_liner = "Flutter, Angular, React apps — real-time messaging, AI image generation, ride-hailing"
 technical = "Flutter, Angular 14, React, Firebase, AWS, Python, WordPress"
 
 [[experience.accomplishments]]
-text = "BestInform: European information platform - pixel-perfect Figma implementation, real-time support messaging. Angular 14, PrimeNG, Firebase"
+text = "Menu.com: Multi-tenant restaurant ordering and payment platform — consumer web ordering, restaurant back-office, and Cordova mobile app. Stripe tokenization for payment processing. Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API on ECS"
+tags = ["AWS", "ECS", "IAM", ".NET", "DevOps", "Docker", "Lambda", "CDK", "serverless", "payments", "POS", "Svelte", "Sapper", "Cordova", "restaurant", "Stripe", "tokenization"]
+impact = "client-project"
+
+[[experience.accomplishments]]
+text = "BestInform: European information platform — pixel-perfect Figma implementation, real-time support messaging. Angular 14, PrimeNG, Firebase"
 tags = ["Angular", "Firebase", "real-time", "SaaS"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "Guard App: Security service platform - admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot"
+text = "Guard App: Security service platform — admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot"
 tags = ["Flutter", "Angular", "Firebase", "mobile"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "Drivemond: Taxi and ride-hailing platform for Chicago - passenger and driver mobile apps with real-time matching and GPS tracking. Flutter, AWS"
+text = "Drivemond: Taxi and ride-hailing platform for Chicago — passenger and driver mobile apps with real-time matching and GPS tracking. Flutter, AWS"
 tags = ["Flutter", "AWS", "real-time", "mobile"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "Galler AI: AI-powered image generation and editing platform - React frontend with Figma design system; cropping, clipping, drawing tools"
+text = "Galler AI: AI-powered image generation and editing platform — React frontend with Figma design system; cropping, clipping, drawing tools"
 tags = ["React", "TypeScript", "AI/ML"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "SafeSchoolz (Aegis Platform): AI safety platform detecting firearms and alerting authorities - built gun detection model (~85% mAP). Android, .NET, Python/Jupyter, Twilio"
+text = "SafeSchoolz (Aegis Platform): AI safety platform detecting firearms and alerting authorities — built gun detection model (~85% mAP). Android, .NET, Python/Jupyter, Twilio"
 tags = ["AI/ML", "Python", "Android", ".NET"]
 impact = "client-project"
 
 [[experience.accomplishments]]
-text = "Menu.com: Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API instances on ECS for food ordering platform"
-tags = ["AWS", "ECS", "IAM", ".NET", "DevOps", "Docker", "Lambda", "CDK", "serverless"]
-impact = "client-project"
-
-[[experience.accomplishments]]
-text = "IIPM: Membership and certification platform for Irish pension specialists - member and admin portals. WordPress, PHP, JavaScript/jQuery, Stripe"
+text = "IIPM: Membership and certification platform for Irish pension specialists — member and admin portals. WordPress, PHP, JavaScript/jQuery, Stripe"
 tags = ["WordPress", "PHP", "Stripe"]
 impact = "client-project"
 
@@ -509,7 +509,7 @@ domains = ["fintech", "ESG", "analytics"]
 skills = ["JavaScript", "TypeScript", "SvelteJS", "Node.js", "PostgreSQL", "Heroku", "Docker", "CI/CD"]
 patterns = ["full-stack", "data visualization", "analytics", "reactive programming", "observability"]
 level = ["lead", "full-stack", "product"]
-headline = "8-year ESG analytics platform - analyst portal, portfolio rebalancing, report generation"
+headline = "8-year ESG analytics platform — analyst portal, portfolio rebalancing, report generation"
 one_liner = "Martin Investments analyst portal + ESG Portfolio Rebalancing"
 technical = "ESG rating algorithms, XLSX export, SVG/PDF report generation"
 
@@ -567,11 +567,11 @@ skills = ["Salesforce", "email integration"]
 patterns = ["document-as-interface", "semantic matching"]
 level = ["consultant"]
 headline = "Document-as-interface research pipeline for Tenfore Holdings via Salesforce"
-one_liner = "Early document-as-interface pattern - later evolved into agent-doc"
+one_liner = "Early document-as-interface pattern — later evolved into agent-doc"
 technical = "Semantic matching, Salesforce integration, email pipeline"
 
 [[experience.accomplishments]]
-text = "Built a document-as-interface application for Tenfore Holdings - a research pipeline where executives email contacts and contextual notes, semantically matched to companies and contacts in Salesforce, then routed to the analyst team"
+text = "Built a document-as-interface application for Tenfore Holdings — a research pipeline where executives email contacts and contextual notes, semantically matched to companies and contacts in Salesforce, then routed to the analyst team"
 tags = ["document-as-interface", "semantic matching", "CRM", "pipeline"]
 impact = "client-project"
 
@@ -607,12 +607,12 @@ domains = ["social", "mobile", "web"]
 skills = ["HTML5", "CSS3", "Node.js", "Browserify", "Jasmine", "Cloudflare", "PhoneGap", "Docker", "CI/CD"]
 patterns = ["reactive programming", "cross-platform", "responsive"]
 level = ["architect", "lead"]
-headline = "Google top 75 app - responsive multi-platform frontend architecture"
-one_liner = "Led frontend for Google top 75 app - desktop/tablet/mobile/server"
+headline = "Google top 75 app — responsive multi-platform frontend architecture"
+one_liner = "Led frontend for Google top 75 app — desktop/tablet/mobile/server"
 technical = "HTML5, CSS3, Node.js, Browserify, PhoneGap, Cloudflare"
 
 [[experience.accomplishments]]
-text = "Led front-end development for Rundavoo, a Google top 75 app in 2014 - responsive, multi-platform (desktop, tablet, mobile, server) application with CORS API integration"
+text = "Led front-end development for Rundavoo, a Google top 75 app in 2014 — responsive, multi-platform (desktop, tablet, mobile, server) application with CORS API integration"
 tags = ["frontend", "cross-platform", "responsive", "mobile"]
 impact = "core-product"
 
@@ -664,12 +664,12 @@ domains = ["automotive", "e-commerce", "social"]
 skills = ["Ruby on Rails", "Sinatra", "Lucene", "JavaScript", "Chef", "EC2", "MongoDB", "Heroku", "CI/CD"]
 patterns = ["full-stack", "devops", "search", "acquisition", "event-driven", "functional reactive programming", "observability"]
 level = ["lead", "senior"]
-headline = "Led honk.com (acquired by TrueCar) - vehicle review platform for USAA, WSJ Autos"
+headline = "Led honk.com (acquired by TrueCar) — vehicle review platform for USAA, WSJ Autos"
 one_liner = "honk.com → TrueCar acquisition; product vision + Rails + devops"
 technical = "Ruby on Rails, Sinatra, Lucene, Chef, EC2, Engine Yard"
 
 [[experience.accomplishments]]
-text = "Led development of honk.com, a vehicle review and white-label platform used by USAA and Wall Street Journal Autos - acquired by TrueCar"
+text = "Led development of honk.com, a vehicle review and white-label platform used by USAA and Wall Street Journal Autos — acquired by TrueCar"
 tags = ["leadership", "acquisition", "platform"]
 impact = "core-product"
 
@@ -679,7 +679,7 @@ tags = ["product", "acquisition", "strategy"]
 impact = "business"
 
 [[experience.accomplishments]]
-text = "Senior member of advanced product team at TrueCar - introduced new products, partner integrations (WSJ.com, USAA.com), and devops automation"
+text = "Senior member of advanced product team at TrueCar — introduced new products, partner integrations (WSJ.com, USAA.com), and devops automation"
 tags = ["product", "integrations", "devops"]
 impact = "growth"
 
@@ -705,7 +705,7 @@ skills = ["Ruby on Rails", "JavaScript", "TDD", "AWS", "Heroku", "CI/CD"]
 patterns = ["agile", "XP", "pair programming", "mentoring", "BDD", "event-driven", "functional reactive programming"]
 level = ["engineer", "mentor", "speaker"]
 headline = "Pivotal Labs: mentored 20+ startups, RailsConf speaker, BDD pioneer"
-one_liner = "Agile consulting - XP, TDD, pair programming across 20+ startups"
+one_liner = "Agile consulting — XP, TDD, pair programming across 20+ startups"
 technical = "Ruby on Rails, JavaScript TDD, Erector, JS Test Server"
 
 [[experience.accomplishments]]
@@ -744,11 +744,11 @@ skills = ["web development"]
 patterns = ["crowdsourcing", "civic tech"]
 level = ["consultant"]
 headline = "Peer to Patent: crowdsourced patent prior art review for New York Law School"
-one_liner = "Civic tech - crowdsourced patent review pilot"
+one_liner = "Civic tech — crowdsourced patent review pilot"
 technical = "Web application for prior art submission"
 
 [[experience.accomplishments]]
-text = "Key contributor to launching the Peer to Patent pilot application, led by New York Law School - a tool to allow the crowd to review and submit prior art for pending patents"
+text = "Key contributor to launching the Peer to Patent pilot application, led by New York Law School — a tool to allow the crowd to review and submit prior art for pending patents"
 tags = ["civic tech", "crowdsourcing", "patent", "legal"]
 impact = "civic"
 
