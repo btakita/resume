@@ -1,0 +1,140 @@
+# Senior Full-Stack Software Engineer (Python / React)
+# Recruiter: Andrew Curtis @ Occam's Group → FTI → Biostatistics (gov)
+# 6-month contract to hire, $110/hr 1099
+# Key: Python backend + React frontend, AI-forward, biostatistics/government
+# Andrew's guidance: highlight full-stack Python/React, AI is a plus not core
+
+[highlight]
+phrases = [
+  # Python / backend — PRIMARY emphasis per Andrew
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "SQLAlchemy",
+  "Graphene",
+
+  # React / frontend — PRIMARY emphasis per Andrew
+  "React",
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "Svelte",
+  "Angular",
+
+  # APIs
+  "REST",
+  "GraphQL",
+  "API",
+  "CORS",
+
+  # Cloud / infra
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Docker",
+  "EC2",
+  "Terraform",
+  "Heroku",
+  "Cloudflare",
+
+  # Databases / data — biostatistics = data-heavy
+  "PostgreSQL",
+  "Postgres",
+  "MongoDB",
+  "Redis",
+  "Firebase",
+  "TimescaleDB",
+  "Supabase",
+  "SQL Server",
+  "10,000+ rows",
+  "data pipelines",
+
+  # CI/CD / testing
+  "CI/CD",
+  "TDD",
+  "automated testing",
+  "Chef",
+  "Behavior Driven Development",
+
+  # System design / architecture
+  "multi-service AI monorepo",
+  "scalable",
+  "pipeline",
+  "Node.js",
+
+  # AI — secondary but "AI-forward" was noted
+  "agentic development methodology",
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agent-authored code",
+
+  # Real-time / event-driven
+  "real-time",
+  "event-driven",
+  "reactive programming",
+  "WebRTC",
+  "streaming",
+
+  # Biostatistics / math / research / ML angle — from call
+  "Engineering Physics",
+  "math",
+  "statistics",
+  "research",
+  "machine learning",
+  "diffusion",
+  "LatentSync",
+  "VAE decode",
+  "denoising",
+  "landmark temporal smoothing",
+  "One Euro filter",
+  "Whisper",
+  "inference",
+
+  # Security / government context
+  "security review",
+  "USAA",
+
+  # Career signals
+  "full-stack",
+  "Full-stack",
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "ESG Portfolio Rebalancing",
+  "Google top 75 app",
+  "Speaker at RailsConf 2008",
+  "NVIDIA H100 GPUs",
+]
+
+skills = [
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "TypeScript",
+  "React",
+  "REST",
+  "GraphQL",
+  "AWS",
+  "Docker",
+  "PostgreSQL",
+  "Node.js",
+  "CI/CD",
+  "Agents",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "SocialChorus",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Rundavoo",
+  "Pivotal Labs",
+]

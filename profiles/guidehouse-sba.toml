@@ -1,0 +1,123 @@
+# Guidehouse / SBA — Senior Full Stack Developer
+# Recruiter: Najmus Saqib (ApTask)
+# Contract, remote
+# Must-have: Python (Django/Flask/FastAPI/SQLAlchemy), Vue.js (or React/Svelte/Angular), AWS, 5+ yrs full-stack, 3+ yrs AWS
+
+[highlight]
+phrases = [
+  # Python / backend core
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "SQLAlchemy",
+  "Graphene",
+
+  # Frontend — Vue.js ecosystem + alternatives
+  "Vue.js",
+  "React",
+  "Svelte",
+  "Angular",
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+
+  # AWS / cloud
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "EC2",
+  "Heroku",
+  "Docker",
+  "Terraform",
+  "Cloudflare",
+
+  # Databases
+  "PostgreSQL",
+  "Postgres",
+  "MongoDB",
+  "Redis",
+  "Firebase",
+  "SQL Server",
+  "RDS",
+  "Supabase",
+  "TimescaleDB",
+
+  # API / architecture
+  "REST",
+  "GraphQL",
+  "API",
+  "CORS",
+  "Node.js",
+  "multi-service AI monorepo",
+
+  # Agile / methodology
+  "Agile",
+  "TDD",
+  "Pair Programming",
+  "Daily Standups",
+  "Retrospectives",
+  "XP tradition",
+  "Behavior Driven Development",
+
+  # CI/CD / DevOps
+  "CI/CD",
+  "Chef",
+
+  # Full-stack signals
+  "full-stack",
+  "Full-stack",
+  "20+ years",
+  "20+ startups",
+
+  # Real-time / event-driven
+  "real-time",
+  "event-driven",
+  "reactive programming",
+  "WebRTC",
+  "streaming",
+
+  # Career signals
+  "acquired by TrueCar",
+  "Engineering Physics",
+  "Social Entertainment Platform",
+  "Warner Brothers",
+  "10,000+ rows",
+  "ESG Portfolio Rebalancing",
+  "Google top 75 app",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "Python",
+  "Django",
+  "FastAPI",
+  "Flask",
+  "TypeScript",
+  "React",
+  "Vue.js",
+  "Angular",
+  "SvelteJS",
+  "AWS",
+  "AWS Lambda",
+  "Docker",
+  "PostgreSQL",
+  "REST",
+  "GraphQL",
+  "Node.js",
+  "CI/CD",
+  "Redis",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "Censible",
+  "SocialChorus",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Rundavoo",
+  "Pivotal Labs",
+]

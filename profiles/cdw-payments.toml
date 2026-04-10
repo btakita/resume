@@ -1,0 +1,92 @@
+# CDW Payments Architect / Engineer (POS, PCI) profile
+# Emphasizes payment ecosystems, API integrations, cloud, and security
+
+[highlight]
+phrases = [
+  # Payments / POS — primary signal
+  "Multi-tenant restaurant ordering and payment platform",
+  "restaurant ordering and payment platform",
+  "consumer web ordering",
+  "restaurant back-office",
+  "Cordova mobile app",
+  "Menu.com",
+  "menu.com",
+  "Stripe",
+  "payment processors",
+  "membership billing",
+  "secure transaction handling",
+  "AWS Fargate Windows .NET API",
+  "food ordering platform",
+
+  # API integrations — 20+ years
+  "REST APIs",
+  "GraphQL APIs",
+  "webhook-driven systems",
+  "bidirectional sync",
+  "IMAP streaming integrations",
+  "API layers",
+  "partner integrations",
+  "CORS",
+
+  # Cloud / infrastructure
+  "AWS CDK",
+  "Lambda",
+  "ECS",
+  "AWS Fargate",
+  "NVIDIA H100 GPUs",
+  "RunPod",
+  "Grafana",
+  "Docker",
+  "Terraform",
+  "EC2",
+  "Engine Yard",
+  "CI/CD",
+  "Chef",
+
+  # Security
+  "secure credential management",
+  "secret handling",
+  "minimize attack surface",
+  "security review and compliance",
+  "USAA partnership",
+
+  # Architecture strength
+  "real-time video pipeline",
+  "WebRTC",
+  "event-driven",
+  "reactive programming",
+  "context engineering",
+  "multi-service AI monorepo",
+
+  # Career credibility
+  "20+ years",
+  "20+ startups",
+  "acquired by TrueCar",
+  "Speaker at RailsConf 2008",
+  "Google top 75 app",
+  "Warner Brothers",
+  "Behavior Driven Development",
+]
+
+skills = [
+  "REST",
+  "GraphQL",
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Docker",
+  "Terraform",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "React",
+  "Node.js",
+  "PostgreSQL",
+  "CI/CD",
+  "Firebase",
+  "SvelteJS",
+]
+
+[sections]
+# Include all experience — payments context is spread across multiple roles
+# experience = []
