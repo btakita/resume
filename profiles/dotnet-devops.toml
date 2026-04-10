@@ -1,0 +1,120 @@
+# .NET + DevOps profile - C#/.NET Core, AWS infra, Docker, CI/CD, IaC, PostgreSQL
+
+[highlight]
+phrases = [
+  # .NET / Microsoft
+  ".NET",
+  "C#",
+  "SQL Server",
+  "MS Access",
+  "ASP",
+  "WinForms",
+  "OleDB",
+  "Windows",
+  "Microsoft technologies",
+  "CRM",
+  "internal CRM",
+  "SQL Server DB Admin",
+
+  # AWS / Cloud
+  "AWS CDK",
+  "Lambda",
+  "ECS",
+  "Fargate",
+  "EC2",
+  "CloudWatch",
+  "serverless",
+  "High Availability deployment",
+  "Engine Yard",
+
+  # DevOps / Infra
+  "Docker",
+  "CI/CD",
+  "Chef scripts",
+  "Chef for EC2",
+  "devops automation",
+  "Terraform",
+  "Grafana-based resource monitoring",
+  "GPU compute infrastructure",
+  "RunPod",
+  "runtime profile logging",
+  "monorepo",
+  "multi-service AI monorepo",
+  "self-auditing development infrastructure",
+  "high availability",
+  "Heroku",
+  "Cloudflare",
+
+  # Backend / Data
+  "PostgreSQL",
+  "backend",
+  "API",
+  "GraphQL",
+
+  # Career highlights
+  "20+ years",
+  "Engineering Physics",
+  "acquired by TrueCar",
+  "10,000+ rows",
+  "20+ startups",
+  "Speaker at RailsConf 2008",
+]
+
+skills = [
+  "C#",
+  "Docker",
+  "AWS",
+  "AWS Lambda",
+  "AWS CDK",
+  "Terraform",
+  "Grafana",
+  "CI/CD",
+  "PostgreSQL",
+  "TypeScript",
+  "Python",
+  "REST",
+  "Node.js",
+]
+
+[sections]
+experience = [
+  "Presence AI",
+  "Brian Takita",
+  "TrueCar / honk.com",
+  "Censible",
+  "NASPP",
+  "Flextronics",
+]
+
+include = [
+  "Summary",
+  "Skills",
+  "Experience",
+  "Education",
+]
+
+# --- Per-profile content reframing ---
+
+[[replace]]
+find = "short-term freelance software projects"
+text = "Full-stack .NET and cloud-native development with DevOps ownership - serverless APIs, containerized deployments, and infrastructure-as-code across diverse industries."
+
+[[replace]]
+find = "**Menu.com** - AWS CDK + Lambda serverless functions"
+text = "- **Menu.com** - Architected .NET API services on AWS Fargate Windows containers with ECS. Built AWS CDK infrastructure-as-code and Lambda serverless functions. Docker, .NET, AWS CDK, Lambda, ECS, CloudWatch, IAM."
+
+[[replace]]
+find = "**SafeSchoolz (Aegis Platform)** - AI safety platform"
+text = "- **SafeSchoolz (Aegis Platform)** - Built .NET backend services for AI safety platform. Gun detection model (~85% mAP). CI/CD pipeline setup, Docker containerization. .NET, Android, Python, Twilio."
+
+[[replace]]
+find = "**BestInform** - European information platform for structured data"
+text = "- **BestInform** - Enterprise data platform with structured reports and analytics. Firebase-hosted with real-time messaging. Angular 14, Firebase. [bestinform.eu](https://bestinform.eu)"
+
+[[replace]]
+find = "**Guard App** - Security service platform connecting guards"
+text = "- **Guard App** - Multi-tier service platform with Java Spring Boot backend, Docker-containerized services. Admin portal, mobile apps, incident reporting. Flutter, Angular, Firebase, Java Spring Boot."
+
+[[replace]]
+find = "**Drivemond** - Taxi and ride-hailing platform"
+text = "- **Drivemond** - AWS-hosted ride-hailing platform with real-time matching, GPS tracking, and location services. Infrastructure provisioning and deployment. Flutter, AWS."

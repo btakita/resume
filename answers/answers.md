@@ -180,3 +180,344 @@ Would love to chat about how I can help Otter ship faster and scale.
 
 Brian Takita
 
+---
+
+# Why are you interested in working at Prismatic? - Prismatic, Senior Software Engineer
+
+## Full answer:
+
+Integration platforms are infrastructure I've built from scratch multiple times - and Prismatic is doing it as the product itself, which is compelling.
+
+At Milyoni, I built a platform that had to integrate with Warner Brothers, Lions Gate, Paramount, and Universal Music Group - each with different APIs and data contracts. At TrueCar, I built partner integrations for USAA and WSJ that required enterprise security review and high-availability deployment. At Presence AI, I architected a multi-service monorepo on AWS where eight internal packages had to coordinate through async pipelines. Every time, the integration layer was the hardest part and the most valuable. Prismatic is the company that makes that layer the product.
+
+The tech stack is also a direct match. I've built AWS Lambda serverless functions with CDK, Dockerized deployments on ECS, and CI/CD pipelines across multiple companies. I write TypeScript and Python daily. And I have strong opinions on AI coding agents - I developed a spec-driven methodology with Claude Code at Presence AI that the whole team adopted, then built dedicated agent tooling (agent-doc, agent-kit) to push it further.
+
+What seals it for me is the B2B SaaS focus. I've spent most of my career at startups where shortening time-to-value is everything. Prismatic's mission - letting SaaS teams ship integrations in hours instead of months - is a problem I've felt personally at every company I've worked at.
+
+## 128-char version:
+
+I've built integration layers at every company I've worked at. Prismatic makes that the product. AWS/TS/Python + AI agent match.
+
+---
+
+# What is most important to you in your next role? - Limble, Software Engineer II
+
+Ownership of features end-to-end - from design through deployment - on a product that real users depend on daily. I've spent 20 years building software, and I do my best work when I can talk to customers (or the teams who represent them), understand the workflow problem, and own the solution all the way to production. Limble's model of working closely with Product and Customer Success to bring customer requests to life is exactly that.
+
+---
+
+# Tell us about a challenging project you're proud of - Limble, Software Engineer II
+
+At Presence AI I built the real-time video avatar pipeline from scratch - facial landmark detection, lip-sync inference, and frame sequencing on H100 GPUs streamed via WebRTC. The hard part wasn't any single piece; it was making eight async services coordinate reliably at sub-100ms latency while keeping the codebase maintainable for a small team using AI coding tools daily.
+
+---
+
+# What do you value most in a team or company culture, and how do you contribute to fostering that culture? - Senior Software Engineer (Pharmacy/Health)
+
+I value honest, low-ego collaboration where people surface problems early instead of hiding them. The best teams I've been on - Pivotal Labs, Presence AI - had a culture where saying "I'm stuck" or "this design has a flaw" was normal, not risky. That's what lets you move fast without accumulating hidden debt.
+
+I contribute to that by writing clear specs before code, giving thorough but kind code reviews, and sharing context openly. At Pivotal Labs I pair-programmed daily for 3.5 years - that builds a habit of thinking out loud and making your reasoning visible to the team. At Presence AI I documented the development methodology so that knowledge wasn't locked in my head. I believe culture is built through daily habits, not mission statements.
+
+---
+
+# How many years have you worked professionally developing web applications? - Senior Software Engineer (Pharmacy/Health)
+
+22 years (2004 - present, starting at NASPP through current work).
+
+---
+
+# What previous experience do you have with Postgres or a similar relational database? - Senior Software Engineer (Pharmacy/Health)
+
+15+ years. PostgreSQL at Presence AI, Censible, Milyoni, and TrueCar/honk.com. SQL Server at NASPP and Flextronics. I've designed schemas, written complex queries, built reporting systems handling 10,000+ row exports, and worked with TimescaleDB for time-series data.
+
+---
+
+# What previous experience do you have with Ruby or Rails or a similar web framework? - Senior Software Engineer (Pharmacy/Health)
+
+10 years of Ruby on Rails. Pivotal Labs (3.5 years of daily Rails, XP/TDD, RailsConf 2008 speaker), TrueCar/honk.com (Rails 3 upgrade, full-stack Rails + Sinatra), Milyoni (Rails backend), CrystalCommerce (production Rails migration), and Censible. Also core contributor to RSpec and creator of rr (test doubles for Ruby). For similar frameworks: Django, FastAPI, and Flask in Python; Next.js in TypeScript.
+
+---
+
+# What previous experience do you have with TypeScript, React, or Next.js? - Senior Software Engineer (Pharmacy/Health)
+
+10 years TypeScript, 8 years React, 3 years Next.js. Most recently at Presence AI - Next.js + React frontend with GraphQL (urql), TypeScript monorepo with 8 internal packages. Also React at Galler AI and SocialChorus (migrated legacy Backbone to React). TypeScript across nearly every project since 2016.
+
+---
+
+# How many years of experience do you have building large-scale production data pipelines with decision-making logic? - General
+
+10+ years. At Presence AI I built a real-time multimodal pipeline with branching logic across video, audio, and text avatar paths based on input modality, model availability, and latency constraints. At Censible I built ESG rating pipelines with algorithmic scoring logic across thousands of securities. At corky I built a correspondence routing pipeline with label-based fan-out rules, per-contact context propagation, and content-hash deduplication across email/Telegram/Slack providers. At TrueCar I built event-driven data flows for partner integrations with conditional routing to USAA and WSJ.
+
+---
+
+# Please describe your development experience and the most recent project you worked on - General
+
+I have 24 years of professional development experience across startups, consulting, and open source.
+
+My most recent project is corky, a git-native correspondence system I built in Rust. It syncs email (IMAP), Telegram, and Slack into scoped markdown mailboxes with per-contact agent context, topic-based routing, and Whisper-powered voice transcription. I prototyped it in Python, then rewrote it to production Rust in under a day using spec-driven development with Claude. I use it daily for all professional correspondence.
+
+Before that, I was Lead Backend Engineer at Presence AI (April 2024 - February 2026), where I architected the entire real-time multimodal AI avatar pipeline - video, audio, and text avatars on NVIDIA H100 GPUs via WebRTC. I built the TypeScript monorepo with 8 internal packages, GraphQL APIs, and PostgreSQL backend, and defined the agentic development methodology the team adopted.
+
+---
+
+# Please describe your Angular experience - General
+
+3 years of hands-on Angular development, primarily through freelance projects:
+
+- **BestInform** - Built a full enterprise Angular 14 application for a European data platform. Pixel-perfect Figma-to-code implementation. Integrated PrimeNG and Angular Material component libraries. Real-time support messaging with Firebase. [bestinform.eu](https://bestinform.eu)
+- **Guard App** - Built an Angular admin portal for a security service platform alongside Flutter mobile apps. Patrol management dashboards, incident reporting, NFC verification. Angular, Firebase, Java Spring Boot.
+
+I'm also experienced with the broader frontend ecosystem that Angular fits into - TypeScript (10 years), component-driven architecture, RxJS-style reactive patterns (I've built reactive frameworks for 15 years: backbone-signal → ctx-core → rmemo), and enterprise UI component library integration.
+
+---
+
+# Please describe your full stack experience - General
+
+20+ years of full-stack development, comfortable owning features from database schema through API layer to frontend UI.
+
+**Frontend:** React (8 yrs), Angular (3 yrs), Svelte (6 yrs), Next.js (3 yrs), TypeScript (10 yrs). Built design systems, pixel-perfect Figma implementations, responsive multi-platform UIs. Created reactive UI frameworks (rmemo, RelementJS).
+
+**Backend:** Node.js (14 yrs), Python/FastAPI/Django/Flask, Ruby on Rails (10 yrs), Rust, GraphQL, REST. Architected multi-service monorepos, real-time pipelines, async event-driven systems.
+
+**Database:** PostgreSQL (15 yrs), SQL Server, Redis, MongoDB, Firebase, Supabase. Schema design, complex queries, 10K+ row reporting exports, time-series data with TimescaleDB.
+
+**Infrastructure:** AWS (Lambda, CDK, ECS, EC2), Docker, Terraform, Grafana, CI/CD, Heroku. Set up GPU compute monitoring, high-availability deployments.
+
+Most recently at Presence AI I owned the entire stack: Next.js + React frontend, GraphQL API layer, multimodal AI backend services, PostgreSQL, and GPU infrastructure monitoring - all in a TypeScript monorepo with 8 internal packages.
+
+---
+
+# What excites me most about Semgrep? - Semgrep, Contractor (Infrastructure)
+
+The problem this role solves. Decoupling a marketing site from a product application's deploy pipeline is one of those unglamorous infrastructure problems that, when done right, unblocks an entire organization. I've done exactly this kind of work - at Presence AI I architected a multi-service monorepo where eight packages had to deploy independently without breaking each other, and at TrueCar I set up Chef-based deployment automation across EC2 and datacenter servers. The challenge of streamlining Semgrep's submodule-based CMS setup with CloudFront, S3, and Kubernetes to give marketing autonomy from infrastructure - that's a well-scoped problem I can ship quickly.
+
+What excites me about Semgrep as a company is that you're building developer tooling that makes security invisible rather than obstructive. I've spent a decade building developer tools (agent-doc, corky, tagpath, rebuildjs) and the philosophy is the same: the best tooling disappears into the workflow. Semgrep does that for security. I'd like to help the website infrastructure do the same for the marketing team.
+
+---
+
+# Why are you interested in working at Binti? - Binti, Software Engineer
+
+Two reasons - the mission and the match.
+
+The mission: I spent 7 years at Peer to Patent helping crowdsource prior art review for the US patent system, and 8 years at Censible building ESG tools that helped investors align money with values. I'm drawn to software that changes how institutions work for the people they serve. Binti supporting 49% of the nation's child welfare system - helping 100,000+ families get approved to foster or adopt - is the most meaningful application of software I've seen in a job posting. The expansion into keeping families together and broader social services makes the trajectory even more compelling.
+
+The match: Binti wants product-oriented engineers who leverage AI in both their coding and the products they build. That's exactly what I do. At Presence AI I developed a spec-driven agentic methodology with Claude that the whole team adopted, then built dedicated AI agent tooling (agent-doc, agent-kit) to push it further. I take significant ownership of technical projects end-to-end - at Presence AI I owned the entire real-time pipeline from architecture through production, and at Censible I was the sole lead product developer for 8 years. I move fast, I care deeply about the people using the software, and I want that work to matter.
+
+---
+
+# Pronouns - General
+
+He/him
+
+---
+
+# Name Pronunciation - General
+
+Brian Takita (BRY-un tuh-KEE-tuh)
+
+---
+
+# What appeals to you about working for a start-up organization in the environmental compliance space? - Environmental Compliance Startup
+
+I spent 8 years at Censible building ESG analytics software - tools that helped investors screen portfolios against environmental, social, and governance criteria. I built the ESG rating algorithms, the portfolio rebalancing system, and the analyst portal from the ground up. That experience gave me a genuine understanding of how environmental data moves through compliance and decision-making workflows, and why getting it right matters.
+
+What appeals to me about a startup in this space specifically is the combination of meaningful impact and the kind of engineering I do best. Environmental compliance is a domain where accuracy is non-negotiable, data pipelines are complex, and the users are professionals who need reliable tooling - not flashy demos. I've built exactly that kind of software for most of my career. And at a startup, I get to own the technical decisions end-to-end rather than working within constraints set years ago. I also hold a Permaculture Design Certificate, so environmental stewardship isn't just professional interest - it's personal.
+
+---
+
+# What are you looking for in your next role? - General
+
+Ownership and impact. I want to own features end-to-end - from talking through requirements with the team to shipping and monitoring in production - at a company where the product genuinely matters to the people using it. I've done my best work when I can see the connection between what I build and why it matters, whether that was ESG tools for investors at Censible or real-time AI pipelines at Presence AI.
+
+I'm also looking for a team that takes craft seriously without being precious about it. I want to write clean, tested code, pair with smart people, use AI tools aggressively to move faster, and ship things that work. I'm not looking for a place to coast - I'm looking for a place where high standards and high velocity coexist.
+
+---
+
+# What is the technical achievement you are most proud of in the last 2 years? - General
+
+Architecting and shipping the real-time multimodal AI avatar pipeline at Presence AI - live video avatars with facial landmark detection, lip-sync inference, and frame sequencing on NVIDIA H100 GPUs via WebRTC, all at sub-100ms latency. I designed the entire system from scratch with a small team, and it ran in production serving real users.
+
+---
+
+# Describe a time you worked on a project that required accounting for large user scale - General
+
+At Milyoni I built the Social Entertainment Platform used by Warner Brothers, Lions Gate, Paramount, and Universal Music Group - serving concurrent users during live video events with real-time social interaction, gamification, and interactive engagements synced to video playback. At TrueCar/honk.com I built the vehicle review platform that white-labeled for USAA and Wall Street Journal Autos, which required high-availability deployment on EC2 and Engine Yard to handle traffic spikes from those partner audiences. Both required designing for unpredictable concurrent load while keeping latency low and the user experience consistent.
+
+---
+
+# The coolest side project I've built is... - General
+
+## Full answer:
+
+agent-doc - a tool that turns a markdown file into a live interface for AI conversations. You edit offline, submit diffs, the agent responds inline, and everything is tracked through git commits. The cool part is the CRDT-based streaming merge that lets you and the AI edit the same document simultaneously without conflicts - I evolved it from 3-way merge to character-level conflict-free resolution. I use it as my primary development interface for all my other projects.
+
+## 200-char version:
+
+agent-doc: a Rust tool that turns a markdown file into a live AI conversation interface. CRDT merge lets you and the AI co-edit without conflicts. Git-tracked. I use it daily as my dev interface.
+
+---
+
+# I want to work for a company that... - General
+
+...builds something real users depend on, ships with high standards and high velocity, gives engineers ownership end-to-end, and treats AI tooling as a multiplier rather than a gimmick.
+
+---
+
+Why are you excited about this role with Buoy Software? Buoy Software
+
+I'm excited because the work sits at the intersection of something that actually matters and an industry that has been slow to modernize. Blood product supply affects real people, and Buoy is building the kind of integrated software that helps centers treat donors well and run day to day operations without fighting their tools.
+
+I've spent a lot of my career on B2B products where reliability and workflow clarity matter as much as features. That maps well to donation centers, where staff are busy and mistakes are costly. The story with Join Parachute and bringing donation closer to communities also tells me you're thinking about scale in the real world, not just selling to a spreadsheet.
+
+I want to build software people depend on every shift. Buoy looks like a place where that kind of engineering is the whole point.
+
+---
+
+Reply to Max Pawela - WWT, Remote Software Engineer (AI-Enhanced Development)
+
+Hi Max,
+
+Thanks for following up. This looks like a great fit. I have 24 years of full-stack experience, 3 years of hands-on Angular, a C#/.NET background early in my career, and I use AI coding tools (Cursor, Claude) daily as part of my core workflow. Happy to walk through the details on a call.
+
+I'm available this week on Wednesday (April 8) or Thursday (April 9) anytime between 10 AM and 3 PM ET. Let me know what works on your end and I'll have my resume ready to send over.
+
+Best,
+Brian Takita
+
+---
+
+Why are you interested in working on a platform specifically for cardiac device data management? - Cardiac Device Data Platform
+
+I've built precision-sensitive systems before and the thing that sticks with me is how different the engineering mindset is when the data actually matters to someone's health. At Presence AI I worked on real-time pipelines where accuracy was critical frame by frame, but a dropped frame was just a visual glitch. In cardiac device data, a missed reading or a rendering bug in a clinical view could affect a care decision. That weight makes the engineering more interesting to me, not less. I also spent 8 years at Censible building data platforms where professionals relied on the numbers being right every time they opened the tool. Clinical data management is that same trust problem turned up to its highest setting, and I want to work in a space where getting it right genuinely matters.
+
+---
+
+When updating a third-party library (like a charting tool or date-picker), how do you ensure the update hasn't broken existing clinical data views without manually checking every page? - Cardiac Device Data Platform
+
+First I check the changelog and migration guide for breaking changes, especially around API surface, prop names, and rendering behavior. Then I rely on automated tests. Integration tests and snapshot tests catch most regressions in how data renders. If the library is visual like a charting tool, I'd also use visual regression testing (something like Percy or Chromatic) to screenshot key views before and after the update and diff them. Beyond that, I grep the codebase for every usage of the library's API to see if any deprecated props or changed defaults apply. For clinical data views specifically, I'd make sure the test suite includes edge cases like empty datasets, boundary values, and large record counts since those are where charting libraries tend to break quietly. The goal is that by the time it reaches QA, the automated layer has already caught anything structural.
+
+---
+
+You are assigned a bug that QA has marked as "Intermittent" and you cannot reproduce it on your local machine. What are your next three steps to investigate? - Cardiac Device Data Platform
+
+First, I go back to QA and get as much context as possible. What browser, what screen size, what data was on screen, how fast were they clicking, did they navigate from a specific page. Intermittent bugs usually have a trigger that isn't obvious from the ticket alone.
+
+Second, I check logs and monitoring. Server logs, browser console errors if captured, and any observability tooling we have. If we have error tracking like Sentry, I search for related exceptions around the timestamps QA reported. Often the pattern shows up there even when you can't reproduce locally.
+
+Third, I look at the code for race conditions or state timing issues. Intermittent bugs are almost always timing-related. Things like data fetching completing in a different order, a component mounting before a store is hydrated, or a debounced event firing at the wrong moment. I read the relevant code paths looking for assumptions about ordering that might not hold under slower network or heavier load.
+
+---
+
+A React component is supposed to update when a MobX observable changes, but the UI is staying static. You've confirmed the data is changing in the store. What is the most likely missing piece in the component file? - Cardiac Device Data Platform
+
+The component is probably missing the observer wrapper. In MobX, a React component only re-renders in response to observable changes if it's wrapped with observer from mobx-react or mobx-react-lite. Without it, the component has no way to know the observable changed. So the fix is usually just wrapping the component export with observer() or using the Observer component inline around the JSX that reads from the store.
+
+---
+
+Agreement Confirmation - Cardiac Device Data Platform
+
+Brian Takita
+
+---
+
+Tell us a little bit about why you want to work at Bitwarden. - Bitwarden, Senior Software Engineer
+
+I've been a Bitwarden user for years, so I already trust the product. But what makes me want to work there is the open source philosophy behind it. Keeping the core free so everyone gets real password security, not just people who can pay for it, is a position I respect. Most security companies gate the useful stuff behind enterprise tiers. Bitwarden doesn't, and that's rare.
+
+On the engineering side, the scope of the codebase is what excites me. Backend, APIs, web app, browser extensions, desktop apps, all under one roof. I've spent most of my career working across the full stack and I'm happiest when I can move between layers rather than stay in one box. At Presence AI I owned everything from the Next.js frontend to the GPU backend pipeline. At Censible I was the sole lead developer across the entire product for 8 years. That kind of breadth is how I work best, and Bitwarden's codebase seems built for engineers who think that way.
+
+I'm also drawn to the research and prototyping side of this role. I spend a lot of my own time experimenting with new approaches. I built agent-doc and corky by rapidly prototyping in Python then rewriting to production Rust. Evaluating emerging tech and turning it into something real is genuinely what I enjoy doing, and getting to do that at a company whose mission is making the internet safer sounds like a great fit.
+
+---
+
+What industry is Just Appraised in? - Just Appraised, Software Engineer (API Platform)
+
+Government technology (GovTech). Specifically, property assessment and appraisal software for local government agencies.
+
+---
+
+In 3-5 sentences, describe the most relevant backend, cloud-native, or SaaS platform you have personally built or owned. - Just Appraised, Software Engineer (API Platform)
+
+At Presence AI I owned the entire backend platform for a real-time multimodal AI avatar system. I designed and built a TypeScript monorepo with 8 internal packages, GraphQL APIs, PostgreSQL, and async data pipelines running on AWS EC2 with NVIDIA H100 GPUs. I directly handled the service architecture, Docker containerization, CI/CD, Grafana monitoring, and the real-time WebRTC streaming layer. The system processed video, audio, and text inputs through multiple AI models at sub-100ms latency and served production users. I also defined the team's development methodology and mentored engineers on the codebase as it scaled.
+
+---
+
+What else we should know about you, beyond the resume? - Just Appraised, Software Engineer (API Platform)
+
+Beyond my day job experience, I've been building open source tools specifically for AI-augmented development, and I think that's worth mentioning for this role.
+
+I built agent-doc, a Rust tool that turns a markdown file into a live interface for AI coding sessions. You edit a document, submit diffs, the AI agent responds inline, and everything is tracked through git commits. It uses a CRDT-based streaming merge so you and the AI can edit the same document at the same time without conflicts. I use it as my primary development interface for all my projects now.
+
+I also built corky, a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. I prototyped it in Python, validated the design, then rewrote the whole thing to production Rust in under a day using spec-driven development with AI agents. It's the clearest example I have of what AI-augmented development actually looks like when the tooling and the workflow are designed around it.
+
+These aren't side experiments. They came out of a methodology I developed at Presence AI where I used AI agents as part of the core engineering loop, writing lightweight specs, having agents audit and refine them, then building with continuous human-in-the-loop feedback. The whole team adopted it and it's how we shipped a production GPU pipeline in months with a small team. I don't just use AI tools, I build them and think deeply about how they change the way software gets made.
+
+---
+
+Why does Solace's mission resonate with you? - Solace, Software Engineer
+
+I've watched family members struggle to understand what their insurance covers, what questions to ask a specialist, and what options they actually have. The system is confusing even for people who are educated and healthy. For someone dealing with a serious diagnosis or navigating Medicare, it's overwhelming. Solace is building the thing that should have existed a long time ago, giving people an expert in their corner who actually knows how the system works. That resonates with me because I've always picked roles where the software helps real people, not just optimizes a funnel. I spent 8 years at Censible building tools for investors who cared about impact, and at Presence AI the goal was making AI feel human and accessible. Solace is doing something similar in healthcare and that matters to me.
+
+---
+
+Please share an example of code you're particularly proud of. - Solace, Software Engineer
+
+https://github.com/btakita/agent-doc
+
+agent-doc is a tool I built in Rust that turns a plain markdown file into a live interface for AI coding sessions. You write and edit a document locally, submit diffs, and the AI agent responds inline in the same file. Everything is tracked through git commits so you have a full history of the conversation and every change.
+
+The part I'm most proud of is the CRDT-based streaming merge. It lets you and the AI edit the same document at the same time without conflicts. I evolved it from a basic 3-way merge to character-level conflict-free resolution as I hit real edge cases in daily use. I use agent-doc as my primary development interface for all my other projects now, including corky (a correspondence system) and this resume build system.
+
+I think it's worth sharing because it shows how I think about developer tooling. Instead of building around an AI chat window, I made the document itself the interface. It's a small architectural decision but it changes the entire workflow. rubber duck
+
+---
+
+What's your connection to trading cards, sports memorabilia, or collectibles? If you don't have one, what drew you to Alt? - Alt, Senior Fullstack Engineer
+
+I don't collect trading cards, but I understand the problem Alt is solving because I've seen it from the engineering side. Any asset class where pricing is opaque and liquidity is thin is basically stuck until someone builds the infrastructure to make it a real market. That's what Alt is doing for cards and it's the same pattern that drew me to fintech-adjacent work before.
+
+What actually drew me to Alt is the financial engine underneath. A custom double-entry ledger, lending products, payment integrations with 99.99% reliability, that's the kind of backend work I find genuinely interesting. I spent years building systems where correctness was non-negotiable. At Censible I built ESG analytics where investment professionals depended on every number being right. At Presence AI I built real-time pipelines where race conditions and ordering bugs would break the user experience immediately. The "measure twice, cut once" mindset the job description mentions is just how I work.
+
+I'm also drawn to the stage Alt is at. You have the product-market fit and the backing, and now the challenge is scaling the financial infrastructure to support real liquidity. That's a hard engineering problem with a clear purpose, and I'd rather build a ledger that powers a marketplace than another CRUD app.
+
+---
+
+Why are you interested in working at Voltus and/or in climate tech? - Voltus, Software Engineer
+
+I spent 8 years at Censible building ESG analytics software, so I've been close to the climate and sustainability space for a long time. That work gave me a real appreciation for how much the energy transition depends on good software, not just good hardware. The grid is becoming more distributed and more dynamic, and the companies that figure out how to coordinate all those small resources at scale are the ones that actually move the needle.
+
+Voltus is interesting to me because the problem is tangible. You're connecting real physical assets to real electricity markets and helping businesses earn money from participation. That's not abstract impact, it's measurable. I hold a Permaculture Design Certificate and I've cared about environmental systems long before it became a career theme, so working on energy infrastructure feels like a natural fit.
+
+I also like that the engineering challenges here are genuinely hard. Coordinating distributed resources across wholesale markets means dealing with real-time data, reliability requirements, and complex integrations, which is the kind of backend work I've been doing for most of my career.
+
+---
+
+Reply to Colleen - Scheduling Call
+
+Hi Colleen,
+
+That's great to hear. I'd love to set up a time to chat.
+
+I'm available this Sunday (April 5), Monday (April 6), or Tuesday (April 7) at 1 PM EST. Let me know if any of those work for you.
+
+You can reach me at btak.dev@gmail.com or +1 (424) 249-2350.
+
+Looking forward to it.
+
+Best,
+Brian Takita
+
+---
+
+Reply to Preston Johnson - Robert Half, Sr Software Engineer w/DevOps
+
+Hi Preston,
+
+Thanks for reaching out. This looks like a strong match. I have 20+ years of full-stack experience, hands-on AWS (Lambda, CDK, ECS, S3, CloudWatch), C#/.NET from earlier in my career, Docker and CI/CD across multiple companies, Terraform, and 15+ years with PostgreSQL. Happy to walk through the details.
+
+I'm attaching my resume. For a call, I'm available Wednesday (April 8) or Thursday (April 9) at 10 AM or 11 AM EST. Let me know what works best.
+
+You can also reach me at btak.dev@gmail.com or +1 (424) 249-2350.
+
+Best,
+Brian Takita
