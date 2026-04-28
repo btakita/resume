@@ -1,0 +1,100 @@
+# Test Double profile — consulting subcontractor emphasis
+# Signals: Rails, React, Node/TypeScript, consulting DNA, TDD/BDD, pairing, AI
+# Role: Senior Subcontractor, 1099, Ruby on Rails + React or Node
+
+[highlight]
+phrases = [
+  # Consulting / collaboration — core Test Double signal
+  "Mentored developers across 20+ startups",
+  "Agile Development in the XP tradition",
+  "TDD, Pair Programming, Daily Standups, Retrospectives",
+  "Speaker at RailsConf 2008",
+  "Behavior Driven Development",
+  "bootstrapping their engineering process",
+  "Leadership role in common code, practices, and open source",
+  "Led initiatives to share agile knowledge",
+  "Mentored junior & mid-level developers",
+  "flattening communication across the organization",
+
+  # Testing / quality — Test Double cares about this
+  "spec-driven",
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "human-in-the-loop feedback",
+  "automated verification",
+
+  # Rails / backend
+  "Full-stack Ruby on Rails",
+  "Migrated production Rails app",
+  "Lucene search",
+  "Rails 3 upgrade",
+
+  # React / frontend
+  "Next.js + React frontend",
+  "TypeScript monorepo",
+  "8 internal packages",
+  "Converted legacy Backbone frontend to Svelte & React",
+  "ES5 to ES6/ES2017 migration",
+  "best practices for front-end component development",
+  "GraphQL",
+
+  # Node / TypeScript
+  "Node.js",
+  "Browserify",
+
+  # AI — differentiator
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "agentic development methodology",
+  "context engineering",
+  "document-as-interface",
+
+  # Scale / credibility
+  "20+ years",
+  "20+ startups",
+  "Google top 75 app",
+  "acquired by TrueCar",
+  "Warner Brothers",
+  "Engineering Physics",
+  "10,000+ rows",
+  "ESG Portfolio Rebalancing",
+]
+
+skills = [
+  "Ruby on Rails",
+  "React",
+  "TypeScript",
+  "Node.js",
+  "Python",
+  "Rust",
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "GraphQL",
+  "PostgreSQL",
+  "Docker",
+  "AWS",
+]
+
+[sections]
+include = [
+  "Summary",
+  "Skills",
+  "Career Highlights",
+  "Experience",
+  "Education",
+]
+
+# Consulting-heavy experience order — Pivotal Labs era front and center
+experience = [
+  "Pivotal Labs",
+  "Presence AI",
+  "Open Source",
+  "TrueCar",
+  "Milyoni",
+  "SocialChorus",
+  "CrystalCommerce",
+  "Neo Innovation",
+  "Censible",
+  "Brian Takita",
+]
