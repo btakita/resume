@@ -380,6 +380,11 @@ display = "FalkorDB"
 category = "database"
 tags = ["graph", "NoSQL"]
 
+[skills.copilotkit]
+display = "CopilotKit"
+category = "framework"
+tags = ["AI/ML", "React", "agentic"]
+
 # ─── Experiences ───
 
 [[experience]]
@@ -516,7 +521,7 @@ duration = "7 yrs 1 mo"
 location = "Remote"
 type = "freelance"
 domains = ["web", "mobile", "AI/ML", "SaaS"]
-skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "Convex", "SQLite", "FalkorDB", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
+skills = ["Flutter", "Angular", "React", "TypeScript", "CopilotKit", "Firebase", "Convex", "SQLite", "FalkorDB", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
 patterns = ["full-stack", "cross-platform", "real-time"]
 level = ["full-stack", "lead"]
 headline = "Full-stack freelance engineer: web and mobile apps across industries"
