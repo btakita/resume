@@ -365,6 +365,21 @@ category = "library"
 tags = ["serialization", "Python", "performance"]
 years = 2
 
+[skills.convex]
+display = "Convex"
+category = "platform"
+tags = ["database", "backend", "real-time"]
+
+[skills.sqlite]
+display = "SQLite"
+category = "database"
+tags = ["SQL", "relational", "embedded"]
+
+[skills.falkordb]
+display = "FalkorDB"
+category = "database"
+tags = ["graph", "NoSQL"]
+
 # ─── Experiences ───
 
 [[experience]]
@@ -501,7 +516,7 @@ duration = "7 yrs 1 mo"
 location = "Remote"
 type = "freelance"
 domains = ["web", "mobile", "AI/ML", "SaaS"]
-skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
+skills = ["Flutter", "Angular", "React", "TypeScript", "Firebase", "Convex", "SQLite", "FalkorDB", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
 patterns = ["full-stack", "cross-platform", "real-time"]
 level = ["full-stack", "lead"]
 headline = "Full-stack freelance engineer: web and mobile apps across industries"
