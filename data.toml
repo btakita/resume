@@ -329,6 +329,42 @@ category = "AI"
 tags = ["AI/ML", "LLM", "agentic"]
 years = 2
 
+[skills.pandas]
+display = "Pandas"
+category = "library"
+tags = ["data", "Python", "analytics"]
+years = 6
+
+[skills.numpy]
+display = "NumPy"
+category = "library"
+tags = ["data", "Python", "scientific computing"]
+years = 5
+
+[skills.pytorch]
+display = "PyTorch"
+category = "library"
+tags = ["AI/ML", "Python", "deep learning"]
+years = 2
+
+[skills.ray]
+display = "Ray"
+category = "framework"
+tags = ["distributed computing", "Python", "parallel compute"]
+years = 2
+
+[skills.duckdb]
+display = "DuckDB"
+category = "database"
+tags = ["SQL", "analytics", "embedded"]
+years = 1
+
+[skills.msgspec]
+display = "msgspec"
+category = "library"
+tags = ["serialization", "Python", "performance"]
+years = 2
+
 # ─── Experiences ───
 
 [[experience]]
@@ -340,8 +376,8 @@ duration = "1 yr 10 mos"
 location = "Remote"
 type = "startup"
 domains = ["AI/ML", "real-time systems", "video", "WebRTC"]
-skills = ["Python", "Rust", "TypeScript", "React", "FastAPI", "Docker", "AWS", "ZeroMQ", "CI/CD"]
-patterns = ["reactive programming", "event-driven", "context engineering", "agentic workflows", "observability"]
+skills = ["Python", "Rust", "TypeScript", "React", "FastAPI", "Ray", "NumPy", "PyTorch", "msgspec", "Docker", "AWS", "ZeroMQ", "CI/CD"]
+patterns = ["reactive programming", "event-driven", "context engineering", "agentic workflows", "observability", "distributed computing"]
 level = ["architecture", "full-stack", "infrastructure", "team-lead"]
 headline = "Led engineering at AI avatar startup; built real-time video pipeline"
 one_liner = "Real-time AI avatar pipeline with reactive signal architecture"
@@ -377,6 +413,11 @@ text = "Implemented ZeroMQ-based event-driven messaging architecture for real-ti
 tags = ["ZeroMQ", "event-driven", "messaging", "architecture"]
 impact = "infrastructure"
 
+[[experience.accomplishments]]
+text = "Scaled the avatar pipeline with Ray for distributed and real-time parallel compute — orchestrating PyTorch lip-sync inference and NumPy numeric workloads, with msgspec for low-latency message serialization"
+tags = ["Ray", "PyTorch", "NumPy", "msgspec", "distributed computing", "performance", "real-time"]
+impact = "infrastructure"
+
 [[experience]]
 company = "Open Source"
 title = "Creator / Solo Developer"
@@ -384,7 +425,7 @@ start = "2006"
 location = "Remote"
 type = "open-source"
 domains = ["developer tooling", "reactive programming", "BDD", "testing", "AI agents"]
-skills = ["Rust", "TypeScript", "Ruby", "Python", "Zig", "JavaScript"]
+skills = ["Rust", "TypeScript", "Ruby", "Python", "Zig", "JavaScript", "DuckDB"]
 patterns = ["reactive programming", "event-driven", "context engineering", "agentic workflows", "BDD", "spec-driven development"]
 level = ["architecture", "creator", "open-source"]
 headline = "Open source creator: corky, agent-doc, rr, RSpec contributor; 15-year reactive framework lineage"
@@ -419,6 +460,11 @@ impact = "shipped-product"
 [[experience.accomplishments]]
 text = "Built tagpath: cross-language identifier analysis tool in Rust with convention detection, semantic search across 14 tree-sitter grammars"
 tags = ["Rust", "developer tooling", "analysis"]
+impact = "shipped-product"
+
+[[experience.accomplishments]]
+text = "Built tsift: hybrid code-search engine in Rust (BM25 + vector search) over tree-sitter-parsed codebases, with a provider-neutral graph-store layer — SQLite reference backend plus experimental DuckDB/DuckPGQ and Ladybug backends evaluated through a parity-and-performance promotion gate"
+tags = ["Rust", "DuckDB", "developer tooling", "search", "database"]
 impact = "shipped-product"
 
 [[experience.accomplishments]]
@@ -506,7 +552,7 @@ duration = "8 yrs 4 mos"
 location = "Greater New York City Area"
 type = "startup"
 domains = ["fintech", "ESG", "analytics"]
-skills = ["JavaScript", "TypeScript", "SvelteJS", "Node.js", "PostgreSQL", "Heroku", "Docker", "CI/CD"]
+skills = ["JavaScript", "TypeScript", "SvelteJS", "Node.js", "Python", "Pandas", "PostgreSQL", "Heroku", "Docker", "CI/CD"]
 patterns = ["full-stack", "data visualization", "analytics", "reactive programming", "observability"]
 level = ["lead", "full-stack", "product"]
 headline = "8-year ESG analytics platform — analyst portal, portfolio rebalancing, report generation"
@@ -521,6 +567,11 @@ impact = "core-product"
 [[experience.accomplishments]]
 text = "Built ESG Portfolio Rebalancing system and ESG analytics platform"
 tags = ["fintech", "ESG", "analytics"]
+impact = "core-product"
+
+[[experience.accomplishments]]
+text = "Processed ESG and portfolio datasets with Python and Pandas for the Martin Investments analyst portal — rating computation, data normalization, and report-ready aggregations across large holdings datasets"
+tags = ["Python", "Pandas", "analytics", "fintech", "data"]
 impact = "core-product"
 
 [[experience]]

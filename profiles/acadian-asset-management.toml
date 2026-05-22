@@ -1,0 +1,85 @@
+# Acadian Asset Management — Full Stack Engineer (Portfolio Analytics / Investment Platform)
+# Via Boston Technology Corporation — recruiter: Philip Prabhu
+# 60% UI (React/TypeScript) / 40% Python. Boston, MA — 3 days/week onsite.
+# Role: portfolio analytics & decomposition platform — alpha/factor/risk attribution
+#        for systematic equity strategies. ~4-6 yrs, data-intensive systems.
+
+[highlight]
+# Phrases to auto-bold — emphasize React/TypeScript UI + Python/Ray/Pandas backend
+# + investment / portfolio-analytics domain signal.
+phrases = [
+  # Front-end strength (60% of the role)
+  "React",
+  "TypeScript",
+  "reactive programming",
+  "component",
+  "state management",
+  "performance optimization",
+  "data visualization",
+  "pixel-perfect",
+
+  # Back-end strength (40% of the role)
+  "Python",
+  "FastAPI",
+  "Ray",
+  "distributed and real-time parallel compute",
+  "Pandas",
+  "NumPy",
+  "PyTorch",
+  "PostgreSQL",
+  "MongoDB",
+  "real-time",
+
+  # Investment / portfolio-analytics domain — Acadian's core
+  "ESG Portfolio Rebalancing",
+  "Martin Investments analyst portal",
+  "ESG rating algorithms",
+  "10,000+ rows",
+  "portfolio",
+  "analytics",
+  "fintech",
+  "report generation",
+
+  # Engineering depth / data-intensive systems
+  "real-time video pipeline",
+  "sub-100ms latency",
+  "hybrid code-search engine",
+  "full-stack",
+  "architecture",
+
+  # Career highlights
+  "20+ years",
+  "acquired by TrueCar",
+  "Engineering Physics",
+]
+
+# Skills to bold in the Skills section
+skills = [
+  "Python",
+  "React",
+  "TypeScript",
+  "FastAPI",
+  "Ray",
+  "Pandas",
+  "NumPy",
+  "PyTorch",
+  "PostgreSQL",
+  "MongoDB",
+  "Docker",
+  "AWS",
+]
+
+[sections]
+# Most relevant first: Presence AI (Python/React/Ray/real-time), Censible
+# (investment-analytics domain + Pandas), Open Source (tsift/DuckDB data tooling),
+# then full-stack web breadth and frontend-heavy roles.
+experience = [
+  "Presence AI",
+  "Censible",
+  "Open Source",
+  "Brian Takita",
+  "SocialChorus",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Pivotal Labs",
+]
