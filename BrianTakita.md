@@ -16,16 +16,16 @@ Greater Boston, MA |
 
 ## Summary
 
-Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (existence-lang, 2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel.
+Architected a production real-time multimodal AI avatar pipeline at Presence AI — text, audio, and video lip-sync on NVIDIA H100 GPUs via WebRTC. Now building agent tooling in Rust: git-native correspondence (corky), document-as-interface for persistent AI sessions (agent-doc), token-conscious code RAG for AI agents (tsift), and cross-language naming analysis (tagpath). A decade of context engineering — from a domain ontology system (existence-lang, 2014) through reactive frameworks to modern agentic systems. Deep expertise in event-driven architecture, reactive programming, and collaborative intelligence workflows where agents and humans work in parallel.
 
 ## Skills
 
-Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Next.js, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, TimescaleDB, Supabase, Firebase, AWS, AWS Lambda, AWS CDK, Grafana, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
+Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, Zig, React, SvelteJS, Docker, WebRTC, REST, GraphQL, Node.js, Bun, Next.js, Hono, Django, FastAPI, Flask, Graphene, SQLAlchemy, Angular, Vue.js, Zod, Flutter, Go, Ruby on Rails, C#, PostgreSQL, TimescaleDB, Supabase, Firebase, Convex, Cloudflare Workers, AWS, AWS Lambda, AWS CDK, Grafana, Terraform, Google Cloud, Azure, CI/CD, Plesk, Heroku, Agentic Systems, Claude, Squarespace, WordPress, Wix
 
 ## Career Highlights
 
 - **Presence AI** — Architected real-time multimodal AI avatar pipeline — live video avatars, audio avatars, text avatars, and image generation on NVIDIA H100 GPUs via WebRTC
-- **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)
+- **Open Source** — corky: git-native correspondence in Rust | agent-doc: document-as-interface for AI agents | tsift: token-conscious code RAG for AI agent sessions | RSpec: BDD core contributor | rr: pioneered proxy-based test doubles (now `patch` in Python)
 - **Pivotal Labs** — Mentored developers across 20+ startups. Speaker at RailsConf 2008. Early contributor to Behavior Driven Development
 - **TrueCar / honk.com** — Led vehicle review platform development at honk.com (acquired by TrueCar); senior product team at TrueCar
 - **Milyoni** — Social Entertainment Platform for Warner Brothers, Lions Gate, Paramount Studios, Universal Music Group
@@ -39,6 +39,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - **corky** — Built and shipped a git-native correspondence system in Rust that syncs email, Telegram, and Slack into scoped markdown mailboxes with per-contact agent context and topic-based routing. Includes Whisper-powered diarized transcription for voice messages, social media posting with scheduled delivery, and bidirectional sync across providers. Prototyped in Python, then spec-driven rewrite to Rust in under 1 day. Used daily for professional correspondence.
 - **agent-doc** — Created and shipped a document-as-interface tool for persistent AI conversations: offline markdown editing, diff-based submissions, CRDT-based streaming merge for real-time human+agent co-editing without conflicts. Used as primary development interface.
 - **agent-kit** — Built a Rust SDK for CLI tools integrating with AI agent loops: session management, tmux pane routing, instruction file discovery (AGENTS.md/CLAUDE.md), and snapshot-based state tracking. Powers agent-doc and corky's agent integrations.
+- **tsift** — Built and shipped a token-conscious code search and session digest CLI for coding agents: AST-aware hybrid search, call-graph navigation, graph-database-backed traversal, and session-review/context-pack envelopes across 14 tree-sitter grammars. Turns noisy logs, tests, diffs, and agent-doc sessions into bounded evidence for smaller models. Published to crates.io and npm (opencode-tsift).
 - **tmux-router** — Declarative tmux pane routing in Rust: sync editor layouts to tmux sessions, multiplexed agent orchestration across concurrent development contexts.
 - **tagpath** — Built and shipped a cross-language identifier analysis tool in Rust: convention detection, semantic search, alias generation, and tag co-occurrence graphs across 14 tree-sitter grammars. Published to crates.io.
 
@@ -72,6 +73,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Created a document-as-interface model for persistent AI conversations: edit a markdown file offline, submit diffs, agent responds inline — all tracked through git commits for full session history and branch-based workflows
 - Engineered write-safe concurrent editing via CRDT-based streaming merge, enabling real-time human+agent co-editing without conflicts — evolved from 3-way merge to character-level conflict-free resolution
 - Built agent-agnostic core with pluggable LLM backends, automatic pre-commit of user changes, and snapshot-based diffing so only changed content is sent to the agent
+- Shipped a JetBrains IDE plugin with hot-reload cdylib for real-time human+agent co-editing, in-process supervisor hosting for IPC-safe session management, and WatchService buffer-synchronized write coordination
 - Dog-fooding as the primary interface for planning and iterating on both corky and agent-doc development
 
 #### **agent-kit** — SDK for AI Agent CLI Tools (Rust) [crates.io/crates/agent-kit](https://crates.io/crates/agent-kit)
@@ -84,8 +86,16 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 - Declarative layout engine syncing editor state to tmux sessions — multiplexed agent orchestration across concurrent development contexts
 - Auto-claims panes for agent sessions, routes documents to the correct editor, and maintains layout consistency across window resizes
 
+#### **tsift** — Token-Conscious Code RAG + Session Digest (Rust) [github.com/btakita/tsift](https://github.com/btakita/tsift)
+
+- Built a token-conscious code search and session digest CLI for coding agents: AST-aware hybrid search, call-graph queries, graph-database-backed traversal, and session-review/context-pack envelopes across 14 tree-sitter grammars
+- Engineered a provider-neutral graph substrate (SQLite/Convex) for nodes/edges/provenance/freshness, enabling semantic graph extraction, dependency DAGs, conflict matrices, and multi-worker dispatch orchestration
+- Built bounded digest commands for noisy log, test, diff, and session transcript compression — turning bulky raw output into compact evidence for smaller models without replaying full repositories or transcripts
+- Published to crates.io and npm (opencode-tsift); used as primary code-RAG tooling for AI agent sessions across agent-doc, corky, and client projects
+
 #### _Other contributions:_
 
+- _[python-intentions](https://plugins.jetbrains.com/plugin/30074-python-intentions)_ — Creator. JetBrains plugin for Python type annotation modernization (PEP 604: `Optional[A]` ↔ `A | None`, `Union[A, B]` ↔ `A | B`) and `__all__` management. Published to JetBrains Marketplace.
 - _[lazily-rs](https://crates.io/crates/lazily-rs)_ — Creator. Reactive signals library in Rust (crates.io) with cross-language ports maintaining consistent semantics across Rust, Python, and Zig
 - _[lazily-py](https://github.com/btakita/lazily-py)_ — Creator. Lazy evaluation with context caching in Python
 - _[lazily-zig](https://github.com/btakita/lazily-zig)_ — Creator. Cross-platform & thread-safe lazy evaluation with context caching in Zig
@@ -111,6 +121,7 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
 
+- **Equity Funding Source** — Built a full-stack loan deal management platform on Cloudflare Workers + D1 + rappstack/Hono. Admin portal with deal pipeline, lender selection workflow, investor pipeline, and document management; borrower portal with application forms, needs-action dashboard, and multi-file document upload. TypeScript + Bun test suite (741+ tests); 74 D1 migrations deployed to production. [equityfundingsource.com](https://equityfundingsource.com)
 - **menu.com** — Multi-tenant restaurant ordering and payment platform. Built the consumer web ordering app, restaurant back-office, and Cordova mobile app. Stripe tokenization for payment processing. Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API on ECS. Svelte, Sapper, ctx-core, Cordova, AWS CDK, Lambda, ECS, Docker.
 - **BestInform** — European information platform for structured data, reports, and analytics. Pixel-perfect Figma implementation; real-time support messaging. Angular 14, PrimeNG, Angular Material, Firebase. [bestinform.eu](https://bestinform.eu)
 - **Guard App** — Security service platform connecting guards, companies, and customers. Admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot.
