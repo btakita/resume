@@ -1,0 +1,129 @@
+# VirtuousAI profile — founding-engineer #2 for an explainable, graph-backed AI
+# platform for the mid-market. Emphasizes: white-box / real-time human+agent
+# interaction (agent-doc), graph + RAG knowledge substrate (tsift), e-commerce
+# operator experience (MonsterRodHolders / CrystalCommerce), and full-stack
+# Python/TypeScript/React/LLM + control-plane engineering (Presence AI).
+
+[highlight]
+phrases = [
+  # White-box / real-time agent interaction -- mirrors VirtuousAI's "deep explainability"
+  "document-as-interface",
+  "persistent AI conversations",
+  "CRDT-based streaming merge",
+  "real-time human+agent co-editing",
+  "agent-agnostic core",
+  "pluggable LLM backends",
+  "snapshot-based diffing",
+  "per-topic and per-contact agent context",
+
+  # Graph + RAG knowledge substrate -- mirrors their Neo4j / PyTorch-Geometric stack
+  "token-conscious code RAG",
+  "AST-aware hybrid search",
+  "call-graph queries",
+  "graph-database-backed traversal",
+  "provider-neutral graph substrate",
+  "semantic graph extraction",
+  "dependency DAGs",
+  "graph substrate",
+
+  # Agents + humans / collaborative intelligence
+  "closed-loop agentic workflows",
+  "self-auditing development infrastructure",
+  "agentic development methodology",
+  "closed-loop agent auditing",
+  "human-in-the-loop feedback",
+  "agent-authored code",
+  "human and agent reasoning",
+  "collaborative intelligence",
+  "agents and humans work in parallel",
+  "context engineering",
+  "domain ontology",
+
+  # Control plane -- the engineering under a central brain connected to every system
+  "task lifecycle management",
+  "scoped cancellation",
+  "lazily resolved dependencies",
+  "cascade invalidation",
+
+  # Small-business e-commerce operator experience (MonsterRodHolders)
+  "WooCommerce",
+  "card-testing bot attack",
+  "Cloudflare Turnstile",
+  "Cloudflare WAF",
+  "database-driven revenue diagnostics",
+  "Cloudflare Workers",
+  "Hono",
+
+  # AI pipeline / production depth
+  "real-time multimodal AI",
+  "Multimodal Avatar Agents",
+  "low-latency production AI systems",
+  "real-time audio-avatar generation",
+  "real-time video pipeline",
+  "NVIDIA H100 GPUs",
+  "multi-service AI monorepo",
+
+  # Full-stack
+  "Next.js + React",
+  "TypeScript monorepo",
+
+  # Career signal
+  "20+ startups",
+  "20+ years",
+  "spec-driven",
+  "Engineering Physics",
+]
+
+skills = [
+  "Context Engineering",
+  "Spec-Driven Development",
+  "Agents",
+  "Agentic Systems",
+  "Rust",
+  "Python",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "GraphQL",
+  "Node.js",
+  "Hono",
+  "Cloudflare Workers",
+  "PostgreSQL",
+  "WordPress",
+  "Claude",
+  "Docker",
+]
+
+[sections]
+include = [
+  "Summary",
+  "Skills",
+  "Career Highlights",
+  "AI Products Shipped",
+  "Experience",
+  "Education",
+]
+
+# Lead with the most VirtuousAI-relevant work: production AI + agent infra, the
+# graph/white-box open-source ecosystem, the e-commerce operator experience, and
+# data/analytics depth. Older/less-relevant entries are filtered for a tight,
+# tailored resume.
+experience = [
+  "Presence AI",
+  "Open Source",
+  "Brian Takita",
+  "CrystalCommerce",
+  "Censible",
+  "SocialChorus",
+  "TrueCar / honk.com",
+  "Milyoni",
+  "Pivotal Labs",
+]
+
+# Retarget the Summary for VirtuousAI: explainable + graph-backed AI, plus the
+# hands-on small-business e-commerce execution experience. (agent-resume generates
+# the summary line from data.toml; [[replace]] swaps the whole line post-build,
+# matching on a unique substring.)
+[[replace]]
+find = "Architected a production real-time multimodal AI avatar pipeline at Presence AI"
+text = "Full-stack engineer (20+ years) who builds explainable, graph-backed AI systems — and has run hands-on small-business e-commerce operations end to end. Architected a production real-time multimodal AI pipeline at Presence AI on NVIDIA H100 GPUs via WebRTC. Builds agent infrastructure in Rust: agent-doc — a white-box, real-time human+agent interaction surface — and tsift — a graph + vector knowledge substrate (code-RAG over a provider-neutral graph store). Hands-on small-business WooCommerce operations (MonsterRodHolders) and a Cloudflare Workers + D1 fintech platform (Equity Funding Source). Deep in Python, TypeScript, React, and LLM integration, with control-plane experience — lifecycle, scoped cancellation, and making systems legible to humans and agents alike."

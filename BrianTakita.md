@@ -117,11 +117,13 @@ Context Engineering, Spec-Driven Development, Agents, Rust, Python, TypeScript, 
 
 ### Brian Takita — _Full-Stack Engineer_
 
-<small>January 2019 – Feb 2026 (7 years 1 month)</small>
+<small>January 2019 – Present (7+ years)</small>
 
 Manage, develop, & ensure success of short-term freelance software projects. Uses subcontractors for development. Web and mobile Flutter apps across all industries.
 
-- **Equity Funding Source** — Built a full-stack loan deal management platform on Cloudflare Workers + D1 + rappstack/Hono. Admin portal with deal pipeline, lender selection workflow, investor pipeline, and document management; borrower portal with application forms, needs-action dashboard, and multi-file document upload. TypeScript + Bun test suite (741+ tests); 74 D1 migrations deployed to production. [equityfundingsource.com](https://equityfundingsource.com)
+- **MonsterRodHolders** — Engineering & operations for a small WooCommerce e-commerce store. Ran database-driven revenue diagnostics: traced a sales dip directly from the order data to a card-testing bot attack (170+ fraudulent PayPal charges triggering fraud-screening false-declines on real customers) and shipped Cloudflare Turnstile mitigation. Hardened checkout across Stripe + PayPal, tuned Cloudflare WAF and Imunify360/ModSecurity rules, instrumented Google Tag Manager analytics, and ran SEO site-structure and traffic root-cause analysis. WordPress, WooCommerce, PHP, Cloudflare, Stripe, PayPal.
+- **Equity Funding Source** — Built a full-stack loan deal management platform on Cloudflare Workers + D1 + rappstack/Hono. Admin portal with deal pipeline, lender selection workflow, investor pipeline, and document management; borrower portal with application forms, needs-action dashboard, and multi-file document upload. Stripe billing integration. TypeScript + Bun test suite (741+ tests); 74 D1 migrations deployed to production. [equityfundingsource.com](https://equityfundingsource.com)
+- **Stealth AI client** — Built low-latency production AI systems: real-time audio-avatar generation synced to live presentation slides, driving spoken delivery and avatar motion from streaming input. Client under NDA. Python, real-time audio/streaming, AI/ML.
 - **menu.com** — Multi-tenant restaurant ordering and payment platform. Built the consumer web ordering app, restaurant back-office, and Cordova mobile app. Stripe tokenization for payment processing. Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API on ECS. Svelte, Sapper, ctx-core, Cordova, AWS CDK, Lambda, ECS, Docker.
 - **BestInform** — European information platform for structured data, reports, and analytics. Pixel-perfect Figma implementation; real-time support messaging. Angular 14, PrimeNG, Angular Material, Firebase. [bestinform.eu](https://bestinform.eu)
 - **Guard App** — Security service platform connecting guards, companies, and customers. Admin portal and mobile apps for patrol management, incident reporting, NFC verification. Flutter, Angular, Firebase, Java Spring Boot.

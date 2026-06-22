@@ -516,17 +516,32 @@ impact = "foundation"
 company = "Brian Takita"
 title = "Full-Stack Engineer"
 start = "2019-01"
-end = "2026-02"
-duration = "7 yrs 1 mo"
+end = "present"
+duration = "7+ yrs"
 location = "Remote"
 type = "freelance"
-domains = ["web", "mobile", "AI/ML", "SaaS"]
-skills = ["Flutter", "Angular", "React", "TypeScript", "CopilotKit", "Firebase", "Convex", "SQLite", "FalkorDB", "AWS", "ECS", "Python", "WordPress", "PHP", ".NET", "Docker"]
+domains = ["web", "mobile", "AI/ML", "SaaS", "e-commerce"]
+skills = ["Flutter", "Angular", "React", "TypeScript", "CopilotKit", "Firebase", "Convex", "SQLite", "FalkorDB", "Cloudflare Workers", "D1", "Hono", "AWS", "ECS", "Python", "WordPress", "WooCommerce", "PHP", ".NET", "Docker", "Stripe", "PayPal"]
 patterns = ["full-stack", "cross-platform", "real-time"]
 level = ["full-stack", "lead"]
-headline = "Full-stack freelance engineer: web and mobile apps across industries"
-one_liner = "Flutter, Angular, React apps — real-time messaging, AI image generation, ride-hailing"
-technical = "Flutter, Angular 14, React, Firebase, AWS, Python, WordPress"
+headline = "Full-stack freelance engineer: web, mobile, and e-commerce across industries"
+one_liner = "Cloudflare/D1, WooCommerce e-commerce ops, Flutter/Angular/React apps — payments, real-time, AI"
+technical = "Cloudflare Workers, D1, Hono, WooCommerce, Flutter, Angular 14, React, Firebase, AWS, Python, Stripe"
+
+[[experience.accomplishments]]
+text = "MonsterRodHolders: Engineering & operations for a small WooCommerce e-commerce store. Ran database-driven revenue diagnostics — traced a sales dip from the order data to a card-testing bot attack (170+ fraudulent PayPal charges triggering fraud-screening false-declines on real customers) and shipped Cloudflare Turnstile mitigation. Hardened Stripe + PayPal checkout, tuned Cloudflare WAF and Imunify360/ModSecurity rules, instrumented Google Tag Manager, and ran SEO site-structure and traffic root-cause analysis"
+tags = ["WordPress", "WooCommerce", "PHP", "e-commerce", "Cloudflare", "WAF", "Stripe", "PayPal", "payments", "fraud", "bot-mitigation", "SEO", "analytics", "GTM"]
+impact = "client-project"
+
+[[experience.accomplishments]]
+text = "Equity Funding Source: Built a full-stack loan deal management platform on Cloudflare Workers + D1 + rappstack/Hono. Admin portal with deal pipeline, lender selection workflow, investor pipeline, and document management; borrower portal with application forms, needs-action dashboard, and multi-file document upload. Stripe billing integration. TypeScript + Bun test suite (741+ tests); 74 D1 migrations deployed to production"
+tags = ["Cloudflare Workers", "D1", "Hono", "TypeScript", "Bun", "fintech", "SaaS", "Stripe", "payments", "full-stack"]
+impact = "client-project"
+
+[[experience.accomplishments]]
+text = "Stealth AI client: Built low-latency production AI systems — real-time audio-avatar generation synced to live presentation slides, driving spoken delivery and avatar motion from streaming input. (Client under NDA)"
+tags = ["AI/ML", "real-time", "audio", "avatar", "low-latency", "streaming"]
+impact = "client-project"
 
 [[experience.accomplishments]]
 text = "Menu.com: Multi-tenant restaurant ordering and payment platform — consumer web ordering, restaurant back-office, and Cordova mobile app. Stripe tokenization for payment processing. Developed AWS CDK + Lambda serverless functions integrated with AWS Fargate Windows .NET API on ECS"
